@@ -1,0 +1,27 @@
+{% for category, articles in categories if category.name == catname %}
+	<section id="{{ catname }}">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>{{ catname | title }}</h2>
+					<hr class="star-primary">
+				</div>
+			</div>
+			<div class="row">
+				{% for article in articles %}
+					<div class="col-sm-4 portfolio-item">
+						<a href="#portfolioModal-{{catname}}{{ loop.index }}"
+							class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<span clas="fa fa-search-plus fa-3x"></span>
+								</div>
+							</div>
+							<img src="/{{ catname }}/{{ article.image }}" class="img-responsive">
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endfor %}

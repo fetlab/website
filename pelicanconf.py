@@ -5,7 +5,7 @@ from markdown import Markdown
 import mkdcomments
 import re, os, sys
 
-AUTHOR       = u'Daniel Ashbrook'
+AUTHOR       = u'Future Everyday Technology Research Lab'
 SITENAME     = AUTHOR
 SITEURL      = ''
 TIMEZONE     = 'EST'
@@ -48,12 +48,14 @@ def includefile(filename, *args):
 	print "includefile(%s)" % os.path.join(os.getcwd(), filename)
 	return open(filename).read()
 
+
 def includemd(filename, *args):
 	"""Use with {{ myfile.md | includemd }}"""
 	print "includemd(%s)" % os.path.join(os.getcwd(),filename)
 	m = markdown.convert(open(filename).read())
 	open('/tmp/mdout', 'w').write(m)
 	return m
+
 
 def md(content, *args):
 	"""Use with
@@ -67,8 +69,20 @@ def md(content, *args):
 	c = re.compile('^%s' % ws, re.MULTILINE).sub('', content)
 	return markdown.convert(c)
 
+JINJA_EXTENSIONS = ['jinja2.ext.with_']
+
 JINJA_FILTERS = {
 	'includefile': includefile,
 	'includemd': includemd,
 	'md':        md,
 }
+
+#Determines the order that content appears on the page. Tuples are
+# (directory_name, template_file).
+CONTENT_ORDERED = [
+	('welcome',   'category.html'),
+	('_carousel', 'carousel.html'),
+	('people',    'catgrid.html'),
+]
+
+LOGO_IMG = "/images/fetlab_logotype_white_web.png"

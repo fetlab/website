@@ -1,0 +1,52 @@
+._carousel {
+    text-align: center;
+    color: #fff;
+    background: #18bc9c;
+}
+
+._carousel .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+._carousel img {
+    display: block;
+    margin: 0 auto 20px;
+
+}
+
+._carousel .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family:Junction,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+
+}
+
+._carousel .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+._carousel .carousel-image
+{
+	width: 100%;
+	height: 0;
+	padding-bottom: 42%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+header img {
+    display: inline;
+}
+
+/*
+.navbar-fixed-top, .navbar-fixed-top.navbar-shrink
+{
+	padding: 0;
+	transition: none;
+}
+*/

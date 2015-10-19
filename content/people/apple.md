@@ -1,4 +1,4 @@
-Title: Daniel Ashbrook
+Title: Apple Ashbrook
 image: danpic_1.png
 date: 2015-10-16
 

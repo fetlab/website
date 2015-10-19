@@ -1,4 +1,4 @@
-Title: Daniel Ashbrook
+Title: Food Ashbrook
 image: danpic_1.png
 date: 2015-10-16
 

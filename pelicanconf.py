@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from markdown import Markdown
-import mkdcomments
 import re, os, sys
 
 AUTHOR       = u'Future Everyday Technology Research Lab'
@@ -21,7 +20,7 @@ STATIC_PATHS = ['js', 'css', 'fonts', 'images', 'misc', 'files',
 	'font-awesome']
 ARTICLE_EXCLUDES = STATIC_PATHS
 PAGE_EXCLUDES = ARTICLE_EXCLUDES
-MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'smartypants',
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', #'smartypants',
 	'toc(title=Table of Contents)']
 
 
@@ -42,7 +41,7 @@ THEME = 'theme'
 
 #Custom Markdown Jinja2 filters
 markdown = Markdown(extensions=['markdown.extensions.extra',
-	'markdown.extensions.codehilite', mkdcomments.CommentsExtension()])
+	'markdown.extensions.codehilite'])
 
 def includefile(filename, *args):
 	print "includefile(%s)" % os.path.join(os.getcwd(), filename)

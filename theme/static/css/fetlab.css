@@ -43,10 +43,16 @@ header img {
     display: inline;
 }
 
+.logo { width: 178px }
 
 .navbar-fixed-top, .navbar-fixed-top.navbar-shrink
 {
-	padding: 40px;
+	padding: 20px;
 	transition: none;
 }
 
+.navbar-brand
+{
+	padding: 0;
+	height: auto;
+}

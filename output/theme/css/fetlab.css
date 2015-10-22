@@ -4,11 +4,6 @@
     background: #18bc9c;
 }
 
-._carousel .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
 ._carousel img {
     display: block;
     margin: 0 auto 20px;
@@ -39,14 +34,38 @@
 	background-size: cover;
 }
 
-header img {
-    display: inline;
-}
-
+.logo { width: 178px }
 
 .navbar-fixed-top, .navbar-fixed-top.navbar-shrink
 {
-	padding: 40px;
+	padding: 20px;
 	transition: none;
 }
 
+.navbar-brand
+{
+	padding: 0;
+	height: auto;
+}
+
+header
+{
+	color: #434343;
+	background: white;
+}
+
+section { padding: 0 }
+header section .container
+{
+	padding-top: 125px;
+	padding-bottom: 25px;
+}
+section .container, section .container-fluid
+{
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+section h2 { margin-bottom: .5em }
+
+/* Allow multiple images to be displayed in a line */
+header img { display: inline }

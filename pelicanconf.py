@@ -84,4 +84,4 @@ CONTENT_ORDERED = [
 	('people',    'catgrid.html'),
 ]
 
-LOGO_IMG = "/images/fetlab_logotype_white_web.png"
+LOGO_IMG = "/images/fetlab_logotype.svg"

@@ -85,3 +85,5 @@ CONTENT_ORDERED = [
 ]
 
 LOGO_IMG = "/images/fetlab_logotype.svg"
+
+LOCATION = u'Room 1385, Orange Hall Rochester Institute of Technology Rochester, NY 14623'

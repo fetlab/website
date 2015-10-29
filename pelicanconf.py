@@ -80,7 +80,7 @@ JINJA_FILTERS = {
 # (directory_name, template_file).
 CONTENT_ORDERED = [
 	('welcome',   'category.html'),
-	('_featured projects', 'carousel.html'),
+	('featured projects', 'carousel.html'),
 	('people',    'catgrid.html'),
 ]
 

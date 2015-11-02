@@ -46,7 +46,7 @@
 							<li class="hidden"><a href="#page-top"></a></li>
 							{% for catname, templfile in CONTENT_ORDERED if catname[0] != '_' %}
 								<li class="page-scroll">
-									<a href="#{{ catname }}">{{ catname }}</a>
+									<a href="#{{ catname | replace(' ', '-')  }}">{{ catname | title }}</a>
 								</li>
 							{% endfor %}
 						</ul>
@@ -70,12 +70,14 @@
 							<p>{{ LOCATION }}</p>
 						</div>
 						<div class="footer-col col-md-4">
+							<!--
 						<h3>Keep Up To Date</h3>
 							<ul class="list-inline">
 								<li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a></li>
 								<li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a></li>
 								<li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a></li>
 							</ul>
+							-->
 						</div>
 						<div class="footer-col col-md-4">
 							<!--<h3>A Research Lab @</h3>-->
@@ -102,9 +104,6 @@
 			</a>
 		</div>
 
-		{% with catname='people' %}
-			{% include 'modal.html' %}
-		{% endwith %}
 
 		<script src="theme/js/jquery.js"></script>
 		<script src="theme/js/bootstrap.min.js"></script>

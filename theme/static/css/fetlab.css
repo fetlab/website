@@ -1,16 +1,44 @@
-._carousel {
+body {
+	font-family: "Junction Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a, a:hover, a:focus, a:active, a.active
+{
+	color: #4ec9f4;
+	outline: 0px none;
+	text-decoration: none !important;
+}
+
+#publications a,
+#publications a:hover,
+#publications a:focus,
+#publications a:active,
+#publications a.active
+{ color: #434343 }
+
+#publications a:hover,
+#publications a:focus,
+#publications a:active,
+#publications a.active
+{ border-bottom: 1px dotted #434343 }
+
+.navbar .navbar-nav > li > a:hover,
+.navbar-defaul .navbar-nav > li > a:focus
+{ color: #fa6900 }
+
+.carousel {
     text-align: center;
     color: #fff;
     background: #4ec9f4;
 }
 
-._carousel img {
+.carousel img {
     display: block;
     margin: 0 auto 20px;
 
 }
 
-._carousel .intro-text .name {
+.carousel .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family:Junction,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -19,12 +47,12 @@
 
 }
 
-._carousel .intro-text .skills {
+.carousel .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
 
-._carousel .carousel-image
+.carousel .carousel-image
 {
 	width: 100%;
 	height: 0;
@@ -52,6 +80,7 @@ header
 {
 	color: #434343;
 	background: white;
+	text-align: left;
 }
 
 section { padding: 0 }
@@ -69,3 +98,42 @@ section h2 { margin-bottom: .5em }
 
 /* Allow multiple images to be displayed in a line */
 header img { display: inline }
+
+
+hr.primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    border-color: #2c3e50;
+}
+
+hr.primary:before {
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+hr.primary.white { border-color: #fff }
+
+hr.fa
+{
+	display: block;
+	line-height: inherit;
+}
+
+#people td.img img {width: 150px}
+#people td {vertical-align: middle}
+#people td.desc p {font-size: 18px}
+#people .icons
+{
+	width: 100%;
+	text-align: center;
+}

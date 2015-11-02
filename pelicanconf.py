@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from markdown import Markdown
-import re, os, sys
+import re, os, sys, operator
 
 AUTHOR       = u'Future Everyday Technology Research Lab'
 SITENAME     = AUTHOR
@@ -20,7 +20,7 @@ STATIC_PATHS = ['js', 'css', 'fonts', 'images', 'misc', 'files',
 	'font-awesome']
 ARTICLE_EXCLUDES = STATIC_PATHS
 PAGE_EXCLUDES = ARTICLE_EXCLUDES
-MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', #'smartypants',
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'smartypants',
 	'toc(title=Table of Contents)']
 
 
@@ -68,21 +68,35 @@ def md(content, *args):
 	c = re.compile('^%s' % ws, re.MULTILINE).sub('', content)
 	return markdown.convert(c)
 
+
+def sortby(items, attribute, sortlist):
+	"""Use with {{ list | sortby(attribute, sortlist) }}
+	where attribute is the attribute of each item in the list to sort by
+	and sortlist is a list of possible values of that attribute sort, in
+	the order for them to be sorted by."""
+	ag = operator.attrgetter(attribute)
+	return sorted(items, key=lambda x:sortlist.index(ag(x)))
+
 JINJA_EXTENSIONS = ['jinja2.ext.with_']
 
 JINJA_FILTERS = {
 	'includefile': includefile,
-	'includemd': includemd,
-	'md':        md,
+	'includemd':   includemd,
+	'md':          md,
+	'sortby':      sortby,
 }
 
 #Determines the order that content appears on the page. Tuples are
 # (directory_name, template_file).
 CONTENT_ORDERED = [
-	('welcome',   'category.html'),
-	('featured projects', 'carousel.html'),
-	('people',    'catgrid.html'),
+	('welcome',           'category.html'),
+	# ('featured projects', 'carousel.html'),
+	('people',            'people.html'),
+	('publications',      'catlist.html'),
 ]
+
+#Determines sort order for people
+PEOPLE_CAT_SORT = [ 'dan', 'phd', 'masters', 'undergrad' ]
 
 LOGO_IMG = "/images/fetlab_logotype.svg"
 

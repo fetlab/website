@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+  <head>
+			<meta charset="UTF-8">
+			<title>HCIN 720: Introduction to Javascript</title>
+			<script src="/js/jquery-1.11.3.min.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
+			<script src="/js/bib-list-min.js"></script>
+			<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/css/pygments.css" rel="stylesheet" type="text/css">
+			<link href="/fonts/fonts.css" rel="stylesheet" type="text/css">
+			<link href="/css/style.css" rel="stylesheet" type="text/css">
+			<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/files/720/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/files/720/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/files/720/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/files/720/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/files/720/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/files/720/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/files/720/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/files/720/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/files/720/icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/files/720/icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/files/720/icons/manifest.json">
+<link rel="shortcut icon" href="/files/720/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/files/720/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/files/720/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<script src="/js/paper-full.min.js"></script>
+  </head>
+
+  <body style="height:100%">
+    <div class="container" style="height:100%">
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1 class="sitetitle"><span class="fa fa-cloud"></span>
+			<a class="noformat" href="index.html">HCIN
+				720: Designing UX for Internet-Enabled Devices</a></h1> </div>
+</div>
+
+			<div class="row" style="height:100%">
+
+	<div class="col-xs-3 col-left sidebar">
+		<h3>Course Info</h3>
+<p><p class="smaller">
+    <div class='wrapline'>Tu/Th 2:00-3:15 pm</div>
+    <div class='wrapline'>Locations: GOL-3560 and
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a> (when announced)</div>
+    <div class='wrapline'>Office hours: Thu 3:30-5:00 pm,
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a></div>
+    <div class='wrapline'><a href="using_slack.html">Slack</a> for discussion,
+    questions, help, and announcements.</div>
+</p></p>
+<hr>
+
+<h3>Links</h3>
+<ul>
+<li><span class="fa fa-fw fa-file-o"></span><a href="index.html">Course overview</a></li>
+<li><span class="fa fa-fw fa-file-pdf-o"></span><a href="/files/720/syllabus-v2.pdf">Syllabus</a></li>
+<li><span class="fa fa-fw fa-calendar"></span><a href="https://www.google.com/calendar/embed?src=fka1qfv64r69a6a72hqk6u3ai4%40group.calendar.google.com&amp;ctz=America/New_York">Class
+    calendar</a></li>
+<li><span class="fa fa-fw fa-file-o"></span><a href="intro_to_js.html">Intro to
+    Javascript</a></li>
+</ul>
+<hr>
+
+<h3>Readings</h3>
+<p><em>Dates refer to when we will discuss the paper in class.</em></p>
+<ul>
+<li>Thu, Oct 15: <a href="/files/720/The Coming Age of Calm Computing.pdf">The Coming Age of Calm Computing</a>,
+    <a href="/files/720/Heuristic Evaluation of Ambient Displays.pdf">Heuristic Evaluation of Ambient Displays</a> </li>
+<li>Tue, Sep 15: <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7030240">Enabling the Internet of
+    Things</a></li>
+<li>Tue, Sep 8: <a href="ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6127852">Informing the design of proxemic
+    interactions</a></li>
+<li>Tue, Sep 1: <a href="/files/720/Scientific American 1991 Weiser.pdf">The Computer for the 21st
+    Century</a></li>
+</ul>
+<h3>Slides</h3>
+<ul>
+<li><a href="/files/720/slides/HCIN720-01.pdf">Tue, Aug 25</a></li>
+<li><a href="/files/720/slides/HCIN720-02.pdf">Thu, Aug 27</a></li>
+<li><a href="/files/720/slides/HCIN720-03.pdf">Tue, Sep 1</a></li>
+<li><a href="/files/720/slides/HCIN720-04.pdf">Tue, Sep 8</a></li>
+<li><a href="/files/720/slides/HCIN720-05.pdf">Thu, Sep 10</a></li>
+<li><a href="class7-electronics.html">Tue, Sep 15</a></li>
+<li><a href="/files/720/slides/HCIN720-07.pdf">Tue, Sep 29</a></li>
+<li><a href="/files/720/slides/HCIN720-08.pdf">Tue, Oct 6</a></li>
+<li><a href="/files/720/slides/HCIN720-09.pdf">Thu, Oct 15</a></li>
+<li><a href="/files/720/slides/HCIN720-10.pdf">Tue, Oct 20</a></li>
+<li><a href="/files/720/slides/HCIN720-11.pdf">Thu, Oct 22</a></li>
+</ul>
+	</div>
+
+<div class='col-xs-6 center-content' style='height:100%'>
+	<h1>Introduction to Javascript</h1>
+	<div class="toc"><span class="toctitle">Table of Contents</span><ul>
+<li><a href="#basics">Basics</a><ul>
+<li><a href="#hello-world">Hello World</a></li>
+</ul>
+</li>
+<li><a href="#variables">Variables</a></li>
+<li><a href="#objects">Objects</a></li>
+<li><a href="#functions">Functions</a></li>
+<li><a href="#callbacks">Callbacks</a></li>
+<li><a href="#timers">Timers</a></li>
+<li><a href="#jquery">jQuery</a><ul>
+<li><a href="#_1">$ ?</a></li>
+<li><a href="#changing-the-page">Changing the page</a></li>
+<li><a href="#jquery-and-ajax">jQuery and Ajax</a></li>
+</ul>
+</li>
+<li><a href="#paperjs">Paper.js</a></li>
+</ul>
+</div>
+<h2 id="basics">Basics</h2>
+<p>Let&#8217;s start with our browser debugger. If you&#8217;re using Firefox, look
+in Tools <i class="fa fa-long-arrow-right"></i> Web Developer <i class="fa
+fa-long-arrow-right"></i> Web Console; if you&#8217;re on Chrome, look under the
+&#8220;<span class="fa fa-bars"></span>&#8221; menu <i class="fa
+fa-long-arrow-right"></i> More tools <i class="fa
+fa-long-arrow-right"></i> JavaScript Console.</p>
+<p>Javascript has a C-like syntax, which is also similar to Java. Try
+these things:</p>
+<div class="highlight"><pre><span class="mi">3</span>
+<span class="s2">&quot;hello&quot;</span>
+<span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">)</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+<span class="nx">x</span> <span class="o">+</span> <span class="mi">7</span>
+</pre></div>
+
+
+<h3 id="hello-world">Hello World</h3>
+<p>Let&#8217;s do the classic &#8220;write a function to print &#8216;hello world&#8217;&#8221;
+exercise!</p>
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">hello</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;hello world!&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h2 id="variables">Variables</h2>
+<p>We should always declare variables with <code>var</code>. If we do it without,
+we end up with a global variable, which can be a problem! Unlike other
+languages, even inside a function if you don&#8217;t use <code>var</code> your variable
+becomes global! This is bad (see my page on <a href="javascript_pitfalls.html">Javascript
+pitfalls</a> for more).</p>
+<h2 id="objects">Objects</h2>
+<p>Almost everything in JS is an object. The only exceptions are:
+numbers, strings, <code>true</code>/<code>false</code>, <code>null</code>, and <code>undefined</code>. Objects are
+a containers with properties, which have names and values. </p>
+<p>There are no classes in Javascript. There&#8217;s a way to do inheritance, though,
+which can be pretty confusing, so we won&#8217;t talk about it now.</p>
+<p>Objects look like Python dicts (sort of) or Java HashMaps. Let&#8217;s make
+an object:</p>
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">hello</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="nx">hello</span><span class="p">.</span><span class="nx">car</span> <span class="o">=</span> <span class="s1">&#39;honda&#39;</span>
+<span class="nx">hello</span><span class="p">.</span><span class="nx">year</span> <span class="o">=</span> <span class="mi">1957</span>
+<span class="nx">hello</span>
+</pre></div>
+
+
+<p>Objects can have their properties accessed by a dot or with brackets:</p>
+<div class="highlight"><pre><span class="nx">hello</span><span class="p">.</span><span class="nx">year</span>
+<span class="nx">hello</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>If we try to access nonexistent properties we get <code>undefined</code>:</p>
+<div class="highlight"><pre><span class="nx">hello</span><span class="p">[</span><span class="s1">&#39;color&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>Arrays are objects, too:</p>
+<div class="highlight"><pre><span class="nx">rit</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Rochester&#39;</span><span class="p">,</span> <span class="s1">&#39;Institute&#39;</span><span class="p">,</span> <span class="s1">&#39;of&#39;</span><span class="p">,</span> <span class="s1">&#39;Technology&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>They use numbers for accessors:</p>
+<div class="highlight"><pre><span class="nx">rit</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+
+<p>They can have any object inside:</p>
+<div class="highlight"><pre><span class="nx">hci</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Human&#39;</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="nx">rit</span><span class="p">,</span> <span class="nx">hello</span><span class="p">]</span>
+</pre></div>
+
+
+<p>Let&#8217;s make a more complicated object:</p>
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">flight</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">airline</span><span class="o">:</span> <span class="s2">&quot;Oceanic&quot;</span><span class="p">,</span>
+  <span class="nx">number</span><span class="o">:</span> <span class="mi">815</span><span class="p">,</span>
+  <span class="nx">departure</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">IATA</span><span class="o">:</span> <span class="s2">&quot;SYD&quot;</span><span class="p">,</span>
+    <span class="nx">time</span><span class="o">:</span> <span class="s2">&quot;2004-09-22 14:55&quot;</span><span class="p">,</span>
+    <span class="nx">city</span><span class="o">:</span> <span class="s2">&quot;Sydney&quot;</span>
+  <span class="p">},</span>
+  <span class="nx">arrival</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">IATA</span><span class="o">:</span> <span class="s2">&quot;LAX&quot;</span><span class="p">,</span>
+    <span class="nx">time</span><span class="o">:</span> <span class="s2">&quot;2004-09-23 10:42&quot;</span><span class="p">,</span>
+    <span class="nx">city</span><span class="o">:</span> <span class="s2">&quot;Los Angeles&quot;</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+</pre></div>
+
+
+<p>This is interesting because it&#8217;s also something that&#8217;s used for
+data compatibility!</p>
+<p><strong>Switch to JSON slides</strong></p>
+<h2 id="functions">Functions</h2>
+<p>Functions are objects too! They&#8217;re &#8220;first class&#8221;, meaning they
+are just values that can be passed around. For example:</p>
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">hello</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;hello world&quot;</span><span class="p">)</span> <span class="p">}</span>
+<span class="nx">hello</span><span class="p">()</span>
+<span class="nx">hello2</span> <span class="o">=</span> <span class="nx">hello</span>
+<span class="nx">hello2</span><span class="p">()</span>
+</pre></div>
+
+
+<h2 id="callbacks">Callbacks</h2>
+<p>Putting a function into a variable allows us to do &#8220;callbacks&#8221;. Here&#8217;s
+a simple example:</p>
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">done</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">what</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;The function &quot;</span> <span class="o">+</span> <span class="nx">what</span> <span class="o">+</span> <span class="s2">&quot; is done!&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">doSomething</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">callback</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">now</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">getTime</span><span class="p">();</span>  <span class="c1">//What time is it now?</span>
+  <span class="k">while</span><span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">()</span> <span class="o">&lt;</span> <span class="nx">now</span> <span class="o">+</span> <span class="mi">1000</span><span class="p">)</span> <span class="p">{};</span> <span class="c1">//Delay 1 second; don&#39;t do this in real code!</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">callback</span><span class="p">)</span>  <span class="c1">//Will be undefined if nothing was passed</span>
+    <span class="nx">callback</span><span class="p">(</span><span class="s2">&quot;doSomething&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nx">doSomething</span><span class="p">(</span><span class="nx">done</span><span class="p">);</span>
+</pre></div>
+
+
+<p>We can also drop our <code>done</code> function in as an anonymous function.
+Instead of assigning the function to a variable, we just put it in as
+the argument for the callback:</p>
+<div class="highlight"><pre><span class="nx">doSomething</span><span class="p">(</span>
+  <span class="kd">function</span><span class="p">(</span><span class="nx">what</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;The function &quot;</span> <span class="o">+</span> <span class="nx">what</span> <span class="o">+</span> <span class="s2">&quot; is done!&quot;</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">);</span>
+</pre></div>
+
+
+<p>Callbacks are used a lot in Javascript, for example with timers.</p>
+<h2 id="timers">Timers</h2>
+<p>The correct way to set a delay is using the <code>setTimeout()</code> function (I
+used the <code>while()</code> loop above for simplicity):</p>
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">timeoutCallback</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Timeout over&quot;</span><span class="p">);</span>
+<span class="p">};</span>
+
+<span class="nb">window</span><span class="p">.</span><span class="nx">setTimeout</span><span class="p">(</span><span class="nx">timeoutCallback</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+</pre></div>
+
+
+<p>This calls the <code>timeoutCallback</code> function after 1000 milliseconds, or
+1 second.</p>
+<p>We can call a function repeatedly as well:</p>
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">intervalCallback</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Beep!&quot;</span><span class="p">);</span>
+<span class="p">};</span>
+
+<span class="kd">var</span> <span class="nx">intervalID</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">setInterval</span><span class="p">(</span><span class="nx">intervalCallback</span><span class="p">,</span> <span class="mi">1000</span><span class="p">);</span>
+</pre></div>
+
+
+<p>This calls the <code>intervalCallback</code> <strong>every</strong> 1000 milliseconds, until
+we cancel it with</p>
+<div class="highlight"><pre><span class="nb">window</span><span class="p">.</span><span class="nx">clearInterval</span><span class="p">(</span><span class="nx">intervalID</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Callbacks are also used quite often in libraries, such as&#8230;</p>
+<h2 id="jquery">jQuery</h2>
+<p>It&#8217;s a handy library that does a lot of good stuff for us. It also
+helps to illustrate why functions-as-objects is super handy!</p>
+<h3 id="_1">$ ?</h3>
+<p>For ease of typing, jQuery represents itself as <code>$</code>. Let&#8217;s try it:
+make a new HTML file called <code>jquery_test.html</code> that looks like this:</p>
+<div class="highlight"><pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;http://code.jquery.com/jquery-1.11.3.min.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;hello&quot;</span><span class="nt">&gt;</span>
+      Hello
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+<p>Load that up in your browser and open the Javascript console. Now type
+<code>$</code> and hit enter. Depending on your browser, you&#8217;ll see any of:</p>
+<ul>
+<li><code>function m()</code> (Firefox)</li>
+<li><code>function m(a, b)</code> (Chrome)</li>
+<li><code>function m(a, b) {return new m.fn.init(a,b);}</code> (Safari)</li>
+</ul>
+<p>The point being that <code>$</code> actually refers to something real!</p>
+<h3 id="changing-the-page">Changing the page</h3>
+<p>jQuery makes it easy to change the page. Try these things in the
+Javascript console:</p>
+<div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#hello&#39;</span><span class="p">)</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#hello&#39;</span><span class="p">).</span><span class="nx">text</span><span class="p">()</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#hello&#39;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="s2">&quot;Goodbye&quot;</span><span class="p">)</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#hello&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot; cruel world&quot;</span><span class="p">)</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#hello&#39;</span><span class="p">).</span><span class="nx">after</span><span class="p">(</span><span class="s1">&#39;&lt;h1&gt;Hello!&lt;/h1&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>The <code>#</code> symbol is a CSS selector that refers to the <code>id</code> parameter in
+the HTML. If we had instead done <code>&lt;div class="good"&gt;</code> we could use a
+period <code>.</code> to refer to everything with class <code>good</code>: <code>$('.good')</code>.</p>
+<h3 id="jquery-and-ajax">jQuery and Ajax</h3>
+<p>Ajax is a way of grabbing data from somewhere else. Let&#8217;s go back to
+our <code>jquery_test.html</code> file and add some scripting. Change your file
+to look like this:</p>
+<div class="highlight"><pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;http://code.jquery.com/jquery-1.11.3.min.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script&gt;</span>
+      <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
+          <span class="nx">url</span><span class="o">:</span> <span class="s2">&quot;https://data.sparkfun.com/output/YGV3jNvQMjh2G4oOLwdx.json&quot;</span><span class="p">,</span>
+          <span class="nx">dataType</span><span class="o">:</span> <span class="s2">&quot;jsonp&quot;</span><span class="p">,</span>
+          <span class="nx">data</span><span class="o">:</span> <span class="p">{</span><span class="nx">page</span><span class="o">:</span> <span class="mi">1</span><span class="p">},</span>
+          <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">response</span> <span class="p">)</span> <span class="p">{</span>
+              <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#results&#39;</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">response</span><span class="p">[</span><span class="mi">0</span><span class="p">]));</span> <span class="c1">// server response</span>
+          <span class="p">}</span>
+      <span class="p">});</span>
+    <span class="nt">&lt;/script&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;pre</span> <span class="na">id=</span><span class="s">&quot;results&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/pre&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+
+
+<h2 id="paperjs">Paper.js</h2>
+<p>Paper.js is a fun library to do graphical stuff! It has a &#8220;language&#8221;
+all of its own called &#8220;Paperscript&#8221; which is actually Javascript with
+a bit of extra stuff on top to simplify things. The
+<a href="http://paperjs.org/tutorials/">tutorials</a> are really handy.</p>
+</div>
+<div class='col-xs-3 col-right sidebar'>
+	<h3>Important dates</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aug 25</td>
+<td>Class starts</td>
+</tr>
+<tr>
+<td>Sep 3</td>
+<td>Class in ORN-1385</td>
+</tr>
+<tr>
+<td>Oct 13</td>
+<td>Classes on Monday schedule</td>
+</tr>
+<tr>
+<td>Nov 10</td>
+<td>Dr. Ashbrook at <a href="http://acm.org/uist">UIST</a></td>
+</tr>
+<tr>
+<td></td>
+<td>No class: work day</td>
+</tr>
+<tr>
+<td>Nov 12</td>
+<td>Guest lecture</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+<h3>Assignments</h3>
+<p><em>All assignments are due at 1:59 pm on the due date.</em></p>
+<table>
+<thead>
+<tr>
+<th>Assigned</th>
+<th>Due</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Wed, Aug 26</td>
+<td><a href="https://docs.google.com/forms/d/1TG3gzmcLktQi2kpWAWmJ77d5N1KAboQTLbTK-IGLj_4/viewform">Survey</a></td>
+</tr>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Thu, Aug 27</td>
+<td><a href="a1setup.html">IA 1 Set up</a></td>
+</tr>
+<tr>
+<td>Thu, Aug 27</td>
+<td>Tue, Sep 8</td>
+<td><a href="assignment1.html">IA 1</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 8</td>
+<td>Thu, Sep 10</td>
+<td><a href="a2setup.html">IA 2 Set up</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 10</td>
+<td>Tue, Sep 22</td>
+<td><a href="assignment2.html">IA 2</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 29</td>
+<td>Thu, Oct 15</td>
+<td><a href="assignment3.html">IA 3</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 1</td>
+<td>Thu, Oct 8</td>
+<td><a href="extracredit1.html">EC 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html">GP 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html#extracredit2">EC 2</a></td>
+</tr>
+<tr>
+<td>Thu, Nov 5</td>
+<td>Thu, Nov 11</td>
+<td>FP prop.</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 8</td>
+<td>FP demo</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 15</td>
+<td>FP writeup</td>
+</tr>
+</tbody>
+</table>
+<p><em>(IA: Individual Assignment; GP: Group Project; EC: Extra Credit; FP:
+Final Project; prop.: proposal)</em></p>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

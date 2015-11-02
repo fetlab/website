@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+  <head>
+			<meta charset="UTF-8">
+			<title>HCIN 720: Using your Photon</title>
+			<script src="/js/jquery-1.11.3.min.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
+			<script src="/js/bib-list-min.js"></script>
+			<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/css/pygments.css" rel="stylesheet" type="text/css">
+			<link href="/fonts/fonts.css" rel="stylesheet" type="text/css">
+			<link href="/css/style.css" rel="stylesheet" type="text/css">
+			<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/files/720/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/files/720/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/files/720/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/files/720/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/files/720/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/files/720/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/files/720/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/files/720/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/files/720/icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/files/720/icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/files/720/icons/manifest.json">
+<link rel="shortcut icon" href="/files/720/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/files/720/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/files/720/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+
+  <body style="height:100%">
+    <div class="container" style="height:100%">
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1 class="sitetitle"><span class="fa fa-cloud"></span>
+			<a class="noformat" href="index.html">HCIN
+				720: Designing UX for Internet-Enabled Devices</a></h1> </div>
+</div>
+
+			<div class="row" style="height:100%">
+
+	<div class="col-xs-3 col-left sidebar">
+		<h3>Course Info</h3>
+<p><p class="smaller">
+    <div class='wrapline'>Tu/Th 2:00-3:15 pm</div>
+    <div class='wrapline'>Locations: GOL-3560 and
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a> (when announced)</div>
+    <div class='wrapline'>Office hours: Thu 3:30-5:00 pm,
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a></div>
+    <div class='wrapline'><a href="using_slack.html">Slack</a> for discussion,
+    questions, help, and announcements.</div>
+</p></p>
+<hr>
+
+<h3>Links</h3>
+<ul>
+<li><span class="fa fa-fw fa-file-o"></span><a href="index.html">Course overview</a></li>
+<li><span class="fa fa-fw fa-file-pdf-o"></span><a href="/files/720/syllabus-v2.pdf">Syllabus</a></li>
+<li><span class="fa fa-fw fa-calendar"></span><a href="https://www.google.com/calendar/embed?src=fka1qfv64r69a6a72hqk6u3ai4%40group.calendar.google.com&amp;ctz=America/New_York">Class
+    calendar</a></li>
+<li><span class="fa fa-fw fa-file-o"></span><a href="intro_to_js.html">Intro to
+    Javascript</a></li>
+</ul>
+<hr>
+
+<h3>Readings</h3>
+<p><em>Dates refer to when we will discuss the paper in class.</em></p>
+<ul>
+<li>Thu, Oct 15: <a href="/files/720/The Coming Age of Calm Computing.pdf">The Coming Age of Calm Computing</a>,
+    <a href="/files/720/Heuristic Evaluation of Ambient Displays.pdf">Heuristic Evaluation of Ambient Displays</a> </li>
+<li>Tue, Sep 15: <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7030240">Enabling the Internet of
+    Things</a></li>
+<li>Tue, Sep 8: <a href="ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6127852">Informing the design of proxemic
+    interactions</a></li>
+<li>Tue, Sep 1: <a href="/files/720/Scientific American 1991 Weiser.pdf">The Computer for the 21st
+    Century</a></li>
+</ul>
+<h3>Slides</h3>
+<ul>
+<li><a href="/files/720/slides/HCIN720-01.pdf">Tue, Aug 25</a></li>
+<li><a href="/files/720/slides/HCIN720-02.pdf">Thu, Aug 27</a></li>
+<li><a href="/files/720/slides/HCIN720-03.pdf">Tue, Sep 1</a></li>
+<li><a href="/files/720/slides/HCIN720-04.pdf">Tue, Sep 8</a></li>
+<li><a href="/files/720/slides/HCIN720-05.pdf">Thu, Sep 10</a></li>
+<li><a href="class7-electronics.html">Tue, Sep 15</a></li>
+<li><a href="/files/720/slides/HCIN720-07.pdf">Tue, Sep 29</a></li>
+<li><a href="/files/720/slides/HCIN720-08.pdf">Tue, Oct 6</a></li>
+<li><a href="/files/720/slides/HCIN720-09.pdf">Thu, Oct 15</a></li>
+<li><a href="/files/720/slides/HCIN720-10.pdf">Tue, Oct 20</a></li>
+<li><a href="/files/720/slides/HCIN720-11.pdf">Thu, Oct 22</a></li>
+</ul>
+	</div>
+
+<div class='col-xs-6 center-content' style='height:100%'>
+	<h1>Using your Photon</h1>
+	<h2 id="introduction-to-photons">Introduction to Photons</h2>
+<ul>
+<li>What do they do?<ul>
+<li>Explain general microcontroller concepts<ul>
+<li>Tiny computers</li>
+<li>Very fast for certain things</li>
+<li>Very, very low power</li>
+</ul>
+</li>
+<li>Explain Arduino<ul>
+<li>Standardized language (C++-based, called &#8220;Wiring&#8221;)</li>
+<li>Many, many libraries to make things easier</li>
+<li>Lots of help online</li>
+<li>Programs called &#8220;sketches&#8221;</li>
+</ul>
+</li>
+<li>Recap previous examples of Photon products</li>
+</ul>
+</li>
+</ul>
+<h2 id="claiming-a-photon">Claiming a Photon</h2>
+<ul>
+<li>Assuming you&#8217;ve installed the Particle CLI:<ul>
+<li>Plug in your Photon via USB.</li>
+<li>Hold down the &#8220;Setup&#8221; button until the LED flashes blue.</li>
+<li>In the terminal, type <code>particle identify</code>.</li>
+<li>You&#8217;ll see something like <code>Your device id is
+    123456789abcdef123456789</code>. Copy the device id.</li>
+<li>Now visit <a href="https://build.particle.io">build.particle.io</a>, make an
+    account, and sign in.</li>
+<li>Look for the gear icon <span class="fa fa-cog"></span> in the
+    bottom left corner, then find the icon right above it (if you
+    hover your mouse over it, it will say &#8220;Devices&#8221;). Click on that.</li>
+<li>Click &#8220;Add new device&#8221; then put in the id you copied.</li>
+<li>Now this Photon is associated with you and you will be able to do
+    cool cloud stuff with it.</li>
+</ul>
+</li>
+</ul>
+<h2 id="hello-world-flash-led">Hello world flash LED</h2>
+<p>Here&#8217;s a simple Arduino sketch to blink the LED on the Photon:</p>
+<div class="highlight"><pre><span class="cp">#define led D7</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>Explain the parts.</p>
+<h2 id="hello-world-2-flash-led-from-web">Hello world 2 flash LED from web</h2>
+<p>The Photon is extra cool because we can control it from the Internet!
+Here&#8217;s a version where we can turn on and off the LED via the web:</p>
+<div class="highlight"><pre><span class="cp">#define led D7</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+    <span class="n">Spark</span><span class="p">.</span><span class="n">function</span><span class="p">(</span><span class="s">&quot;led&quot;</span><span class="p">,</span> <span class="n">toggle_led</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">//Do nothing here</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">toggle_led</span><span class="p">(</span><span class="n">String</span> <span class="n">command</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">command</span> <span class="o">==</span> <span class="s">&quot;on&quot;</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">digitalWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">command</span> <span class="o">==</span> <span class="s">&quot;off&quot;</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">digitalWrite</span><span class="p">(</span><span class="n">led</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h2 id="other-photon-tutorials">Other Photon tutorials</h2>
+<p>See the <a href="https://docs.particle.io/guide/getting-started/examples/photon/">Photon
+Guide</a>
+for lots of annotated examples of how you can do stuff with the
+Photon!</p>
+<h2 id="how-breadboards-work">How breadboards work</h2>
+<p>Check out <a href="https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard">Sparkfun&#8217;s breadboard
+guide</a>!</p>
+<h2 id="flash-external-led">Flash external LED</h2>
+<p>Check it at <a href="https://docs.particle.io/guide/getting-started/examples/photon/#blink-an-led">Photon LED flashing
+guide</a></p>
+<h2 id="electricity-concepts">Electricity concepts</h2>
+<p>Check out <a href="https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all">Sparkfun&#8217;s electricity
+guide</a></p>
+<h2 id="connecting-stuff">Connecting stuff</h2>
+<p>Let&#8217;s connect a sensor!</p>
+<h2 id="debuggind-with-the-oscilloscope">Debuggind with the oscilloscope</h2>
+<p>Handy! Confusing!</p>
+</div>
+<div class='col-xs-3 col-right sidebar'>
+	<h3>Important dates</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aug 25</td>
+<td>Class starts</td>
+</tr>
+<tr>
+<td>Sep 3</td>
+<td>Class in ORN-1385</td>
+</tr>
+<tr>
+<td>Oct 13</td>
+<td>Classes on Monday schedule</td>
+</tr>
+<tr>
+<td>Nov 10</td>
+<td>Dr. Ashbrook at <a href="http://acm.org/uist">UIST</a></td>
+</tr>
+<tr>
+<td></td>
+<td>No class: work day</td>
+</tr>
+<tr>
+<td>Nov 12</td>
+<td>Guest lecture</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+<h3>Assignments</h3>
+<p><em>All assignments are due at 1:59 pm on the due date.</em></p>
+<table>
+<thead>
+<tr>
+<th>Assigned</th>
+<th>Due</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Wed, Aug 26</td>
+<td><a href="https://docs.google.com/forms/d/1TG3gzmcLktQi2kpWAWmJ77d5N1KAboQTLbTK-IGLj_4/viewform">Survey</a></td>
+</tr>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Thu, Aug 27</td>
+<td><a href="a1setup.html">IA 1 Set up</a></td>
+</tr>
+<tr>
+<td>Thu, Aug 27</td>
+<td>Tue, Sep 8</td>
+<td><a href="assignment1.html">IA 1</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 8</td>
+<td>Thu, Sep 10</td>
+<td><a href="a2setup.html">IA 2 Set up</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 10</td>
+<td>Tue, Sep 22</td>
+<td><a href="assignment2.html">IA 2</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 29</td>
+<td>Thu, Oct 15</td>
+<td><a href="assignment3.html">IA 3</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 1</td>
+<td>Thu, Oct 8</td>
+<td><a href="extracredit1.html">EC 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html">GP 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html#extracredit2">EC 2</a></td>
+</tr>
+<tr>
+<td>Thu, Nov 5</td>
+<td>Thu, Nov 11</td>
+<td>FP prop.</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 8</td>
+<td>FP demo</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 15</td>
+<td>FP writeup</td>
+</tr>
+</tbody>
+</table>
+<p><em>(IA: Individual Assignment; GP: Group Project; EC: Extra Credit; FP:
+Final Project; prop.: proposal)</em></p>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

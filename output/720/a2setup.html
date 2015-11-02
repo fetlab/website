@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+  <head>
+			<meta charset="UTF-8">
+			<title>HCIN 720: Assignment 2 Setup</title>
+			<script src="/js/jquery-1.11.3.min.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
+			<script src="/js/bib-list-min.js"></script>
+			<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/css/pygments.css" rel="stylesheet" type="text/css">
+			<link href="/fonts/fonts.css" rel="stylesheet" type="text/css">
+			<link href="/css/style.css" rel="stylesheet" type="text/css">
+			<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/files/720/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/files/720/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/files/720/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/files/720/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/files/720/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/files/720/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/files/720/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/files/720/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/files/720/icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/files/720/icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/files/720/icons/manifest.json">
+<link rel="shortcut icon" href="/files/720/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/files/720/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/files/720/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+
+  <body style="height:100%">
+    <div class="container" style="height:100%">
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1 class="sitetitle"><span class="fa fa-cloud"></span>
+			<a class="noformat" href="index.html">HCIN
+				720: Designing UX for Internet-Enabled Devices</a></h1> </div>
+</div>
+
+			<div class="row" style="height:100%">
+
+	<div class="col-xs-3 col-left sidebar">
+		<h3>Course Info</h3>
+<p><p class="smaller">
+    <div class='wrapline'>Tu/Th 2:00-3:15 pm</div>
+    <div class='wrapline'>Locations: GOL-3560 and
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a> (when announced)</div>
+    <div class='wrapline'>Office hours: Thu 3:30-5:00 pm,
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a></div>
+    <div class='wrapline'><a href="using_slack.html">Slack</a> for discussion,
+    questions, help, and announcements.</div>
+</p></p>
+<hr>
+
+<h3>Links</h3>
+<ul>
+<li><span class="fa fa-fw fa-file-o"></span><a href="index.html">Course overview</a></li>
+<li><span class="fa fa-fw fa-file-pdf-o"></span><a href="/files/720/syllabus-v2.pdf">Syllabus</a></li>
+<li><span class="fa fa-fw fa-calendar"></span><a href="https://www.google.com/calendar/embed?src=fka1qfv64r69a6a72hqk6u3ai4%40group.calendar.google.com&amp;ctz=America/New_York">Class
+    calendar</a></li>
+<li><span class="fa fa-fw fa-file-o"></span><a href="intro_to_js.html">Intro to
+    Javascript</a></li>
+</ul>
+<hr>
+
+<h3>Readings</h3>
+<p><em>Dates refer to when we will discuss the paper in class.</em></p>
+<ul>
+<li>Thu, Oct 15: <a href="/files/720/The Coming Age of Calm Computing.pdf">The Coming Age of Calm Computing</a>,
+    <a href="/files/720/Heuristic Evaluation of Ambient Displays.pdf">Heuristic Evaluation of Ambient Displays</a> </li>
+<li>Tue, Sep 15: <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7030240">Enabling the Internet of
+    Things</a></li>
+<li>Tue, Sep 8: <a href="ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6127852">Informing the design of proxemic
+    interactions</a></li>
+<li>Tue, Sep 1: <a href="/files/720/Scientific American 1991 Weiser.pdf">The Computer for the 21st
+    Century</a></li>
+</ul>
+<h3>Slides</h3>
+<ul>
+<li><a href="/files/720/slides/HCIN720-01.pdf">Tue, Aug 25</a></li>
+<li><a href="/files/720/slides/HCIN720-02.pdf">Thu, Aug 27</a></li>
+<li><a href="/files/720/slides/HCIN720-03.pdf">Tue, Sep 1</a></li>
+<li><a href="/files/720/slides/HCIN720-04.pdf">Tue, Sep 8</a></li>
+<li><a href="/files/720/slides/HCIN720-05.pdf">Thu, Sep 10</a></li>
+<li><a href="class7-electronics.html">Tue, Sep 15</a></li>
+<li><a href="/files/720/slides/HCIN720-07.pdf">Tue, Sep 29</a></li>
+<li><a href="/files/720/slides/HCIN720-08.pdf">Tue, Oct 6</a></li>
+<li><a href="/files/720/slides/HCIN720-09.pdf">Thu, Oct 15</a></li>
+<li><a href="/files/720/slides/HCIN720-10.pdf">Tue, Oct 20</a></li>
+<li><a href="/files/720/slides/HCIN720-11.pdf">Thu, Oct 22</a></li>
+</ul>
+	</div>
+
+<div class='col-xs-6 center-content' style='height:100%'>
+	<h1>Assignment 2 Setup</h1>
+	<h2 id="goals">Goals</h2>
+<p>The goal for this task is to get more comfortable with your Photon,
+and to get it set up and working reliably with your computer for local
+programming and debugging.</p>
+<h3 id="grading">Grading</h3>
+<p>You&#8217;ll get credit for following these instructions and being prepared
+in class. You&#8217;ll lose credit for not being ready to be hands-on in
+class.</p>
+<p><strong>Note:</strong> Some people weren&#8217;t ready last time. I&#8217;m going to be lenient
+for that one, but this time I <em>will</em> deduct points for failing to have
+everything set up! So: start now, and if you are having problems, post
+to <a href="using_slack.html">Slack</a> right away.</p>
+<h2 id="connecting-your-photon">Connecting your Photon</h2>
+<p>If you got your Photon working with your computer in class (that is,
+if you were able to type <code>particle identify</code> and get an answer),
+great! Otherwise, get it working.</p>
+<p>If you are using Windows, it turns out you need to install a driver.
+<a href="https://docs.particle.io/guide/getting-started/connect/photon/#installing-the-particle-driver">Here are
+instructions</a>.</p>
+<h2 id="install-particle-dev">Install Particle Dev</h2>
+<p>Particle Dev is a program for writing code on your computer, so you
+don&#8217;t have to save all of your programs in the cloud. This step is
+optional; you can also use your favorite text editor. If you&#8217;d like to
+install Particle Dev, you can get a version for your operating system
+<a href="https://www.particle.io/dev">here</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.</p>
+<h2 id="local-programming">Local programming</h2>
+<p>Getting local compiling working is tricky and beyond the scope of
+this class (you can read all about it
+<a href="https://learn.sparkfun.com/tutorials/photon-development-guide/arm-gcc-and-the-dfu-bootloader-offline">here</a>
+if you want to try); but you can compile remotely and flash<sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup>
+locally using the <code>particle</code> utility.</p>
+<p>First, you need some code on your computer. Using Particle Dev or your
+favorite text editor, make a new directory called <code>blinky</code> and put a
+file called <code>blinky.ino</code> into it with the following content:</p>
+<div class="highlight"><pre><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">D7</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">D7</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">D7</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>Now switch to your command prompt, and run <code>particle compile photon
+&lt;path to your blinky folder&gt; --saveTo blinky.bin</code><sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup>. This command
+will compile your code remotely on Particle&#8217;s servers and print
+something like</p>
+<div class="highlight"><pre>Including:
+    /private/tmp/f/blinky/blinky.ino
+attempting to compile firmware
+pushing file: /private/tmp/f/blinky/blinky.ino
+grabbing binary from: https://api.particle.io/v1/binaries/55edacf78cc997bb1824a88f
+Compile succeeded.
+Saved firmware to: /private/tmp/f/blinky.bin
+</pre></div>
+
+
+<p>Now you&#8217;re going to flash that code to your Photon over USB. Plug your
+Photon into your computer and set it to DFU<sup id="fnref:4"><a class="footnote-ref" href="#fn:4" rel="footnote">4</a></sup> mode:</p>
+<ol>
+<li>Hold down BOTH buttons</li>
+<li>Release only the RESET button, while holding down the SETUP button.</li>
+<li>Wait for the LED to start flashing yellow (it will flash magenta first)</li>
+<li>Release the SETUP button</li>
+</ol>
+<p>When it&#8217;s flashing yellow, it&#8217;s ready to accept code over USB. Now
+you&#8217;ll type <code>particle flash --usb blinky.bin</code>.
+You&#8217;ll see a bunch of stuff printed out, which hopefully includes
+<code>File downloaded successfully</code>. You might also see a bunch of
+meaningless errors (see Troubleshooting below).</p>
+<p>At this point, your Photon should reboot, try to connect to the
+Internet, and start flashing the D7 LED once per second.</p>
+<h2 id="debugging-over-usb">Debugging over USB</h2>
+<p>It&#8217;s useful to be able to see some information about what&#8217;s going on
+with your program. Let&#8217;s print out every time the LED turns on or off.
+First, change your <code>blinky.ino</code> file to the following:</p>
+<div class="highlight"><pre><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">D7</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">D7</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Turned LED on!&quot;</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">D7</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Turned LED off!&quot;</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>Now follow the procedure we did above, starting with the button
+sequence to get it into DFU mode with the flashing yellow LED (here
+I&#8217;m assuming I&#8217;m in the same directory as the <code>blinky</code> folder):</p>
+<div class="highlight"><pre>particle compile photon blinky --saveTo blinky.bin
+particle flash --usb blinky.bin
+</pre></div>
+
+
+<p>Assuming that worked, now let&#8217;s look at the output. The easiest way is
+to:</p>
+<ol>
+<li>Open up Particle Dev</li>
+<li>Click on the USB icon at the bottom left of the screen</li>
+<li>Find the port that your Photon is connected to (on Mac it will look
+     like <code>/dev/cu.usbmodem1234</code>)</li>
+<li>Click &#8220;Connect&#8221;</li>
+</ol>
+<p>On Linux (and on Mac if you didn&#8217;t install Particle Dev) you can type
+<code>screen /dev/tty...</code>.</p>
+<p>You should now see <code>Turned LED on!</code> and <code>Turned LED off!</code> being
+printed repeatedly.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="dfu-util-errors">dfu-util errors</h3>
+<p>If you get the errors</p>
+<div class="highlight"><pre>File downloaded successfully
+dfu-util: Error during download get_status
+
+Error writing firmware...dfu-util: Invalid DFU suffix signature
+dfu-util: A valid DFU suffix will be required in a future dfu-util
+release!!!
+
+dfu-util: Error during download get_status
+</pre></div>
+
+
+<p>don&#8217;t necessarily worry. The &#8220;<code>File downloaded successfully</code>&#8221; part is
+the good bit, and the other errors are bugs in the code uploader.</p>
+<h3 id="flashing-magenta">Flashing magenta</h3>
+<p>If you end up with a problem where your Photon doesn&#8217;t seem to want to
+take the code, and every time you flash it reboots and just blinks
+magenta (purple), try this:</p>
+<ol>
+<li>Put the Photon into DFU mode (flashing yellow)</li>
+<li>Run <code>particle update</code></li>
+<li>Try again</li>
+</ol>
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>If you&#8217;re running Linux, you can get instructions
+<a href="https://github.com/spark/spark-dev#linux">here</a>.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Meaning to put the code you wrote on your Photon.&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Handy tip: on Mac, you can drag the folder from the Finder into your
+Terminal window and it will put in the path for you!&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>&#8220;Device Firmware Update&#8221;&#8211;find an animated gif of the procedure
+<a href="https://docs.particle.io/guide/getting-started/modes/photon/#dfu-mode-device-firmware-upgrade-">here</a>&#160;<a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+</div>
+<div class='col-xs-3 col-right sidebar'>
+	<h3>Important dates</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aug 25</td>
+<td>Class starts</td>
+</tr>
+<tr>
+<td>Sep 3</td>
+<td>Class in ORN-1385</td>
+</tr>
+<tr>
+<td>Oct 13</td>
+<td>Classes on Monday schedule</td>
+</tr>
+<tr>
+<td>Nov 10</td>
+<td>Dr. Ashbrook at <a href="http://acm.org/uist">UIST</a></td>
+</tr>
+<tr>
+<td></td>
+<td>No class: work day</td>
+</tr>
+<tr>
+<td>Nov 12</td>
+<td>Guest lecture</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+<h3>Assignments</h3>
+<p><em>All assignments are due at 1:59 pm on the due date.</em></p>
+<table>
+<thead>
+<tr>
+<th>Assigned</th>
+<th>Due</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Wed, Aug 26</td>
+<td><a href="https://docs.google.com/forms/d/1TG3gzmcLktQi2kpWAWmJ77d5N1KAboQTLbTK-IGLj_4/viewform">Survey</a></td>
+</tr>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Thu, Aug 27</td>
+<td><a href="a1setup.html">IA 1 Set up</a></td>
+</tr>
+<tr>
+<td>Thu, Aug 27</td>
+<td>Tue, Sep 8</td>
+<td><a href="assignment1.html">IA 1</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 8</td>
+<td>Thu, Sep 10</td>
+<td><a href="a2setup.html">IA 2 Set up</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 10</td>
+<td>Tue, Sep 22</td>
+<td><a href="assignment2.html">IA 2</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 29</td>
+<td>Thu, Oct 15</td>
+<td><a href="assignment3.html">IA 3</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 1</td>
+<td>Thu, Oct 8</td>
+<td><a href="extracredit1.html">EC 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html">GP 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html#extracredit2">EC 2</a></td>
+</tr>
+<tr>
+<td>Thu, Nov 5</td>
+<td>Thu, Nov 11</td>
+<td>FP prop.</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 8</td>
+<td>FP demo</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 15</td>
+<td>FP writeup</td>
+</tr>
+</tbody>
+</table>
+<p><em>(IA: Individual Assignment; GP: Group Project; EC: Extra Credit; FP:
+Final Project; prop.: proposal)</em></p>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+  <head>
+			<meta charset="UTF-8">
+			<title>HCIN 720: Assignment 3</title>
+			<script src="/js/jquery-1.11.3.min.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
+			<script src="/js/bib-list-min.js"></script>
+			<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/css/pygments.css" rel="stylesheet" type="text/css">
+			<link href="/fonts/fonts.css" rel="stylesheet" type="text/css">
+			<link href="/css/style.css" rel="stylesheet" type="text/css">
+			<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/files/720/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/files/720/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/files/720/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/files/720/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/files/720/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/files/720/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/files/720/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/files/720/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/files/720/icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/files/720/icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/files/720/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/files/720/icons/manifest.json">
+<link rel="shortcut icon" href="/files/720/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/files/720/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/files/720/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+
+  <body style="height:100%">
+    <div class="container" style="height:100%">
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1 class="sitetitle"><span class="fa fa-cloud"></span>
+			<a class="noformat" href="index.html">HCIN
+				720: Designing UX for Internet-Enabled Devices</a></h1> </div>
+</div>
+
+			<div class="row" style="height:100%">
+
+	<div class="col-xs-3 col-left sidebar">
+		<h3>Course Info</h3>
+<p><p class="smaller">
+    <div class='wrapline'>Tu/Th 2:00-3:15 pm</div>
+    <div class='wrapline'>Locations: GOL-3560 and
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a> (when announced)</div>
+    <div class='wrapline'>Office hours: Thu 3:30-5:00 pm,
+        <a href="https://goo.gl/maps/4hvRG">ORN-1385</a></div>
+    <div class='wrapline'><a href="using_slack.html">Slack</a> for discussion,
+    questions, help, and announcements.</div>
+</p></p>
+<hr>
+
+<h3>Links</h3>
+<ul>
+<li><span class="fa fa-fw fa-file-o"></span><a href="index.html">Course overview</a></li>
+<li><span class="fa fa-fw fa-file-pdf-o"></span><a href="/files/720/syllabus-v2.pdf">Syllabus</a></li>
+<li><span class="fa fa-fw fa-calendar"></span><a href="https://www.google.com/calendar/embed?src=fka1qfv64r69a6a72hqk6u3ai4%40group.calendar.google.com&amp;ctz=America/New_York">Class
+    calendar</a></li>
+<li><span class="fa fa-fw fa-file-o"></span><a href="intro_to_js.html">Intro to
+    Javascript</a></li>
+</ul>
+<hr>
+
+<h3>Readings</h3>
+<p><em>Dates refer to when we will discuss the paper in class.</em></p>
+<ul>
+<li>Thu, Oct 15: <a href="/files/720/The Coming Age of Calm Computing.pdf">The Coming Age of Calm Computing</a>,
+    <a href="/files/720/Heuristic Evaluation of Ambient Displays.pdf">Heuristic Evaluation of Ambient Displays</a> </li>
+<li>Tue, Sep 15: <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7030240">Enabling the Internet of
+    Things</a></li>
+<li>Tue, Sep 8: <a href="ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6127852">Informing the design of proxemic
+    interactions</a></li>
+<li>Tue, Sep 1: <a href="/files/720/Scientific American 1991 Weiser.pdf">The Computer for the 21st
+    Century</a></li>
+</ul>
+<h3>Slides</h3>
+<ul>
+<li><a href="/files/720/slides/HCIN720-01.pdf">Tue, Aug 25</a></li>
+<li><a href="/files/720/slides/HCIN720-02.pdf">Thu, Aug 27</a></li>
+<li><a href="/files/720/slides/HCIN720-03.pdf">Tue, Sep 1</a></li>
+<li><a href="/files/720/slides/HCIN720-04.pdf">Tue, Sep 8</a></li>
+<li><a href="/files/720/slides/HCIN720-05.pdf">Thu, Sep 10</a></li>
+<li><a href="class7-electronics.html">Tue, Sep 15</a></li>
+<li><a href="/files/720/slides/HCIN720-07.pdf">Tue, Sep 29</a></li>
+<li><a href="/files/720/slides/HCIN720-08.pdf">Tue, Oct 6</a></li>
+<li><a href="/files/720/slides/HCIN720-09.pdf">Thu, Oct 15</a></li>
+<li><a href="/files/720/slides/HCIN720-10.pdf">Tue, Oct 20</a></li>
+<li><a href="/files/720/slides/HCIN720-11.pdf">Thu, Oct 22</a></li>
+</ul>
+	</div>
+
+<div class='col-xs-6 center-content' style='height:100%'>
+	<h1>Assignment 3</h1>
+	<h2 id="introduction">Introduction</h2>
+<p>In <a href="assignment1.html">Assignment 1</a>, you learned about online data and
+visualizations. In <a href="assignment2.html">Assignment 2</a>, you took your
+skills further and incorporated some hardware for some basic
+interaction. Now in this assignment, you&#8217;ll take the final step in
+your basic learning and look at how to create an appealing enclosure
+for your work.</p>
+<h2 id="goals">Goals</h2>
+<p>The main goal for this assignment is to become comfortable with
+designing for 3D printing and laser cutting and to learn how to use
+the equipment. The learning goals for this assignment are as follows:</p>
+<ul>
+<li>Learn how to use <a href="https://tinkercad.com">TinkerCAD</a> for 3D modeling</li>
+<li>Learn how to evaluate the printability of 3D models</li>
+<li>Learn how to use a 3D printer</li>
+<li>Learn how to use <a href="http://inkscape.org">Inkscape</a> or Adobe Illustrator
+    for 2D design for laser cutting</li>
+<li>Learn how to use the laser cutter</li>
+<li>Learn how to measure existing objects and incorporate those
+    measurements into models</li>
+</ul>
+<h2 id="what-to-do">What to do</h2>
+<h3 id="c-level-work">C-level work</h3>
+<p>Design and fabricate a case for your electronics for IA 2. Do this via
+either 3D printing or laser cutting. It should enclose the components
+and expose the interaction elements (and you may want to include a way
+to easily get to the buttons).</p>
+<h3 id="b-level-work">B-level work</h3>
+<p>Do the C-level work; then do it again for the other fabrication
+method. That is, if you made a case with the laser cutter, make
+another one on the 3D printer; if you made one on the 3D printer, make
+another with the laser cutter. Alternately, make a single case that
+combines in some interesting way elements from both the laser cutter
+and the 3D printer.</p>
+<p>Make <em>one</em> of your cases work with an
+existing physical object in the environment. For example, you might
+add a part to your model to allow your Photon to attach to a light
+switch cover.</p>
+<h3 id="a-level-work">A-level work</h3>
+<p>Do the B-level work. On <em>one</em> of the cases, incorporate into your case
+an extra input or output element <strong>not previously existing</strong> in your IA 2
+project. For example, add a servo for motion or an LED for output.
+Some part of the case must be involved in the I/O mechanism:
+a servo might move some piece, an LED could 
+<a href="https://www.google.com/search?q=laser+etch+side+light&amp;tbm=isch">side light</a>
+something.</p>
+<h2 id="deliverables">Deliverables</h2>
+<p>You&#8217;ll turn in your model files via your Github repository. Along with your
+files, upload a Readme.md file, which Github will then display with
+your repository. Include a description of your case, the techniques
+you used, and any special features (in the case of A-level). Also
+include a photo or a short video.</p>
+<p>You will also show your work in class.</p>
+<h2 id="setup-and-learning">Setup and learning</h2>
+<h3 id="laser-cutting">Laser cutting</h3>
+<p>Install <a href="http://inkscape.org">Inkscape</a> or use a lab machine with Adobe
+Illustrator on it. If you have another 2D design program you really
+like, you are welcome to use it instead.</p>
+<h4 id="inkscape">Inkscape</h4>
+<ol>
+<li>Create a new document</li>
+<li>Go to File -&gt; Document Properties</li>
+<li>Under the Page tab, change Default units to &#8220;in&#8221;</li>
+<li>Under &#8220;Custom Size&#8221; on the Page tab, change Units to &#8220;in&#8221;, Width to
+   32 and height to 18</li>
+<li>Close the Document Properties window</li>
+<li>In the toolbar, find the set of icons that look like
+     <img src="/files/720/inkscape-scale1.png" width="100px">.
+     Click the leftmost icon to turn it off, so it looks like
+     <img src="/files/720/inkscape-scale1.png" width="100px">.
+     This operation disables the defaul behavior of scaling the width of
+     an object&#8217;s line when you change the size of the object.</li>
+</ol>
+<h4 id="illustrator">Illustrator</h4>
+<ol>
+<li>Go to File -&gt; New</li>
+<li>In the New Document window, change the Units to &#8220;Inches&#8221;, Width to
+     32 in and Height to 18 in</li>
+<li>Open the Advanced area</li>
+<li>Change Color Mode to RGB</li>
+</ol>
+<h4 id="selecting-cut-vs-raster">Selecting cut vs raster</h4>
+<p>The laser cutter works via a print driver. This is good, because it
+means that you don&#8217;t have to use a particular program. This is bad,
+because you have to set strange settings in your programs.</p>
+<p>The laser cutter&#8217;s default behavior is to raster, or engrave. Even
+vectorized lines will be in raster mode by default. For every line in
+your design that you want to cut rather than raster, you must do two
+things.</p>
+<ol>
+<li>First, you must set the line color to 100% red. It must be
+     exactly RGB (255, 0, 0). This is why in Illustrator you must set the
+     color mode to RGB instead of CMYK.</li>
+<li>Second, you must set the line to be equal to or less than 1,000th
+     of an inch thick, or &lt;= .001 inches. </li>
+</ol>
+<p>When the laser cutter gets a line that looks like this, then it will
+cut it with the power level you instruct in the print control panel.</p>
+<h3 id="3d-printing">3D printing</h3>
+<p>Visit <a href="https://tinkercad.com">TinkerCAD</a> and create an account (or
+login with your existing Autodesk account). If you have another 3D
+modeling program you like that can export STL files, you are welcome
+to use it.</p>
+<h2 id="resources">Resources</h2>
+<p>Here are some useful links:</p>
+<ul>
+<li>A <a href="http://www.saic.edu/media/saic/pdfs/campusresources/instructionalshops/aoc_laserguide.pdf">good guide</a>
+    for using a laser cutter very similar to ours.</li>
+<li><a href="https://trello-attachments.s3.amazonaws.com/558cae29a54e147c3dd34942/55a9499af759d51516da6cbb/f3577a243608f44135922920b535b445/VLS_Platform_User_Guide.pdf">The manual for the laser cutter in the FETLab</a>.</li>
+<li>My <a href="https://trello.com/b/JuxwmQhn/tips">Tips Trello board</a> with more
+    useful links for laser cutting and 3D printing.</li>
+</ul>
+<p>There are many, many, many other sources of information for laser cutting
+and 3D printing. Here are a few:</p>
+<ul>
+<li><a href="http://support.ponoko.com/forums/345641-Laser-Cutting-Tutorials-Tips">Laser Cutting Tutorials Tips</a></li>
+<li><a href="http://support.ponoko.com/entries/20235788-So-you-ve-opened-Inkscape-for-the-first-time-ever">So you&#8217;ve opened Inkscape for the first time ever</a></li>
+</ul>
+</div>
+<div class='col-xs-3 col-right sidebar'>
+	<h3>Important dates</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aug 25</td>
+<td>Class starts</td>
+</tr>
+<tr>
+<td>Sep 3</td>
+<td>Class in ORN-1385</td>
+</tr>
+<tr>
+<td>Oct 13</td>
+<td>Classes on Monday schedule</td>
+</tr>
+<tr>
+<td>Nov 10</td>
+<td>Dr. Ashbrook at <a href="http://acm.org/uist">UIST</a></td>
+</tr>
+<tr>
+<td></td>
+<td>No class: work day</td>
+</tr>
+<tr>
+<td>Nov 12</td>
+<td>Guest lecture</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+<h3>Assignments</h3>
+<p><em>All assignments are due at 1:59 pm on the due date.</em></p>
+<table>
+<thead>
+<tr>
+<th>Assigned</th>
+<th>Due</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Wed, Aug 26</td>
+<td><a href="https://docs.google.com/forms/d/1TG3gzmcLktQi2kpWAWmJ77d5N1KAboQTLbTK-IGLj_4/viewform">Survey</a></td>
+</tr>
+<tr>
+<td>Tue, Aug 25</td>
+<td>Thu, Aug 27</td>
+<td><a href="a1setup.html">IA 1 Set up</a></td>
+</tr>
+<tr>
+<td>Thu, Aug 27</td>
+<td>Tue, Sep 8</td>
+<td><a href="assignment1.html">IA 1</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 8</td>
+<td>Thu, Sep 10</td>
+<td><a href="a2setup.html">IA 2 Set up</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 10</td>
+<td>Tue, Sep 22</td>
+<td><a href="assignment2.html">IA 2</a></td>
+</tr>
+<tr>
+<td>Tue, Sep 29</td>
+<td>Thu, Oct 15</td>
+<td><a href="assignment3.html">IA 3</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 1</td>
+<td>Thu, Oct 8</td>
+<td><a href="extracredit1.html">EC 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html">GP 1</a></td>
+</tr>
+<tr>
+<td>Thu, Oct 15</td>
+<td>Thu, Nov 11</td>
+<td><a href="group_project1.html#extracredit2">EC 2</a></td>
+</tr>
+<tr>
+<td>Thu, Nov 5</td>
+<td>Thu, Nov 11</td>
+<td>FP prop.</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 8</td>
+<td>FP demo</td>
+</tr>
+<tr>
+<td>Thu, Nov 11</td>
+<td>Tue, Dec 15</td>
+<td>FP writeup</td>
+</tr>
+</tbody>
+</table>
+<p><em>(IA: Individual Assignment; GP: Group Project; EC: Extra Credit; FP:
+Final Project; prop.: proposal)</em></p>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script>
+			$.ajax({
+					url: "https://data.sparkfun.com/output/YGV3jNvQMjh2G4oOLwdx.json",
+					dataType: "jsonp",
+					data: {page: 1},
+					success: function( response ) {
+							$('#results').text(JSON.stringify(response[0])); // server response
+					}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="hello">
+			Hello
+		</div>
+		<pre id="results">
+		</pre>
+	</body>
+</html>

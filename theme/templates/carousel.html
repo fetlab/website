@@ -1,4 +1,4 @@
-<section id="_carousel" class="_carousel">
+<section id="{{ catname | replace(' ', '-') }}" class="carousel">
 	<div class="container">
 		<h2>{{ catname[1 if catname[0] == '_' else 0:] | title }}</h2>
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

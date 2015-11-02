@@ -1,0 +1,53 @@
+{% for category, articles in categories if category.name == catname %}
+	<section id="{{ catname | replace(' ', '-') }}">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>{{ catname | title }}</h2>
+					<hr class="fa primary">
+				</div>
+			</div>
+			<div class="row">
+				{% for article in articles | sortby('role', PEOPLE_CAT_SORT) %}
+					<div class="col-sm-6 portfolio-item">
+						<table class="table table-condensed">
+							<tr>
+								<td class="img">
+									<img class="img-responsive img-circle" src="/{{ catname }}/{{ article.image }}">
+								</td>
+								<td class="desc">
+									{{ article.content }}
+									<div class="icons">
+										{% if article.homepage %}
+											<a href="{{article.homepage}}">
+												<span class="fa-stack fa-lg">
+													<span class="fa fa-circle fa-stack-2x"></span>
+													<span class="fa fa-home fa-stack-1x fa-inverse"></span>
+												</span></a>
+										{% endif %}
+										{% if article.twitter %}
+											<a href="http://twitter.com/{{article.twitter}}">
+												<span class="fa-stack fa-lg">
+													<span class="fa fa-circle fa-stack-2x"></span>
+													<span class="fa fa-twitter fa-stack-1x fa-inverse"></span>
+												</span></a>
+										{% endif %}
+										{% if article.scholar %}
+											<a href="{{article.scholar}}">
+												<span class="fa-stack fa-lg">
+													<span class="fa fa-circle fa-stack-2x"></span>
+													<span class="fa fa-graduation-cap fa-stack-1x fa-inverse"></span>
+												</span></a>
+										{% endif %}
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endfor %}
+
+{% include 'modal.html' %}

@@ -1,6 +1,6 @@
 Title: Alan J Lambie
 date: 2015-11-02
-image: 
+image: alan.jpg
 role: phd
 homepage: http://alanjohnlambie.com
 

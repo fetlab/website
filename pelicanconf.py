@@ -74,8 +74,9 @@ def sortby(items, attribute, sortlist):
 	where attribute is the attribute of each item in the list to sort by
 	and sortlist is a list of possible values of that attribute sort, in
 	the order for them to be sorted by."""
-	ag = operator.attrgetter(attribute)
-	return sorted(items, key=lambda x:sortlist.index(ag(x)))
+	ag = lambda a: a.__getattribute__(attribute).lower()
+	sl = [s.lower() for s in sortlist]
+	return sorted(items, key=lambda x:sl.index(ag(x)))
 
 JINJA_EXTENSIONS = ['jinja2.ext.with_']
 

@@ -7,8 +7,10 @@
 					<hr class="fa primary">
 				</div>
 			</div>
-			<div class="row">
-				{% for article in articles | sortby('role', PEOPLE_CAT_SORT) %}
+			{% for article in articles | sortby('role', PEOPLE_CAT_SORT) %}
+				{% if loop.index0 % 2 == 0 %}
+					<div class="row">
+				{% endif %}
 					<div class="col-sm-6 portfolio-item">
 						<table class="table table-condensed">
 							<tr>
@@ -46,8 +48,10 @@
 							</tr>
 						</table>
 					</div>
-				{% endfor %}
-			</div>
+				{% if loop.index0 % 2 == 1 %}
+					</div>
+				{% endif %}
+			{% endfor %}
 		</div>
 	</section>
 {% endfor %}

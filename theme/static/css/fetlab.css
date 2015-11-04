@@ -141,7 +141,7 @@ hr.fa
 	line-height: inherit;
 }
 
-#people td {vertical-align: middle}
+#people td {vertical-align: top}
 #people td.desc p {font-size: 18px}
 #people .icons
 {

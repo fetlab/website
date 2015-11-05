@@ -4,6 +4,7 @@ image: dhwanit.jpg
 role: Masters
 homepage: http://people.rit.edu/dmm8396
 twitter: im_batman_007
+cv: dhwanit_mehta_cv.pdf
 
 **Dhwanit Mehta** is a graduate student in Human-Computer Interaction
 at RIT. His current interest lies in design, development and research

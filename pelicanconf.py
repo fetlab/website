@@ -97,7 +97,7 @@ CONTENT_ORDERED = [
 ]
 
 #Determines sort order for people
-PEOPLE_CAT_SORT = [ 'dan', 'phd', 'masters', 'undergrad' ]
+PEOPLE_CAT_SORT = [ 'dan', 'phd', 'masters', 'undergrad', 'alum' ]
 
 LOGO_IMG = "/images/fetlab_logotype.svg"
 

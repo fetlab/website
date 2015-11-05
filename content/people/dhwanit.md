@@ -5,4 +5,6 @@ role: Masters
 homepage: http://people.rit.edu/dmm8396
 twitter: im_batman_007
 
-**Dhwanit Mehta** is a graduate student in Human-Computer Interaction at RIT. His current interest lies in Design, Development and Research Related to User Experience Design
+**Dhwanit Mehta** is a graduate student in Human-Computer Interaction
+at RIT. His current interest lies in design, development and research
+related to user experience design.

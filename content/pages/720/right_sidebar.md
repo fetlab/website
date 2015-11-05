@@ -24,11 +24,11 @@ Tue, Sep 8  | Thu, Sep 10 | [IA 2 Set up](a2setup.html)
 Tue, Sep 10 | Tue, Sep 22 | [IA 2](assignment2.html)
 Tue, Sep 29 | Thu, Oct 15 | [IA 3](assignment3.html)
 Thu, Oct 1  | Thu, Oct 8  | [EC 1](extracredit1.html)
-Thu, Oct 15 | Thu, Nov 11 | [GP 1](group_project1.html)
-Thu, Oct 15 | Thu, Nov 11 | [EC 2](group_project1.html#extracredit2)
-Thu, Nov 5  | Thu, Nov 11 | FP prop.
-Thu, Nov 11 | Tue, Dec 8  | FP demo
-Thu, Nov 11 | Tue, Dec 15 | FP writeup
+Thu, Oct 15 | Thu, Nov 12 | [GP 1](group_project1.html)
+Thu, Oct 15 | Thu, Nov 12 | [EC 2](group_project1.html#extracredit2)
+Thu, Nov 5  | Thu, Nov 12 | [FP prop.](final_project.html)
+Thu, Nov 12 | Tue, Dec 8  | [FP demo](final_project.html)
+Thu, Nov 12 | Tue, Dec 15 | [FP writeup](final_project.html)
 
 _(IA: Individual Assignment; GP: Group Project; EC: Extra Credit; FP:
 Final Project; prop.: proposal)_

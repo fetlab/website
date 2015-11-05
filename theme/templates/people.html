@@ -43,6 +43,16 @@
 													<span class="fa fa-graduation-cap fa-stack-1x fa-inverse"></span>
 												</span></a>
 										{% endif %}
+										{% if article.cv %}
+											<a href="/{{catname}}/{{article.cv}}">
+												<span class="fa-stack fa-lg">
+													<span class="fa fa-circle fa-stack-2x"></span>
+													<span class="fa fa-file-o fa-stack-1x
+														fa-inverse"></span>
+													<strong style="font-size: 40%; margin-top: .45em;"
+														class="fa-stack-1x fa-stack-text fa-inverse">CV</span>
+											</span></a>
+										{% endif %}
 									</div>
 								</td>
 							</tr>

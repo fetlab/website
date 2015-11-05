@@ -44,7 +44,11 @@
 												</span></a>
 										{% endif %}
 										{% if article.cv %}
-											<a href="/{{catname}}/{{article.cv}}">
+											{% if article.cv[:4] == 'http' %}
+												<a href="{{article.cv}}">
+											{% else %}
+													<a href="/{{catname}}/{{article.cv}}">
+											{% endif %}
 												<span class="fa-stack fa-lg">
 													<span class="fa fa-circle fa-stack-2x"></span>
 													<span class="fa fa-file-o fa-stack-1x

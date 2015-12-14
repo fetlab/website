@@ -1,0 +1,7 @@
+ul, .sidebar ul
+{
+	list-style-type: circle;
+	text-indent: 0;
+	margin-left: 1em;
+}
+

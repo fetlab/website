@@ -1,0 +1,43 @@
+{% extends "dan.html" %}
+{% block head %}
+{{ super() }}
+	<link href='/theme/css/fullcalendar.css' rel='stylesheet' type='text/css'>
+	<script src='/theme/js/moment.min.js'></script>
+	<script src='/theme/js/fullcalendar.min.js'></script>
+	<script src='/theme/js/fullcalendar-gcal.js'></script>
+	<script>
+		$(function()
+		{
+			$('#calendar').fullCalendar(
+			{
+				googleCalendarApiKey: 'AIzaSyAIjl606tmYadx3n0VhnsK_NSzBqves1_8',
+				eventSources:
+				[
+					{googleCalendarId: 'anjiro@gmail.com'},
+					{
+						googleCalendarId: '4lgn7tsqatstoc036vj4hiro90@group.calendar.google.com',
+						className: 'public',
+					},
+				],
+				header:
+				{
+					left: 'prev,next today',
+					center: 'title',
+					right: 'month,agendaWeek,agendaDay',
+				},
+				defaultView: 'agendaWeek',
+				eventColor: '#2a6496',
+				scrollTime: '08:30:00',
+			});
+		});
+	</script>
+{% endblock %}
+
+{% block content %}
+<div class="col-xs-9" style="height:100%">
+	<div id='calendar'></div>
+</div>
+{% endblock %}
+
+{% block sidebar_right %}
+{% endblock %}

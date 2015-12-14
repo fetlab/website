@@ -33,7 +33,7 @@
 </div>
 {% endblock %}
 
-{% block sidebar %}
+{% block sidebar_left %}
 	<div class="col-xs-3 col-left sidebar">
 		{{ 'content/pages/720/left_sidebar.md' | includemd }}
 	</div>
@@ -44,6 +44,9 @@
 	<h1>{{ page.title }}</h1>
 	{{ page.content }}
 </div>
+{% endblock %}
+
+{% block sidebar_right %}
 <div class='col-xs-3 col-right sidebar'>
 	{{ 'content/pages/720/right_sidebar.md' | includemd }}
 </div>

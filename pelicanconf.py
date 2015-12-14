@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from markdown import Markdown
+from fontawesome_markdown import FontAwesomeExtension
 import re, os, sys, operator
 
 AUTHOR       = u'Future Everyday Technology Research Lab'
@@ -22,6 +23,7 @@ ARTICLE_EXCLUDES = STATIC_PATHS
 PAGE_EXCLUDES = ARTICLE_EXCLUDES
 MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'smartypants',
 	'toc(title=Table of Contents)']
+ARTICLE_ORDER_BY = 'date'
 
 
 # Feed generation is usually not desired when developing
@@ -76,7 +78,8 @@ def sortby(items, attribute, sortlist):
 	the order for them to be sorted by."""
 	ag = lambda a: a.__getattribute__(attribute).lower()
 	sl = [s.lower() for s in sortlist]
-	return sorted(items, key=lambda x:sl.index(ag(x)))
+	return sorted(items, key=lambda x:(sl.index(ag(x)) if ag(x) in sl
+			else len(sl)+1, x.title))
 
 JINJA_EXTENSIONS = ['jinja2.ext.with_']
 
@@ -92,6 +95,7 @@ JINJA_FILTERS = {
 CONTENT_ORDERED = [
 	('welcome',           'category.html'),
 	# ('featured projects', 'carousel.html'),
+	('research',          'category.html'),
 	('people',            'people.html'),
 	('publications',      'catlist.html'),
 ]
@@ -101,4 +105,4 @@ PEOPLE_CAT_SORT = [ 'dan', 'phd', 'masters', 'undergrad', 'alum' ]
 
 LOGO_IMG = "/images/fetlab_logotype.svg"
 
-LOCATION = u'Room 1385, Orange Hall Rochester Institute of Technology Rochester, NY 14623'
+LOCATION = u'Room 1385, Orange Hall<br>Rochester Institute of Technology<br>Rochester, NY 14623'

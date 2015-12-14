@@ -2839,7 +2839,7 @@ var bibtexify = (function($) {
         if (options.visualization) {
             $pubTable.before('<div id="' + bibElemId + 'pubchart" class="bibchart"></div>');
         }
-        var $bibSrc = $(bibsrc);
+        var $bibSrc = '';  //$(bibsrc);
         if ($bibSrc.length) { // we found an element, use its HTML as bibtex
             new Bib2HTML($bibSrc.html(), $pubTable, options);
             $bibSrc.hide();

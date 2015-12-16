@@ -8,6 +8,8 @@ Oct 13 | Classes on Monday schedule
 Nov 10 | Dr. Ashbrook at [UIST](http://acm.org/uist)
        | No class: work day
 Nov 12 | Guest lecture
+Dec 10 | Dr. Ashbrook at CHI PC meeting
+       | No class, no office hours: work day
 
 <hr>
 
@@ -26,9 +28,9 @@ Tue, Sep 29 | Thu, Oct 15 | [IA 3](assignment3.html)
 Thu, Oct 1  | Thu, Oct 8  | [EC 1](extracredit1.html)
 Thu, Oct 15 | Thu, Nov 12 | [GP 1](group_project1.html)
 Thu, Oct 15 | Thu, Nov 12 | [EC 2](group_project1.html#extracredit2)
-Thu, Nov 5  | Thu, Nov 12 | [FP prop.](final_project.html)
-Thu, Nov 12 | Tue, Dec 8  | [FP demo](final_project.html)
-Thu, Nov 12 | Tue, Dec 15 | [FP writeup](final_project.html)
+Thu, Nov 5  | Thu, Nov 19 | [FP prop.](final_project.html)
+Thu, Nov 19 | Tue, Dec 15 | [FP demo](final_project.html)
+Thu, Nov 19 | Tue, Dec 15 | [FP writeup](final_project.html)
 
 _(IA: Individual Assignment; GP: Group Project; EC: Extra Credit; FP:
 Final Project; prop.: proposal)_

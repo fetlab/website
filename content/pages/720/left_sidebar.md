@@ -13,7 +13,7 @@
 
 ###Links
 - <span class="fa fa-fw fa-file-o"></span>[Course overview](index.html)
-- <span class="fa fa-fw fa-file-pdf-o"></span>[Syllabus](/files/720/syllabus-v2.pdf)
+- <span class="fa fa-fw fa-file-pdf-o"></span>[Syllabus](/files/720/syllabus-v3.pdf)
 - <span class="fa fa-fw fa-calendar"></span>[Class
 	calendar](https://www.google.com/calendar/embed?src=fka1qfv64r69a6a72hqk6u3ai4%40group.calendar.google.com&ctz=America/New_York)
 - <span class="fa fa-fw fa-file-o"></span>[Intro to
@@ -45,3 +45,6 @@ _Dates refer to when we will discuss the paper in class._
 - [Thu, Oct 15](/files/720/slides/HCIN720-09.pdf)
 - [Tue, Oct 20](/files/720/slides/HCIN720-10.pdf)
 - [Thu, Oct 22](/files/720/slides/HCIN720-11.pdf)
+
+###Helpful notes
+- [Principles](principles.html)

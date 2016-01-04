@@ -14,6 +14,9 @@ several parts:
 - Advice for [potential capstone students](#capstone)
 - Information specifically for [potential PhD students](#phd)
 
+Also please have a look at the [webpage for my lab](/), which will
+give you an idea of the kinds of research projects we work on.
+
 <a name="all_students"></a>
 ###For all potential students
 ####Interest in Research Required
@@ -77,9 +80,9 @@ one or more and have a willingness to learn quickly about others.
 	worked with depth cameras, object segmentation, or tracking?
 - **HCI:** the basis of everything I do is a desire to improve
 	people's experiences with technology. Can you design and conduct a
-	user study, write a and administrer questionnaire, or interview
-	people about their experiences? Can you work in grounded theory or
-	ethnography?
+	user study, write and administer questionnaire, or interview
+	people about their experiences? Are you majoring in sociology or
+	anthropology? Can you work in grounded theory or ethnography?
 - **Software development:** most, but not all, of my projects involve
 	software development. Currently, our work involves some or all of
 	Android, Arduino, iOS, Javascript, OpenGL, and Windows programming.
@@ -89,12 +92,12 @@ When you get ready to contact me, it will be very helpful for you
 to do several things:
 
 First, I'll want to know why you want to
-work with me in particuar rather than any of the other fine faculty
+work with me in particular rather than any of the other fine faculty
 at RIT. You can help by including this information in your email to
 me. The more details the better! Rather than simply, "I like that
 you do HCI," look through my [research and
 publications](index.html#research) and see what work that I've done is
-particulary appealing to you.
+particular appealing to you.
 
 Another useful piece of information you can include when you contact
 me is what kind of work you'd like to do&mdash;if you know; if you
@@ -151,12 +154,12 @@ advisors, send me an email. Include the things above, but please
 also give me some context about why you're interested in switching.
 
 If you're thinking about applying to the PhD program at RIT, great!
-Check out [my main page](index.html) which I will keep
-updated with information about whether I'm currently recruiting PhD
-students. If I am, please go ahead and contact me. In this case,
-it's incredibly important to include as much context as you can, as
-outlined above: why you want to work with me, what kind of work
-you'd like to do, your previous experience and portfolio, and so on. 
+Please go ahead and contact me; it's incredibly important to include
+as much context as you can, as outlined above: why you want to work
+with me, what kind of work you'd like to do, your previous experience
+and portfolio, and so on. Also I'd like to know why you want to get a
+PhD, what you hope to get out of the process itself, and any other
+information specific to the process.
 
 Do note that I can't admit PhD students directly; however, you can
 find more information and apply online at

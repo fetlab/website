@@ -47,7 +47,7 @@ a, a:hover, a:focus, a:active, a.active
 {
     text-align: center;
     color: #fff;
-    background: #4ec9f4;
+    /*background: #4ec9f4;*/
 }
 
 .carousel img
@@ -80,6 +80,13 @@ a, a:hover, a:focus, a:active, a.active
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+}
+
+.carousel h3
+{
+	font-weight: initial;
+	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: initial;
 }
 
 .logo { width: 178px }

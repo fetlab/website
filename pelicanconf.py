@@ -43,7 +43,7 @@ THEME = 'theme'
 
 #Custom Markdown Jinja2 filters
 markdown = Markdown(extensions=['markdown.extensions.extra',
-	'markdown.extensions.codehilite'])
+	'markdown.extensions.codehilite', 'markdown.extensions.smarty'])
 
 def includefile(filename, *args):
 	print "includefile(%s)" % os.path.join(os.getcwd(), filename)
@@ -91,10 +91,11 @@ JINJA_FILTERS = {
 }
 
 #Determines the order that content appears on the page. Tuples are
-# (directory_name, template_file).
+# (directory_name, template_file). If a directory_name starts with
+# '_', it won't be included in the navbar.
 CONTENT_ORDERED = [
 	('welcome',           'category.html'),
-	# ('featured projects', 'carousel.html'),
+	('_featured images',   'carousel.html'),
 	('research',          'category.html'),
 	('people',            'people.html'),
 	('publications',      'catlist.html'),

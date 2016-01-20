@@ -13,3 +13,8 @@ or robotics.
 
 See [this page](/dan/prospective_students.html) for more information
 on working with the FETLab.
+
+####Tenure-track faculty hiring
+The Information Sciences and Technologies department is hiring in HCI!
+See [this page](/dan/faculty_search.html) for more information and to
+find the link to apply.

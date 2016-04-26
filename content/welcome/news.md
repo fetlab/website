@@ -1,6 +1,12 @@
 Title: News
 Date: 2015-11-06
 
+####New publication
+Our paper, [Towards Augmented Fabrication: Combining Fabricated
+and Existing Objects](#paper-9), has been accepted as a Late-Breaking
+Results paper for [CHI 2016](http://chi2016.acm.org)!
+
+<!---
 ####Work with us
 The FETLab is recruiting PhD students for Fall 2016! We're currently
 working on a wide variety of projects in the area of improving the
@@ -18,3 +24,4 @@ on working with the FETLab.
 The Information Sciences and Technologies department is hiring in HCI!
 See [this page](/dan/faculty_search.html) for more information and to
 find the link to apply.
+-->

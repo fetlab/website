@@ -12,14 +12,14 @@
 					<table class="table">
 						{% for article in articles %}
 							<tr class="portfolio-item">
-								<td style="vertical-align:middle">
-									<a href="#portfolioModal-{{catname}}{{ loop.index }}"
+								<td style="vertical-align:middle; text-align:center" id="paper-{{ loop.revindex }}">
+									<a href="#portfolioModal-{{catname}}{{ loop.revindex }}"
 										class="portfolio-link" data-toggle="modal">
 										<img src="/{{ catname }}/{{ article.image }}" class="img-responsive">
 									</a>
 								</td>
 								<td style="vertical-align:middle">
-									<a href="#portfolioModal-{{catname}}{{ loop.index }}"
+									<a href="#portfolioModal-{{catname}}{{ loop.revindex }}"
 										class="portfolio-link" data-toggle="modal">
 										{{ article.content }}
 									</a>

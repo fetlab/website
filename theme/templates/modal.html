@@ -1,7 +1,7 @@
 {# This generates the pop-up pages for each item in a gridcat #}
 {% for category, articles in categories if category.name == catname %}
 	{% for article in articles %}
-	<div class="portfolio-modal modal fade" id="portfolioModal-{{catname}}{{loop.index}}"
+	<div class="portfolio-modal modal fade" id="portfolioModal-{{catname}}{{loop.revindex}}"
 			tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-content">
 				<div class="close-modal" data-dismiss="modal">

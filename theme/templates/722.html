@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<link rel="apple-touch-icon" sizes="57x57" href="/files/722/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/files/722/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/files/722/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/files/722/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/files/722/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/files/722/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/files/722/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/files/722/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/files/722/icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/files/722/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/files/722/icons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/files/722/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/files/722/icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/files/722/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/files/722/icons/manifest.json">
+<link rel="shortcut icon" href="/files/722/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/files/722/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/files/722/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<style>
+	a { color: #269800 }
+</style>
+{{ page.extrahead }}
+{% endblock head %}
+{% block title %}HCIN 722: {{ page.title }}{% endblock %}
+{% block toprow %}
+<div class="row">
+	<div class="col-xs-12">
+		<h1 class="sitetitle"><span class="fa fa-mobile" style="font-size: 150%"></span>
+			<a class="noformat" href="index.html">HCIN 722: Mobile HCI</a></h1> </div>
+</div>
+{% endblock %}
+
+{% block sidebar_left %}
+	<div class="col-xs-3 col-left sidebar">
+		{{ 'content/pages/722/left_sidebar.md' | includemd }}
+	</div>
+{% endblock %}
+
+{% block content %}
+<div class='col-xs-6 center-content' style='height:100%'>
+	<h1>{{ page.title }}</h1>
+	<div class="main-content">
+		{{ page.content }}
+	</div>
+	{% if page.assignments %}
+		<div class="assignments">
+			<div class="current">
+				{% for cat, articles in categories if cat.name == '722' %}
+					{% for art in articles | reverse if (art.date | ago) < (24*3600) and
+						not art.hide%}
+						<div class="assignment">
+							<h4>Due {{ art.title }}</h4>
+							{{ art.content }}
+						</div>
+					{% endfor %}
+				{% endfor %}
+			</div>
+
+			<h2>Previously-due assignments and tasks</h2>
+			<div class="expired">
+				{% for cat, articles in categories if cat.name == '722' %}
+				{% for art in articles | reverse if (art.date | ago) >= (24*3600) and
+					not art.hide %}
+						<div class="assignment">
+							<h4>Due {{ art.title }}</h4>
+							{{ art.content }}
+						</div>
+					{% endfor %}
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+</div>
+{% endblock %}
+
+{% block sidebar_right %}
+<div class='col-xs-3 col-right sidebar'>
+	{{ 'content/pages/722/right_sidebar.md' | includemd }}
+</div>
+{% endblock %}

@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from markdown import Markdown
+from datetime import datetime
+import mkdcomments
+comments = mkdcomments.CommentsExtension()
 from fontawesome_markdown import FontAwesomeExtension
-import re, os, sys, operator
+import re, os, sys, operator, pytz
 
 AUTHOR       = u'Future Everyday Technology Research Lab'
 SITENAME     = AUTHOR
@@ -22,7 +25,7 @@ STATIC_PATHS = ['js', 'css', 'fonts', 'images', 'misc', 'files',
 ARTICLE_EXCLUDES = STATIC_PATHS
 PAGE_EXCLUDES = ARTICLE_EXCLUDES
 MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra', 'smartypants',
-	'toc(title=Table of Contents)']
+	'toc(title=Table of Contents)', comments]
 ARTICLE_ORDER_BY = 'date'
 
 
@@ -81,6 +84,12 @@ def sortby(items, attribute, sortlist):
 	return sorted(items, key=lambda x:(sl.index(ag(x)) if ag(x) in sl
 			else len(sl)+1, x.title))
 
+
+def ago(dto, *args):
+	"""Return the number of seconds ago the passed datetime object
+	was."""
+	return (datetime.now(pytz.timezone(TIMEZONE)) - dto).total_seconds()
+
 JINJA_EXTENSIONS = ['jinja2.ext.with_']
 
 JINJA_FILTERS = {
@@ -88,6 +97,7 @@ JINJA_FILTERS = {
 	'includemd':   includemd,
 	'md':          md,
 	'sortby':      sortby,
+	'ago':         ago,
 }
 
 #Determines the order that content appears on the page. Tuples are
@@ -95,10 +105,11 @@ JINJA_FILTERS = {
 # '_', it won't be included in the navbar.
 CONTENT_ORDERED = [
 	('welcome',           'category.html'),
-	('_featured images',   'carousel.html'),
+	('_featured images',  'carousel.html'),
 	('research',          'category.html'),
 	('people',            'people.html'),
 	('publications',      'catlist.html'),
+	('contact',           'category.html'),
 ]
 
 #Determines sort order for people

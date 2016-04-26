@@ -140,8 +140,25 @@ thesis.
 
 **Please note:** I _do not_ accept capstone or thesis
 students mid-semester! If you would like to work with me, I require
-that your capstone proposal be _complete_ before the beginning
-of the semester in which you will be doing the work.
+that your capstone proposal be _complete_ and approved by me before
+the beginning of the semester in which you will be doing the work,
+meaning that you must get the proposal to me _at least_ two weeks
+before the start of the semester so that I will have sufficient time
+to review it.
+
+Here's what a typical capstone timeline should look like:
+
+Weeks | Task
+------|------------------------------------
+-4    | Discuss capstone ideas
+-2    | I review proposal
+-1    | Committee signs off on proposal
+0     | Start of semester, start of work
+1--10 | Work on project, continually update document
+11    | Finish writing capstone document
+13    | Final draft of capstone document
+15    | Final approval of capstone document
+16    | Capstone defense
 
 <a name="phd"></a>
 ###Potential PhD Students

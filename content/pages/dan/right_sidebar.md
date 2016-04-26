@@ -10,7 +10,11 @@ contact me via email and we can arrange a time to meet.
 I travel frequently. When I'm traveling, I may be more difficult than
 usual to reach via email.
 
+- **Jun 23--25:** UIST PC meeting, Seattle, WA
+- **Jun 20--22:** Vacation
+- **Apr 28--30:** Making Assistive Technology Summit, Pittsburgh, PA
 - **May 6--13:** [CHI](http://chi2016.acm.org), San Jose, CA
+- **Apr 3--5:** Washington, DC
 - **Mar 20--26:** Spring Break
 - **Dec 17--29:** Winter Break
 - **Dec 10--13:** CHI PC meeting, San Jose, CA

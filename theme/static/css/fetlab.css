@@ -38,7 +38,7 @@ a, a:hover, a:focus, a:active, a.active
 }
 
 .navbar .navbar-nav > li > a:hover,
-.navbar-defaul .navbar-nav > li > a:focus
+.navbar-default .navbar-nav > li > a:focus
 {
 	color: #fa6900;
 }

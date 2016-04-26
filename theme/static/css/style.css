@@ -2,7 +2,7 @@ body { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif }
 h2,h3,h4,h5,h6 { margin-bottom: 4px }
 h1.sitetitle  { font-size: 36px }
 h1 { font-size: 32px }
-h2 { font-size: 24px }
+h2, .toctitle { font-size: 24px }
 h3 { font-size: 18px }
 h4 { font-size: 16px; font-style: italic }
 
@@ -13,6 +13,8 @@ a.noformat { color: black }
 
 table.travel { font-size: 12px }
 
+table td { padding: 3px 8px }
+
 #pubTable_filter {display: none}
 #pubTable th:first-child + th {display: none}
 #pubTable td:first-child + td {display: none}
@@ -21,6 +23,11 @@ table.travel { font-size: 12px }
 #pubTable .biblink {display: none}
 
 .sidebar ul
+{
+	padding-left: 1em;
+}
+
+.sidebar div.nolist ul
 {
 	list-style-type: none;
 	padding: 0;
@@ -87,6 +94,7 @@ ul { list-style-type: circle }
 .books td { vertical-align: top }
 
 .fa-cloud { color: #4ec9f4 }
+.fa-mobile { color: #32c800 }
 
 .center-content ul { padding-left: 1em }
 

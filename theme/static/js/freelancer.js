@@ -4,9 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+var $root = $('body');
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+/*
 $(function() {
-    $('body').on('click', '.page-scroll a', function(event) {
+    $root.on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 75
@@ -14,10 +17,31 @@ $(function() {
         event.preventDefault();
     });
 });
+$(function()
+{
+	$('a[href*=#]').on('click', function(event)
+	{
+		event.preventDefault();
+		$('html, body').animate(
+			{scrollTop: $(this.hash).offset().top - 75},
+			750, 'easeInOutExpo');
+	});
+});
+*/
+
+$(function(){
+	$('a[href*=#]').on('click', function(event){     
+			event.preventDefault();
+			$('html,body').animate(
+				{scrollTop:$(this.hash).offset().top - 100},
+				750, 'easeInOutExpo');
+	});
+});
+
 
 // Floating label headings for the contact form
 $(function() {
-    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
+    $root.on("input propertychange", ".floating-label-form-group", function(e) {
         $(this).toggleClass("floating-label-form-group-with-value", !! $(e.target).val());
     }).on("focus", ".floating-label-form-group", function() {
         $(this).addClass("floating-label-form-group-with-focus");
@@ -27,9 +51,9 @@ $(function() {
 });
 
 // Highlight the top nav as scrolling occurs
-$('body').scrollspy({
+$root.scrollspy({
     target: '.navbar-fixed-top',
-		offset: 100
+		offset: 100  //Account for offset of navbar
 })
 
 // Closes the Responsive Menu on Menu Item Click

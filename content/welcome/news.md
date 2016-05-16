@@ -1,7 +1,19 @@
 Title: News
 Date: 2015-11-06
 
-####New publication
+####New publication: Bitey
+[Bitey: An Exploration of Tooth Click Gestures for Hands-Free User
+Interface Control](#paper-10), has been accepted as a full paper at
+[MobileHCI 2016](http://mobilehci.acm.org/2016)!
+
+####FETLab featured in ACM XRDS student magazine
+The Future Everyday Technology Research Lab is featured in the Spring
+2016 issue of the ACM student magazine, XRDS, as part of an [article
+about RIT's SIGCHI
+group](http://dl.acm.org/citation.cfm?id=2912126.2893525)
+([PDF](/files/p12-byrd.pdf)).
+
+####New publication: Towards Augmented Fabrication
 Our paper, [Towards Augmented Fabrication: Combining Fabricated
 and Existing Objects](#paper-9), has been accepted as a Late-Breaking
 Results paper for [CHI 2016](http://chi2016.acm.org)!

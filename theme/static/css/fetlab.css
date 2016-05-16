@@ -3,6 +3,9 @@ body
 	font-family: "Junction Light","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+body, header section { background: url("/images/logo_tile.png") }
+.col-md-8, #people { background: white }
+
 footer h3
 {
 	margin-bottom: 15px;

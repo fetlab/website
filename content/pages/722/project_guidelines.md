@@ -155,12 +155,33 @@ Abstract](https://chi2016.acm.org/wp/guide-to-submission-formats/),
 and in the pattern of a research paper such as those we read in class.
 This latter part means that you should not include the milestones
 sections; the paper should essentially be a draft of something that
-could be submitted to a conference such as CHI or MobileHCI.
+could be submitted to a conference such as CHI or MobileHCI. The
+paper must be submitted via Slack, and the video may be submitted
+either via Slack or a link to a YouTube or Vimeo video.
+
+Each team member must also individually turn in (via a Slack Post) a
+self evaluation: a short description of your individual contribution
+to the project, including:
+
+- What percentage of the work you personally did (0--100%)
+- A description of your own work products (several paragraphs)
+- A description of your collaboration with your team members (several
+	paragraphs)
+- Anything you want me to know about team dynamics and collaboration
+	with other team members, especially any other team members who did
+	an especially good job at contributing
+
+This description is your opportunity to claim credit for the things
+you worked the hardest on, and to help me judge how you personally
+contributed to your team's success.
+
+In addition, you should fill out a final [peer evaluation
+report](http://peereval.rit.edu).
 
 ###Final presentation
 During finals week, each group will present their project to the class
-in a 10-minute talk. For groups that implemented something, a demo is
-appropriate (although not required).
+in an under-30-minute talk. For groups that implemented something, a
+demo is appropriate (although not required).
 
 ##Grading
 The project grade will be comprised of the following components:

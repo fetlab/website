@@ -13,13 +13,13 @@
 						{% for article in articles | sort(reverse=True, attribute='date') %}
 							<tr class="portfolio-item">
 								<td style="vertical-align:middle; text-align:center" id="paper-{{ loop.revindex }}">
-									<a href="#portfolioModal-{{catname}}{{ loop.revindex }}"
+									<a href="#portfolioModal-{{catname | lower}}{{ loop.revindex }}"
 										class="portfolio-link" data-toggle="modal">
-										<img src="/{{ catname }}/{{ article.image }}" class="img-responsive">
+										<img src="/{{ catname | lower }}/{{ article.image }}" class="img-responsive">
 									</a>
 								</td>
 								<td style="vertical-align:middle">
-									<a href="#portfolioModal-{{catname}}{{ loop.revindex }}"
+									<a href="#portfolioModal-{{catname | lower}}{{ loop.revindex }}"
 										class="portfolio-link" data-toggle="modal">
 										{{ article.content }}
 									</a>
@@ -34,7 +34,7 @@
 
 	{# This generates the pop-up pages for each item in a gridcat #}
 	{% for article in articles %}
-	<div class="portfolio-modal modal fade" id="portfolioModal-{{catname}}{{loop.revindex}}"
+	<div class="portfolio-modal modal fade" id="portfolioModal-{{catname | lower}}{{loop.revindex}}"
 			tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-content">
 				<div class="close-modal" data-dismiss="modal">
@@ -49,8 +49,8 @@
 							<div class="modal-body">
 								<h2>{{ article.title }}</h2>
 								<hr class="star-primary">
-								<img src="/_{{ catname }}/{{ article.image }}" class="img-responsive img-centered" >
-								<div class="{{ catname }}-content">
+								<img src="/{{ catname | lower }}/{{ article.image }}" class="img-responsive img-centered" >
+								<div class="{{ catname | lower }}-content">
 									{{ article.content }}
 								</div>
 							</div>

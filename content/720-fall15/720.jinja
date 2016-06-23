@@ -1,0 +1,53 @@
+{% extends "base.jinja" %}
+{% block head %}
+{{ super() }}
+<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="icons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="icons/manifest.json">
+<link rel="shortcut icon" href="icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="icons/mstile-144x144.png">
+<meta name="msapplication-config" content="icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+{{ page.extrahead }}
+{% endblock head %}
+{% block title %}HCIN 720: {{ page.title }}{% endblock %}
+{% block toprow %}
+<div class="row">
+	<div class="col-xs-12">
+		<h1 class="sitetitle"><span class="fa fa-cloud"></span>
+			<a class="noformat" href="index.html">HCIN
+				720: Designing UX for Internet-Enabled Devices</a></h1> </div>
+</div>
+{% endblock %}
+
+{% block sidebar_left %}
+	<div class="col-xs-3 col-left sidebar">
+		{{ 'left_sidebar.md' | includemd }}
+	</div>
+{% endblock %}
+
+{% block content %}
+<div class='col-xs-6 center-content' style='height:100%'>
+	<h1>{{ page.title }}</h1>
+	{{ page.content }}
+</div>
+{% endblock %}
+
+{% block sidebar_right %}
+<div class='col-xs-3 col-right sidebar'>
+	{{ 'right_sidebar.md' | includemd }}
+</div>
+{% endblock %}

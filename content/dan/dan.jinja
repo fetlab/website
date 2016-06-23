@@ -1,0 +1,45 @@
+{% extends "base.jinja" %}
+{% block head %}
+{{ super() }}
+<link href="/css/dan.css" rel="stylesheet" type="text/css">
+{% if page.onload %}
+<script>
+	$(document).ready(function() { {{ page.onload }} });
+</script>
+{% endif %}
+{{ page.extrahead }}
+{% endblock head %}
+{% block title %}Daniel Ashbrook{{': %s' % page.title if page.title }}{% endblock %}
+{% block toprow %}
+<div class="row">
+	<div class="col-xs-12">
+		<h1 class="sitetitle">
+			<a class="noformat" href="index.html">Daniel Ashbrook</a>
+	</h1>
+	</div>
+</div>
+{% endblock %}
+
+{% block sidebar_left %}
+	{% if not page.noleftsidebar %}
+		<div class="col-xs-3 col-left sidebar">
+			{{ 'left_sidebar.md' | includemd }}
+		</div>
+	{% endif %}
+{% endblock %}
+
+{% block content %}
+	{% set center_cols = 6 + (3 if page.noleftsidebar else 0) + (3 if
+		page.norightsidebar else 0) %}
+	<div style='height:100%' class='center-content col-xs-{{center_cols}}'>
+		{{ page.content }}
+	</div>
+{% endblock %}
+
+{% block sidebar_right %}
+	{% if not page.norightsidebar %}
+		<div class='col-xs-3 col-right sidebar'>
+			{{ 'right_sidebar.md' | includemd }}
+		</div>
+	{% endif %}
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.jinja" %}
+{% block head %}
+{{ super() }}
+<link href="/theme/css/dan.css" rel="stylesheet" type="text/css">
+{% if onload %}
+<script>
+	$(document).ready(function() { {{ onload }} });
+</script>
+{% endif %}
+{{ extrahead }}
+{% endblock head %}
+{% block title %} {{title}} {% endblock %}
+
+{% block content %}
+	<div style='height:100%' class='col-xs-9'>
+		{{ content }}
+{% endblock %}

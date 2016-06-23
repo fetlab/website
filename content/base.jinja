@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}" style="height:100%">
+  <head>
+		{% block head %}
+			<meta charset="UTF-8">
+			<title>{% block title %}{% endblock %}</title>
+			<script src="/js/jquery-1.11.3.min.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
+			<script src="/js/bib-list.js"></script>
+			<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			<link href="/css/pygments.css" rel="stylesheet" type="text/css">
+			<link href="/fonts/fonts.css" rel="stylesheet" type="text/css">
+			<link href="/css/style.css" rel="stylesheet" type="text/css">
+			<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		{% endblock %}
+  </head>
+
+  <body style="height:100%">
+    <div class="container" style="height:100%">
+
+			{% block toprow %}
+			{% endblock %}
+
+			<div class="row" style="height:100%">
+
+				{% block sidebar_left %}
+				{% endblock %}
+
+				{% block content %}
+				{% endblock %}
+
+				{% block sidebar_right %}
+				{% endblock %}
+
+      </div>
+    </div>
+  </body>
+</html>

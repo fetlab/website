@@ -1,0 +1,22 @@
+{% macro category(catname, articles) %}
+	<section id="{{ catname | lower | replace(' ', '-') }}">
+		<div class="container">
+		{% for article in articles | dictsortby('title', [catname]) %}
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8 text-center">
+						<h{{"2" if article.title.lower() == catname.lower() else "3"}}>
+							{{ article.title | title }}
+						</h{{"2" if article.title.lower() == catname.lower() else "3"}}>
+						{{'<hr class="primary fa">'if article.title.lower() == catname.lower()}}
+						{{ article.image }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8">
+						{{ article.content }}
+					</div>
+				</div>
+		{% endfor %}
+		</div>
+	</section>
+{% endmacro %}

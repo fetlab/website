@@ -2,6 +2,7 @@ Title: Goudam Muralitharan
 date: 2016-01-06
 image: goudam.jpg
 role: masters
+status: alum
 homepage: http://people.rit.edu/~gjm6993/
 twitter:  
 scholar:  

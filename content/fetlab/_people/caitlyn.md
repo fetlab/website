@@ -2,6 +2,7 @@ Title: Caitlyn Orta
 date: 2015-11-6
 image: caitlynorta.png
 role: undergrad
+status: alum
 homepage: http://caitlynorta.net
 twitter: caitlynorta
 cv: orta_resume.pdf

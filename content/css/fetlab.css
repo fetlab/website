@@ -184,4 +184,11 @@ hr.fa
 	background-position: center center;
 	background-size: cover;
 }
-
+#people .alum td.img
+{
+	width: 75px;
+	height: 75px;
+}
+#people .alum .icons { text-align: left; }
+#people .alum .fa-stack { font-size: 100%; }
+#people .alum .name { font-weight: bold; }

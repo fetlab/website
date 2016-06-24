@@ -1,7 +1,8 @@
 Title: Shreya Tadas
 date: 2015-11-06
 image: shreya.jpg
-role: Masters
+role: masters
+status: alum
 homepage: http://shreyat.weebly.com/
 cv: ShreyaTadas_Resume.pdf
 

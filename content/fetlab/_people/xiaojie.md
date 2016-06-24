@@ -1,7 +1,8 @@
-Title: Xiaojie(Alice)
+Title: Xiaojie (Alice) Zeng
 date: 2015-11-06
 image: xiaojie.jpg
 role: masters
+status: alum
 homepage: http://people.rit.edu/xz1266/Portfolio/
 cv: XiaojieZeng_Resume.pdf
 

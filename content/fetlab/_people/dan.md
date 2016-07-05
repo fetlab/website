@@ -5,7 +5,7 @@ role: dan
 homepage: http://fetlab.rit.edu/dan
 twitter: anjirokhan
 scholar: https://scholar.google.com/citations?user=VzkoqhIAAAAJ&hl=en
-cv: Ashbrook-Curriculum_vitae.pdf
+cv: Ashbrook-CV.pdf
 
 **Daniel Ashbrook** is the director of the Future Everyday Technology
 lab. His work concentrates on democratizing access to digital

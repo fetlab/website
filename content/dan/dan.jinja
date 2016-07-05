@@ -20,10 +20,31 @@
 </div>
 {% endblock %}
 
+{% macro name_link(p) %}
+	{% if p.homepage %}
+		<a href="{{p.homepage}}">{{p.title}}</a>
+	{% else %}
+		{{p.title}}
+	{% endif %}
+{% endmacro %}
+
+{% macro students(role, title) %}
+<h4>{{title}}</h4>
+	<ul class="students">
+		{% for p in page.people if (p.role|lower) == role and p.status != 'alum' %}
+			<li class="student">{{name_link(p)}}</li>
+		{% endfor %}
+	</ul>
+{% endmacro %}
+
 {% block sidebar_left %}
 	{% if not page.noleftsidebar %}
 		<div class="col-xs-3 col-left sidebar">
 			{{ 'left_sidebar.md' | includemd }}
+			<h3>Current Students</h3>
+			{{ students('phd', 'Ph.D.') }}
+			{{ students('masters', 'Masters') }}
+			{{ students('undergrad', 'Undergraduate') }}
 		</div>
 	{% endif %}
 {% endblock %}

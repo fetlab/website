@@ -12,3 +12,5 @@ ul
 	text-indent: -1em;
 	margin-right: 1em;
 }
+
+.bibtable .undefined { display: none }

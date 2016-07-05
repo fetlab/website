@@ -47,7 +47,7 @@
 											{% if article.cv[:4] == 'http' %}
 												<a href="{{article.cv}}">
 											{% else %}
-												<a href="/{{catname}}/{{article.cv}}">
+												<a href="/{{catname | lower}}/{{article.cv}}">
 											{% endif %}
 												<span class="fa-stack fa-lg">
 													<span class="fa fa-circle fa-stack-2x"></span>
@@ -109,7 +109,7 @@
 											{% if article.cv[:4] == 'http' %}
 												<a href="{{article.cv}}">
 											{% else %}
-												<a href="/{{catname}}/{{article.cv}}">
+												<a href="/{{catname|lower}}/{{article.cv}}">
 											{% endif %}
 												<span class="fa-stack fa-lg">
 													<span class="fa fa-circle fa-stack-2x"></span>

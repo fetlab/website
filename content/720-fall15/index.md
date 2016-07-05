@@ -1,11 +1,37 @@
 Title: Course overview
 Template: 720
 
+**This is the web page for HCIN-720 from Fall 2015.** The current 720
+web page may be found [here](/720).
+
 This class is about prototyping physical artifacts that are connected
 to the Internet: allowing things sensed about the physical world to be
 acted on in the cloud, and to allow things happening on the Internet
 to be reflected in the physical world. The focus of the class is on
 learning by doing.
+
+##Completed Projects
+Here are some projects completed by HCIN-720 students in Fall 2015.
+
+###Project 1
+The goal of this project was to build an ambient display ([more
+info](group_project1.html)).
+
+- [Am-bee-nt Display](https://github.com/hcin720-fall15/ambeent-display)
+- [TV Tracker](https://github.com/hcin720-fall15/hcin720-gp/tree/master/tv-tracker)
+- [Network Strength Display](https://github.com/hcin720-fall15/NetworkStrengthDisplay)
+- [Surf Cube](https://github.com/hcin720-fall15/surfcube)
+- [Ferrofluid Display](https://github.com/hcin720-fall15/HCIN720-GP1)
+
+###Project 2
+The goal of this project was to build an internet-connected device to
+solve a real-world problem ([more info](/final_project.html)).
+
+- [Self-Reporting Dice](https://github.com/hcin720-fall15/self-reporting-dice)
+- [Gesture and Chill](https://github.com/hcin720-fall15/hcin720-gp/tree/master/gesture-chill)
+- [Arc Reactor Gauntlet](https://github.com/hcin720-fall15/ArcReactor-Gauntlet)
+- [RITchie Desk Robot](https://github.com/hcin720-fall15/ritchie)
+- [Clock Data Display](https://github.com/hcin720-fall15/HCIN720-Final-Project)
 
 ##Inspirations
 This class has been heavily inspired, and in some cases modeled on, a

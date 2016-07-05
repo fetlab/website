@@ -8,7 +8,7 @@ I am an Assistant Professor in the [Department of Information Sciences
 and Technologies](http://ist.rit.edu/) and the [Department of Computer
 Science](http://www.cs.rit.edu) of the [Golisano College of Computing
 and Information Sciences](http://www.rit.edu/gccis/) at the [Rochester
-Institute of Technology](http://rit.edu) in Rochester, New York.  
+Institute of Technology](http://rit.edu) in Rochester, New York.
 
 I graduated in 2009 with my Ph.D. in Computer Science from the [School
 of Interactive Computing](http://www.ic.gatech.edu/) at [Georgia
@@ -17,6 +17,10 @@ Research](http://research.nokia.com) and [Samsung
 Research](http://sisa.samsung.com) before returning to academia in
 2014.
 
+You can download my [CV here](Ashbrook-CV.pdf).
+
+##FETLab
+
 <table class="table-condensed">
 	<tr>
 		<td width="25%">
@@ -24,12 +28,19 @@ Research](http://sisa.samsung.com) before returning to academia in
 		</td>
 		<td style="vertical-align:middle">
 			I founded and direct the <a href="/">Future Everyday Technology
-			Lab (FETLab)</a>; together with my students I design, prototype,
-			and study interactive technology that may one day become woven
-			into the fabric of our everyday lives.
+			Research Lab (FETLab)</a>; together with my students I design,
+			prototype, and study interactive technology that may one day
+			become woven into the fabric of our everyday lives.
 		</td>
 	</tr>
 </table>
+
+Here is a photo of the FETLab members at the end of the 2016 academic
+year:
+
+<img src="images/fetlab-2016.jpg" alt="FETLab Membership"
+class="img-responsive center-block">
+
 
 <a name="research"></a>
 ##Research
@@ -43,12 +54,13 @@ research continues this thread while adding a second focus on helping
 non-experts more easily understand and use **personal fabrication
 technology** such as 3D printers, laser cutters, and CNC routers.
 
-My research is supported by [Nokia](http://company.nokia.com) and the
-[National Science Foundation](http://nsf.gov).
+My research is supported by [HP](http://hp.com),
+[Nokia](http://company.nokia.com), and the [National Science
+Foundation](http://nsf.gov).
 
 ##Teaching
 I teach two classes, which are constantly being updated: HCIN-720 in
-Fall semesters, and HCIN-722 in Spring semesters.
+Fall semesters, and HCIN-722 in Spring semesters:
 
 ###HCIN-720
 _Software is no longer the only domain that practitioners of

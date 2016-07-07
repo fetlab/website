@@ -4,6 +4,7 @@ image: dan.jpg
 role: dan
 homepage: http://fetlab.rit.edu/dan
 twitter: anjirokhan
+github: anjiro
 scholar: https://scholar.google.com/citations?user=VzkoqhIAAAAJ&hl=en
 cv: Ashbrook-CV.pdf
 

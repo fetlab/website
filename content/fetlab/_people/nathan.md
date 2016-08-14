@@ -1,5 +1,6 @@
 Title: Sabarinathan Masilamani (Nathan)
 date: 2015-10-16
+status: alum
 image: nathan.jpg
 role: masters
 homepage: http://www.mywebground.com

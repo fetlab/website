@@ -7,7 +7,9 @@ Science](http://gccis.rit.edu).  To contact an individual, please see
 each person's information above.
 
 We are located on RIT's campus in Orange Hall, labeled **ORN** on the
-map below.  Once you arrive at RIT, visit the Welcome Center (**WEL**
+map below. (As of Fall 2016, we will be located in the Golisano
+College of Computing and Information Sciences, labeled **GOL**, in
+room 2330.)  Once you arrive at RIT, visit the Welcome Center (**WEL**
 on the map) to get a temporary parking permit; you may then park in
 any non-reserved space. The closest lots to the FETLab are **J** and
 **S**.

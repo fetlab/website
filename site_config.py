@@ -3,12 +3,16 @@ from datetime import datetime
 import mkdcomments
 comments = mkdcomments.CommentsExtension()
 from fontawesome_markdown import FontAwesomeExtension
+from markdown.extensions.toc import TocExtension
 import re, os, sys, operator, pprint
 
 #Custom Markdown Jinja2 filters
-markdown = Markdown(extensions=['markdown.extensions.extra',
-	'markdown.extensions.codehilite', 'markdown.extensions.smarty',
-	'markdown.extensions.toc'])
+markdown = Markdown(extensions=[
+	'markdown.extensions.extra',
+	'markdown.extensions.codehilite',
+	'markdown.extensions.smarty',
+	TocExtension(title='Table of Contents')
+])
 
 def includefile(filename, *args):
 	return open(filename).read()

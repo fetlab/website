@@ -11,7 +11,7 @@ I travel frequently. When I'm traveling, I may be more difficult than
 usual to reach via email.
 
 - **Dec 8--10:** CHI PC meeting, Denver, CO
-- **Sep 5--9:** [MobileHCI](http://mobilehci.acm.org), Florence, Italy
+- **Sep 4--10:** [MobileHCI](http://mobilehci.acm.org), Florence, Italy
 - **Jul 11--15:** Visit [HCII](http://hcii.cmu.edu/) at CMU
 - **Jun 23--25:** UIST PC meeting, Seattle, WA
 - **Jun 20--22:** Vacation

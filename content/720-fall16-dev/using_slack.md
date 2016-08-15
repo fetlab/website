@@ -6,10 +6,19 @@ email, and forums. We'll use Slack in the class for annoucements,
 discussions, and getting help.
 
 The URL for Slack for our class is
-[http://hcin720-fall15.slack.com](http://hcin720-fall15.slack.com).
+[http://hcin720-fall16.slack.com](http://hcin720-fall16.slack.com).
 
-To get connected to Slack, I will have to send you an invitation,
-which I'll do after the first class.
+To get connected to Slack, visit the above url and sign up using your
+`rit.edu` email address.
+
+##Notifications
+Download one of the many [Slack apps](https://slack.com/apps) so that
+you can stay caught up on what's happening in class. Remember that
+this is the main way I will use to communicate with you, so installing
+one of the phone apps is a very good idea. More information about
+getting Slack to notify you can be found on this [Slack support
+page](https://slack.zendesk.com/hc/en-us/articles/201895138-Understanding-Slack-notifications),
+including setting up email notification.
 
 ##Channels
 Slack is organized into "channels," which are topic-specifc areas.
@@ -17,16 +26,15 @@ I've set up a number of channels to start with, and may add some more
 as the semester proceeds. Slack organizes channels alphabetically. At
 the start of class, we have:
 
-- **#announcements**: I'll post announcements, including new
-	assignments, readings, class location changes, and so on here.
 - **#general**: For general questions and discussions that don't fit
-	into any of the other channels.
+	into any of the other channels. I'll also post announcements,
+	including new assignments, readings, and so on here.
 - **#ia1**: I'll create a channel for each assignment. This channel is
 	for Individual Assignment 1. You can use this to ask questions
 	specifically about IA1, post tips and inspirations, or anything else
 	related to the assignment.
 - **#inspirations**: Post general inspirations and examples of
-	Internet-enabled devices here.
+	Internet-enabled and wearable devices here.
 - **#random**: For stuff unrelated or only somewhat related to class.
 	Jokes, funny videos, etc. Be nice.
 - **#setup**: If you have issues or tips around getting set up for the
@@ -49,13 +57,6 @@ might benefit other students with the answers, please post them to one
 of the public channels (and optionally use `@dan` to get my
 attention).
 
-##Notifications
-You can (and should) download one of the many fine [Slack
-apps](https://slack.com/apps), or at the very least enable desktop
-notification in the browser. More information about getting Slack to
-notify you can be found on this [Slack support
-page](https://slack.zendesk.com/hc/en-us/articles/201895138-Understanding-Slack-notifications),
-including setting up email notification.
 
 ##More help
 The [Slack support site](https://slack.zendesk.com/hc/en-us) has many

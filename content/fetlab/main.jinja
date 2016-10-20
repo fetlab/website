@@ -1,0 +1,8 @@
+
+		{# Actual content #}
+		<header>{{ category.category('Welcome', page.welcome) }}</header>
+		{{ carousel.carousel('featured_images', page.featured_images) }}
+		{{ category.category('Research',        page.research) }}
+		{{ catlist.catlist  ('Publications',    page.publications) }}
+		{{ people.people    ('People',          page.people, 'role', ['dan', 'phd', 'masters', 'undergrad', 'alum']) }}
+		{{ category.category('Contact',         page.contact) }}

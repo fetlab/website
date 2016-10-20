@@ -4,18 +4,36 @@ NoRightSidebar: True
 ExtraHead: <style>.center-content h3 {border-bottom: 1px solid #ddd; width:100%}</style>
 
 ##Advice for Prospective Students
-I’m actively seeking undergraduate and graduate students to work with
+I'm actively seeking undergraduate and graduate students to work with
 me on research. However, not every student is a good fit. The advice
 on this page will give you a sense what I’m looking for, so please
 read this entire page before asking about a position. There are
 several parts:
 
+- [Contacting me](#contacting_me)
 - [What I look for in general](#all_students)
 - Advice for [potential capstone students](#capstone)
 - Information specifically for [potential PhD students](#phd)
 
 Also please have a look at the [webpage for my lab](/), which will
 give you an idea of the kinds of research projects we work on.
+
+###Contacting me
+Like most professors, I have many more demands on my time than I have
+time. This is especially true for email. Therefore, I have some
+specific requests for students who want to contact me:
+
+1. Make it clear that you have read this webpage in its entirety.
+1. Please don't find me in my office. If I'm in my office, I'm
+	 concentrating on something, and I will ask you to email me instead.
+1. Be clear about what you want me to do in response to your email.
+1. If you want to meet me about something, visit [my
+	 calendar](calendar.html) and propose a 30-minute block that shows
+	 me as available. I _strongly_ prefer to cluster meetings, so
+	 please pick a time adjacent to something else.
+1. Be persistent. If I don't respond to your email, and you followed
+	 these requests, most likely your email got lost. Wait several days
+	 and try again.
 
 <a name="all_students"></a>
 ###For all potential students
@@ -86,6 +104,16 @@ one or more and have a willingness to learn quickly about others.
 - **Software development:** most, but not all, of my projects involve
 	software development. Currently, our work involves some or all of
 	Android, Arduino, iOS, Javascript, OpenGL, and Windows programming.
+
+####The First Semester
+I don't offer paid positions during the first semester of work with my
+lab (the exception is PhD students, who receive a stipend
+immediately). Instead, we will do an independent study, which will
+provide you with three hours of elective credit. If both of us are
+satisfied with the outcome of the first semester, then we will talk
+about whether a paid position will become available in the following
+term.
+
 
 ####Contacting Me
 When you get ready to contact me, it will be very helpful for you

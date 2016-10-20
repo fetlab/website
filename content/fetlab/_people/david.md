@@ -1,0 +1,6 @@
+Title: David Whitman-Kinghorn
+image: david.jpg
+role: undergrad
+
+**David Whitman-Kinghorn** is an undergraduate research assistant in
+the FETLab.

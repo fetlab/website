@@ -3,7 +3,7 @@ date: 2015-11-11
 image: tousif.jpg
 role: undergrad
 homepage: http://sxa1056.cias.rit.edu
-status: alum
+status: undergraduate
 twitter: tousifsays
 cv: syed-ahmed-resume.pdf
 

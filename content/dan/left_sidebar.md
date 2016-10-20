@@ -15,6 +15,9 @@
 	[@anjirokhan](http://twitter.com/anjirokhan)
 - <span class="fa fa-fw fa-calendar"></span> [Calendar](calendar.html)
 
+_Please note: like most professors, I'm overwhelmed by email. Please
+read [this page](prospective_students) before attempting to contact me._
+
 
 ###Office
 

@@ -1,6 +1,19 @@
 Title: News
 Date: 2015-11-06
 
+####Dr. Ashbrook's HCIN-720 featured in RIT Athenaeum
+FETLab director Dr. Daniel Ashbrook and his class, [Prototyping
+Wearable and Internet of Things Devices](/720), were featured in a
+[university news
+story](http://www.rit.edu/news/story.php?id=57479&source=athenaeum)
+about the Provost Learning Innovation Grants.
+
+####Dr. Ashbrook quoted in New Scientist
+FETLab director Dr. Daniel Ashbrook was quoted in a New Scientist
+article about fabrication: [Print stuff on the go with just your phone
+and a
+pen](https://www.newscientist.com/article/mg23230941-700-print-stuff-on-the-go-with-just-your-phone-and-a-pen/).
+
 ####New publication: Bitey
 [Bitey: An Exploration of Tooth Click Gestures for Hands-Free User
 Interface Control](#paper-10), has been accepted as a full paper at

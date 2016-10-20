@@ -1,0 +1,9 @@
+h1 {margin-top: 0}
+.sidebar th { width: 33% }
+.sitetitle
+{
+	padding-left: 1.25em;
+	text-indent: -.68em;
+}
+.sidebar td {vertical-align: top}
+h2 { border-bottom: 1px solid #eee }

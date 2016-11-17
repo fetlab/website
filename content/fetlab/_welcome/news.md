@@ -1,6 +1,11 @@
 Title: News
 Date: 2015-11-06
 
+####Dr. James Fogarty to visit Nov 30
+University of Washington Professor Dr. James Fogarty will visit RIT on
+November 30. Details of his visit and talk can be found
+[here](fogarty.html).
+
 ####Dr. Ashbrook's HCIN-720 featured in RIT Athenaeum
 FETLab director Dr. Daniel Ashbrook and his class, [Prototyping
 Wearable and Internet of Things Devices](/720), were featured in a

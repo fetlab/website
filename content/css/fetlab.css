@@ -5,6 +5,11 @@ body
 
 body, header section { background: url("/images/logo_tile.png") }
 .col-md-8, #people { background: white }
+.col-md-8
+{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
 
 footer h3
 {

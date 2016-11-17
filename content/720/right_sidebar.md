@@ -23,8 +23,10 @@ Tue, Aug 23 | Thu, Aug 25 | [Class set up](class_setup.html)
 Tue, Aug 23 | Thu, Aug 25 | [IA 1 Set up](a1setup.html)
 Thu, Aug 25 | Tue, Sep 13 | [IA 1](assignment1.html)
 Tue, Sep 19 | Thu, Sep 22 | [IA 2 Set up](a2setup.html)
-Tue, Sep 27 | Thu, Oct 25 | [IA 2](assignment2.html)
-Tue, Oct  4 | Thu, Oct 25 | [IA 1 Redo](assignment1redo.html)
+Tue, Sep 27 | Thu, Oct 27 | [IA 2](assignment2.html)
+Tue, Oct  4 | Thu, Oct 27 | [IA 1 Redo](assignment1redo.html)
+Tue, Nov  1 | Tue, Nov 15 | [IA 3](assignment3.html)
+Tue, Nov 15 | Tue, Dec 13 | [GP](group_project.html)
 
 <!---
 Tue, Sep 13 | Thu, Sep 15 | [IA 2 Set up](a2setup.html)
@@ -39,5 +41,4 @@ Tue, Nov 13 | Exam period | [FP demo](final_project.html)
 Tue, Nov 13 | Exam period | [FP writeup](final_project.html)
 --->
 
-_(IA: Individual Assignment; GP: Group Project; EC: Extra Credit; FP:
-Final Project; prop.: proposal)_
+_(IA: Individual Assignment; GP: Group Project; EC: Extra Credit)_

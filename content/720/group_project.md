@@ -1,4 +1,4 @@
-Title: Group Project 1
+Title: Group Project
 Template: 720
 
 ##Introduction
@@ -10,24 +10,53 @@ a synthesis of these topics: an ambient display.
 
 ##Goals
 Your goal is to make an attractive ambient display that gives you
-useful information about something relevant to your life. You should
-work in a principled way, considering the previous work that
-researchers in the area have done (see **Papers about ambient
-displays** below as well as the class slides about metaphors; I'm
-particularly partial to the *enchanted object* metaphor).
+useful information about something relevant to your life. I'd like to
+decorate the lab with these, so it should be something that could be
+nice to display somewhere in the room (I'll replace your Photon if I
+decide I want to keep your project up and running). Consider previous
+work that researchers in the area have done (see **Papers about
+ambient displays** below).
 
 ##Groups
-This is a group project! You will work in groups of two, or, if you
-have a really amazing idea and can convince me that it won't work
-without more people, three. But I really want you to work in groups of
-two.
+This is a group project! You will work in groups of two. I will assign
+groups based on your input (see Slack message).
+
+Each person in the group **must do both technical and design work**.
 
 ##What to do
 Here's what to do and how much of the total score for this assignment
-each item will be worth:
+each item will be worth. The first thing is a reporting requirement,
+worth **4%** of your grade for this project.  Each week by the end of
+class on Thursday (with one exception, see dates below), you will
+_individually_ send me a brief summary of:
+
+- What you personally have done on the project during the preceding week
+- What your team mate has done on the project during the preceding week
+- Any problems you are having
+	- with your team mate;
+	- with your project;
+	- technology;
+	- anything else.
+
+The dates these are due are:
+
+- Thursday, Nov 17
+- **Tuesday**, Nov 22
+- Thursday, Dec 1
+- Thursday, Dec 8
+
+Here are the grading criteria for the rest of the assignment:
 
 - Build an attractive ambient display that visualizes a source of online
 	information that is relevant to your life. **(50%)**
+	- Is a working ambient display: **25%**
+	- Is attractive: **10%**
+		- Note: attractive is subjective, but I'm going to judge it. Consider
+			using extra materials beyond 3D printing and laser cutting; using
+			"finishing" techniques such as sanding and painting; using fabric;
+			or encasing your project in a manufactured object.
+	- Uses online information: **10%**
+	- Is relevant to your (or my) life: **5%**
 - There should be a clear mapping from the information to the
 	visualization, such that you could explain the display to someone
 	and they could understand it. **(10%)**
@@ -41,17 +70,29 @@ each item will be worth:
 	a creative, non-obvious way. For example, if it's based on light,
 	showing a graph with LEDs is obvious (see **Inspirations**
 	below). **(13%)**
-- Your documentation **(20%)** should include:
+	- Note this is different from "attractive" above.
+- Your documentation **(15%)** should include:
 	- A description of the display, including pictures,
 	- what choices you made for the information to display and the way
 		you displayed it,
 	- justification for your design based on previous research,
-	- source code and 3D/2D model files.
+	- source code and 3D/2D model files,
+	- a short (~30s) video showing your display in operation
+		- please ensure that you shoot your video in landscape orientation
+		- please edit your video so it is interesting to watch
 
 ###Deliverables
 As usual, submit your deliverables via Github. Place your
 documentation in a Readme file. Include the pictures inline in your
-Readme file.
+Readme file. Host your video on YouTube and embed it in your Readme.
+
+Have a look at [last year's
+assignments](http://fetlab.rit.edu/720-fall15/) for some examples of
+what has been done; in particular, the [Am-bee-nt
+Display](https://github.com/hcin720-fall15/ambeent-display) and
+[Self-reporting
+Dice](https://github.com/hcin720-fall15/self-reporting-dice) are
+excellent examples of what a good project look like.
 
 ##Tips
 	
@@ -62,6 +103,8 @@ Readme file.
 	extreme.
 - You can also use random objects for your display output. Be
 	creative!
+- Consider using servo motors and string or fishing wire to move
+	things around; hang your project from the ceiling!
 
 ##Inspirations
 Here are some examples of projects I found on
@@ -110,7 +153,7 @@ illustrate something I think is cool.
 
 ##Extra credit
 <a name="extracredit2"></a>
-For 2 points of extra credit towards your final grade, make and
+For **2 points** of extra credit towards your final grade, make and
 publish an Instructable on how to build your ambient display (credit
 will be allocated based on the quality of the work). Here's
 what to do:
@@ -157,6 +200,8 @@ from the list of inspirations above are:
 	will trigger one of the birds to pop out of its house, each with a
 	different movement. Optional birdsong can accompany each action, the
 	volume controlled with a small dial."
+- [Tempescope](http://www.tempescope.com/), a box that "performs" the
+	weather, with clouds and rain!
 
 ###Papers about ambient displays
 - [The Coming Age of Calm Computing](/files/720/The Coming Age of Calm Computing.pdf)

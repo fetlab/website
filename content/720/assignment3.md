@@ -6,15 +6,16 @@ In [Assignment 1](assignment1.html), you learned about online data and
 visualizations. In [Assignment 2](assignment2.html), you took your
 skills further and incorporated some hardware for some basic
 interaction. Now in this assignment, you'll take the final step in
-your basic learning and look at how to create an appealing enclosure
-for your work.
+your basic learning and learn how to integrate electronics with
+physical structures.
 
 ##Goals
 The main goal for this assignment is to become comfortable with
 designing for 3D printing and laser cutting and to learn how to use
 the equipment. The learning goals for this assignment are as follows:
 
-- Learn how to use [TinkerCAD](https://tinkercad.com) for 3D modeling
+- Learn how to use [TinkerCAD](https://tinkercad.com), [123D
+	Design](http://www.123dapp.com/design), or another app for 3D modeling
 - Learn how to evaluate the printability of 3D models
 - Learn how to use a 3D printer
 - Learn how to use [Inkscape](http://inkscape.org) or Adobe Illustrator
@@ -24,16 +25,15 @@ the equipment. The learning goals for this assignment are as follows:
 	measurements into models
 
 
-##What to do
-
-###C-level work
+##What to do/Evaluation
+###Basic: 75% credit
 Design and fabricate a case for your electronics for IA 2. Do this via
 either 3D printing or laser cutting. It should enclose the components
 and expose the interaction elements (and you may want to include a way
 to easily get to the buttons).
 
-###B-level work
-Do the C-level work; then do it again for the other fabrication
+###Enhanced: 10% credit
+Do the basic work; then do it again for the other fabrication
 method. That is, if you made a case with the laser cutter, make
 another one on the 3D printer; if you made one on the 3D printer, make
 another with the laser cutter. Alternately, make a single case that
@@ -45,13 +45,13 @@ existing physical object in the environment. For example, you might
 add a part to your model to allow your Photon to attach to a light
 switch cover.
 
-###A-level work
-Do the B-level work. On _one_ of the cases, incorporate into your case
-an extra input or output element **not previously existing** in your IA 2
-project. For example, add a servo for motion or an LED for output.
-Some part of the case must be involved in the I/O mechanism:
-a servo might move some piece, an LED could 
-[side light](https://www.google.com/search?q=laser+etch+side+light&tbm=isch)
+###Fancy: 15% credit
+Do the basic and/or enhanced work. On _one_ of the cases, incorporate
+into your case an extra input or output element **not previously
+existing** in your IA 2 project. For example, add a servo for motion
+or an LED for output.  Some part of the case must be involved in the
+I/O mechanism: a servo might move some piece, an LED could [side
+light](https://www.google.com/search?q=laser+etch+side+light&tbm=isch)
 something.
 
 ##Deliverables
@@ -78,9 +78,9 @@ like, you are welcome to use it instead.
    32 and height to 18
 5. Close the Document Properties window
 6. In the toolbar, find the set of icons that look like
-	 <img src="/files/720/inkscape-scale1.png" width="100px">.
+	 <img src="inkscape-scale1.png" width="100px">.
 	 Click the leftmost icon to turn it off, so it looks like
-	 <img src="/files/720/inkscape-scale1.png" width="100px">.
+	 <img src="inkscape-scale2.png" width="100px">.
 	 This operation disables the defaul behavior of scaling the width of
 	 an object's line when you change the size of the object.
 

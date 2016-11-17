@@ -250,7 +250,7 @@ Add at least one extra non-binary input and one extra non-binary
 output to your circuit. Make your circuit do something interesting
 and/or useful (beyond just simply displaying the input).
 
-##Deliverables (5%)
+###Deliverables (5%)
 You'll turn in your code via your Github repository. Along with your
 code, upload a Readme.md file, which Github will then display with
 your repository. Include:

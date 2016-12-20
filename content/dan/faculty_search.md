@@ -1,5 +1,6 @@
 Title: IST Faculty Search
-Template: nosidebars
+NoLeftSidebar: True
+NoRightSidebar: True
 
 #IST Faculty Search
 
@@ -10,6 +11,9 @@ Template: nosidebars
 
 The Department of Information Sciences and Technologies is hiring!
 We're accepting applications in multiple areas, including **HCI**.
+
+[Click here to
+apply](https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1218708&PartnerId=25483&SiteId=5291)
 
 Our HCI faculty research, teach, and advise PhD students in a wide
 variety of areas, including accessibility, perception, digital
@@ -26,10 +30,7 @@ the Golisano College of Computing and Information Sciences include:
 - Interim Dean and Professor [Anne
 	Haake](http://hccl.gccis.rit.edu/index.php/people/8-faculty/2-anne-haake)
 - Professor [Joe Geigel](https://www.cs.rit.edu/~jmg/)
-- Professor [Stephanie Ludi](https://sites.google.com/site/stephludi/)
 - Associate Professor [Reynold Bailey](https://www.cs.rit.edu/~rjb/)
-- Associate Professor [Deb
-	Gears](http://hci-research.rit.edu/people/person.php?name=dgcics)
 - Associate Professor [Matt Huenerfauth](http://huenerfauth.ist.rit.edu/)
 - Assistant Professor [Daniel Ashbrook](http://fetlab.rit.edu/dan)
 
@@ -111,67 +112,3 @@ can be found at:
 - the [Visit Rochester](http://www.visitrochester.com/) website; and
 - the [Rochester Wikipedia
 	article](https://en.wikipedia.org/wiki/Rochester,_New_York).
-
-##Official Application Text
-
-Applications are invited for a full-time tenure-track position at the
-assistant or associate professor rank in the Department of Information
-Sciences and Technologies (IST) at Rochester Institute of Technology (RIT).
-Applicants are sought in the area of data analytics, human-computer
-interaction, and web and mobile computing for an appointment beginning
-fall 2016.  Applicants should possess a PhD degree in Information
-Sciences and Technologies, Computer Science, or a related field, and
-sufficiently demonstrate the ability to conduct high-quality research
-in one of the above areas. Applicants should also show strong
-commitment to undergraduate/graduate teaching, demonstrate the ability
-for innovative research and high-impact publications, and exhibit
-potential to pursue externally funded research.
-
--	Data analytics candidates should demonstrate the ability to teach
-	and conduct research in the application of big data, data mining,
-	and data analytics principles to domains such as healthcare and
-	social media.
--	Human-computer interaction candidates should demonstrate the ability
-	to teach and conduct research in the areas of user-interface and
-	interaction design, mobile interfaces and interaction, or user
-	experience and usability; however, outstanding applicants in
-	accessibility, wearable technologies, or other areas of HCI will
-	also be considered.
--	Web and mobile computing candidates should demonstrate the ability
-	to teach and conduct research in the areas of web application
-	development, mobile application development, full stack development
-	and the development security practices within these areas.
-
-All candidates must meet the minimum qualifications of:
-
--	Completion of a PhD in Information Sciences and Technologies,
-	Computer Science, or a related field
--	Ability to work in the US
--	Demonstrated teaching experience in higher education
--	Demonstrated ability to publish research results
--	Ability to contribute in meaningful ways to the college’s continuing
-	commitment to cultural diversity, pluralism, and individual
-	differences.
-
-In order to be considered for this position, please visit [this
-page](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1151810&PartnerId=25483&SiteId=5291&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5291&JobSiteInfo=1151810_5291&gqid=655).
-
-The following items are required for your application:
-
--	Cover letter addressing the required qualifications for this
-	position
--	Curriculum vitae
--	List of references
--	A two page teaching statement describing our specific courses you
-	can teach, and your approach to teaching
--	A two-page research statement describing the accomplishments,
-	impacts, and future directions of your research
--	Copies of up to three publications that best show your scholarly
-	work. (maximum size 5MB per attachment).
-
-You can contact the search committee with questions regarding the
-positions via Ms. Rhonda Baker-Smith ([rdbcst@rit.edu](rdbcst@rit.edu)).
-
-For prompt consideration, please apply by February 15, 2016. Resume
-review will begin in earnest at that time and will continue until an
-acceptable candidate is found.

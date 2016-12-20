@@ -4,11 +4,13 @@
 		{% for article in articles | dictsortby('title', [catname]) %}
 				<div class="row">
 					<div class="col-md-offset-2 col-md-8 text-center">
-						<h{{"2" if article.title.lower() == catname.lower() else "3"}}>
+						<h{{"2" if article.title.lower() == catname.lower().replace('_', ' ') else "3"}}>
 							{{ article.title | title }}
-						</h{{"2" if article.title.lower() == catname.lower() else "3"}}>
-						{{'<hr class="primary fa">'if article.title.lower() == catname.lower()}}
-						{{ article.image }}
+						</h{{"2" if article.title.lower() == catname.lower().replace('_', ' ')  else "3"}}>
+						{{'<hr class="primary fa">'if article.title.lower() == catname.lower().replace('_', ' ')}}
+						{% if article.image %}
+							<img src="/{{ catname | lower }}/{{ article.image }}" class="img-responsive">
+						{% endif %}
 					</div>
 				</div>
 				<div class="row">

@@ -204,8 +204,8 @@ from the list of inspirations above are:
 	weather, with clouds and rain!
 
 ###Papers about ambient displays
-- [The Coming Age of Calm Computing](/files/720/The Coming Age of Calm Computing.pdf)
--	[Heuristic Evaluation of Ambient Displays](/files/720/Heuristic Evaluation of Ambient Displays.pdf)	
+- [The Coming Age of Calm Computing](files/The Coming Age of Calm Computing.pdf)
+-	[Heuristic Evaluation of Ambient Displays](files/Heuristic Evaluation of Ambient Displays.pdf)	
 - [A Peripheral Display
 	Toolkit](http://www.eecs.berkeley.edu/Pubs/TechRpts/2003/5782.html)
 - [A taxonomy of ambient information systems: four patterns of

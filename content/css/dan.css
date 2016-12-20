@@ -14,3 +14,6 @@ ul
 }
 
 .bibtable .undefined { display: none }
+
+.gray { color: #bbb; }
+.gray a { color: #819db7 }

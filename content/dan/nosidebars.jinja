@@ -1,17 +1,17 @@
 {% extends "base.jinja" %}
 {% block head %}
 {{ super() }}
-<link href="/theme/css/dan.css" rel="stylesheet" type="text/css">
-{% if onload %}
+<link href="/css/dan.css" rel="stylesheet" type="text/css">
+{% if page.onload %}
 <script>
 	$(document).ready(function() { {{ onload }} });
 </script>
 {% endif %}
-{{ extrahead }}
+{{ page.extrahead }}
 {% endblock head %}
-{% block title %} {{title}} {% endblock %}
+{% block page.title %} {{page.title}} {% endblock %}
 
 {% block content %}
 	<div style='height:100%' class='col-xs-9'>
-		{{ content }}
+		{{ page.content }}
 {% endblock %}

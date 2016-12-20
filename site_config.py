@@ -51,8 +51,8 @@ def sortby(items, attribute, sortlist):
 
 def dictsortby(items, attribute, sortlist):
 	"""Same as sortby but with a list of dicts."""
-	ag = lambda a: a[attribute].lower()
-	sl = [s.lower() for s in sortlist]
+	ag = lambda a: a[attribute].lower().replace('_', ' ')
+	sl = [s.lower().replace('_', ' ') for s in sortlist]
 	return sorted(items, key=lambda x:(sl.index(ag(x)) if ag(x) in sl
 			else len(sl)+1, x['title']))
 

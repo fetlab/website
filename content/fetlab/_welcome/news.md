@@ -1,6 +1,12 @@
 Title: News
 Date: 2015-11-06
 
+####Two upcoming publications
+The FETLab has two new full papers accepted to [CHI
+2017](http://chi2017.acm.org): _Bridging Between Volunteers and
+Clinicians: Challenges and Opportunities of Distributed DIY-AT_, and
+_Stretching the Bounds of 3D Printing with Embedded Textiles_.
+
 ####Dr. James Fogarty to visit Nov 30
 University of Washington Professor Dr. James Fogarty will visit RIT on
 November 30. Details of his visit and talk can be found
@@ -31,12 +37,12 @@ about RIT's SIGCHI
 group](http://dl.acm.org/citation.cfm?id=2912126.2893525)
 ([PDF](/files/p12-byrd.pdf)).
 
+<!---
 ####New publication: Towards Augmented Fabrication
 Our paper, [Towards Augmented Fabrication: Combining Fabricated
 and Existing Objects](#paper-9), has been accepted as a Late-Breaking
 Results paper for [CHI 2016](http://chi2016.acm.org)!
 
-<!---
 ####Work with us
 The FETLab is recruiting PhD students for Fall 2016! We're currently
 working on a wide variety of projects in the area of improving the

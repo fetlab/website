@@ -25,25 +25,35 @@ without identifying anyone. You could also recreate a mobile device
 usage scenario you observed and photograph it.
 
 ##Deliverables
-Once you have collected your data, you will write a two page
-report on what you observed. You will also give a five minute
-presentation in class on the due date. For both, you should include
-drawings or images to help the class understand what you observed (but
-without photographing specific people in public, as noted above).
+You will give a five minute presentation in class on the due date.
+You should include drawings or images to help the class understand
+what you observed (but without photographing specific people in
+public, as noted above).
+
+###Presentation guidelines
+- Your presentation must take no more than five minutes---this time
+	limit will be strictly enforced.
+- You should rehearse your presentation several times before class.
+- Your slides should balance text to help the audience understand your
+	observations with interesting imagery.
+- Do not read your slides to the class! This is one of the most common
+	mistakes that novice presenters make.
 
 ##Grading
-This assignment is worth 7% of your final grade. Both your written
-report **(4%)** and your in-class presentation **(3%)** should adhere
-to the following criteria:
+This assignment is worth 7% of your final grade. Your in-class
+presentation will be graded according to the following criteria:
 
-- Clear, easy to read, without grammar or spelling errors.
+- Clear, easy to read, without grammar or spelling errors (1%).
 - Clearly describes how the observation was conducted: when and
 	where you went, how many people were there, what the environment
-	was like, etc.
+	was like, etc (1%).
 - Clearly describes an interesting pattern of activity related to
-	mobile device interaction, with specific examples.
+	mobile device interaction, with specific examples (3%).
 - Includes interesting concrete examples, sketches/images where
-	appropriate.
+	appropriate (1%).
+- Presentation style is appropriate: you have obviously practiced your
+	material, your slides have a good balance of text and imagery, you
+	aren't just reading the slides (1%).
 
 <div style="font-size:66%; font-style:italic; margin:5em 0">
 	(Note: thanks to Shaun Kane for permission to use some of his material for

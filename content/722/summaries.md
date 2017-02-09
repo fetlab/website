@@ -2,17 +2,28 @@ Title: Reading Summaries Instructions
 Template: 722
 
 Each week, a number of readings will be assigned. You must read
-_all_ of the papers, as well as the book chapter, and submit reading
-summaries each week. Reading summaries will be submitted as a Post via
-Slack.
+_all_ of the papers, as well as the book chapters, and submit reading
+summaries each week. Summaries are due every Tuesday at 1:59 pm, and
+should summarize all of the papers you read since the last time you
+turned in summaries; that is, paper readings due the preceding
+Thursday and the Tuesday that summaries are due.
 
-The summary for each paper and book chapter should consist of answers
+Reading summaries should be submitted as a Post via Slack.
+The summary for each paper should consist of answers
 to the following questions:
 
 1. What research problems were the authors investigating?
 2. How did the authors attempt to answer these questions? Did they
 	 succeed?
 3. What follow-on possibilities do you see?
+
+If a given book chapter doesn't fit well with the above questions, 
+the summary for that chapter can alternately consist of answers to the
+following questions:
+
+1. What were the main points being made in the chapter?
+2. How were those points made?
+3. Do you agree with the points? How can you expand on or apply them?
 
 The Slack Post is a single text box, but we will usually
 have multiple readings. Therefore, you should format your readings as
@@ -65,3 +76,9 @@ Gaze Enhanced Speech Recognition
 	 environment by looking at them.
 </p>
 </div>
+
+##Grading
+The reading summaries are worth **10%** of your final grade. Each will
+be evaluated based on whether you have provided the requested
+information, and whether it looks to me like you actually read the
+paper. I will discard the lowest-graded summary.

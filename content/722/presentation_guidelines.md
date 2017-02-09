@@ -4,11 +4,16 @@ Template: 722
 [TOC]
 
 ##Introduction
-Each student is required to teach one class during the course of the
-semester. You will either present a set of papers and lead discussion,
-or present a technology tutorial on a subject relevant to the class.
-You must sign up for your presentation date on the spreadsheet linked
-from the main class page.
+Each student is required to teach part of one classe during the
+course of the semester. You will either present a set of papers and
+lead discussion, or present a technology tutorial on a subject
+relevant to the class.  You must sign up for your presentation date on
+the spreadsheet linked from the main class page. This spreadsheet will
+give you the latest date by which you must notify me of what you will
+present; in general, it will be two weeks before the presentation
+date. Note that this date is the **final** deadline; if you have
+questions about what you will present, or want to check with me to see
+if it's okay, you should do so _in advance_ of this deadline.
 
 ##Paper presentation
 If you choose this option, you will select at least three full-length
@@ -17,6 +22,11 @@ class topic and related to each other. You might choose, for example,
 papers that build on each other, or are on a related interaction
 technique, or other topic. You will synthesize the knowledge in the
 papers, present a coherent talk, and lead discussion about the work.
+
+If you wish, you may draw your papers from the nine you chose for
+[part 1 of the group project's individual effort
+component](project_individual#part-1-initial-paper-exploration); the
+papers still must adhere to the selection criteria below.
 
 ###Paper selection criteria
 Each of the papers you select should meet the following criteria. If
@@ -65,17 +75,19 @@ to me by 11:59 pm on **the day before you present**. The penalty for late
 slides is the same as for other assignments, as detailed on [the
 syllabus](syllabus.html#late-assignments).
 
-Your talk should be about 15 minutes long, and you should be prepared
-to facilitate 15 minutes of discussion, for 30 minutes total. This
-will leave us time for other presentations or discussion.
+Your talk should be 15 minutes long (strictly enforced), and you
+should be prepared to facilitate 15 minutes of discussion, for 30
+minutes total (strictly enforced). This will leave us time for other
+presentations or discussion.
 
 ###Grading
-The presentation is worth 20% of your final grade. This breaks down as
+The presentation is worth 10% of your final grade. This breaks down as
 follows:
 
-- Choose appropriate papers and turn in the list by the given date **(5%)**
-- Slides turned in by 11:59 pm of the day before your presentation **(5%)**
-- Presentation quality **(5%)**
+- Choose appropriate papers and turn in the list by the given
+	notification date **(2%)**
+- Slides turned in by 11:59 pm of the day before your presentation **(4%)**
+- Presentation quality **(3%)**
 	- Slides are clear, easy to read, and have correct grammar and
 		spelling
 	- Presentation identifies main themes
@@ -85,7 +97,7 @@ follows:
 	- Presentation brings in interesting content from outside of the
 		papers (current technology, project videos, etc.)
 	- Presentation is of appropriate length
-- Discussion quality **(5%)**
+- Discussion quality **(3%)**
 	- Presenter is prepared with questions beyond the obvious (e.g.
 		"what did you think?" is not a good question)
 	- Presenter guides discussion
@@ -125,10 +137,10 @@ particular technology is relevant to the class, clear instructions on
 how students can use the technology (e.g. where to download, where to
 order parts, etc.), and details of the tutorial itself.
 
-Your entire presentation should be about 30 minutes long. If you are
-particularly interested in presenting longer (e.g. for a more complex
-topic), talk to me and I will see if there is a date where we can
-spend longer.
+Your entire presentation should be 30 minutes long (strictly
+enforced). If you are particularly interested in presenting longer
+(e.g. for a more complex topic), talk to me _well in advance_ of the
+notification date.
 
 You should prepare slides for the presentation, which you must turn in
 to me by 11:59 pm **the day before you present**. The penalty for late
@@ -136,12 +148,13 @@ slides is the same as for other assignments, as detailed on [the
 syllabus](syllabus.html#late-assignments).
 
 ###Grading
-The presentation is worth 20% of your final grade. This breaks down as
+The presentation is worth 10% of your final grade. This breaks down as
 follows:
 
-- Choose an appropriate topic and notify me by the given date **(5%)**
-- Slides turned in by 11:59 pm of the day before your presentation **(5%)**
-- Presentation quality **(10%)**
+- Choose an appropriate topic and notify me by the given notification
+	date **(2%)**
+- Slides turned in by 11:59 pm of the day before your presentation **(4%)**
+- Presentation quality **(6%)**
 	- Slides are clear, easy to read, and have correct grammar and
 		spelling
 	- Presentation identifies reasons for technology

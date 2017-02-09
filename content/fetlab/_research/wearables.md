@@ -18,9 +18,3 @@ we've done in this area includes
 [gestures](http://danielashbrook.com/enabling-mobile-microinteractions/).
 We're currently investigating non-speech-based hands-free
 microinteraction input techniques.
-
-####Avoiding mobile addiction
-Today's mobile devices are amazingly capable---perhaps _too_ capable.
-It can be easy to get sucked in to the world of the handheld screen.
-We're looking at ways to gently (at first!) help a person avoid
-over-using certain addictive applications.

@@ -1,10 +1,8 @@
 Title: Carlos E. Tejada
-date: 2015-11-02
 image: carlos.jpg
-role: masters
-status: alum
+role: phd
 homepage: http://www.carlosetejada.com
 twitter: ctejada10	
 
-**Carlos E. Tejada** is a Masters student with the Future Everyday
+**Carlos E. Tejada** is a Ph.D. student with the Future Everyday
 Technology Lab.

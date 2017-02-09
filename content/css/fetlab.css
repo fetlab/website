@@ -28,6 +28,8 @@ a, a:hover, a:focus, a:active, a.active
 	text-decoration: none !important;
 }
 
+#publications .year {display:none}
+
 #publications a,
 #publications a:hover,
 #publications a:focus,

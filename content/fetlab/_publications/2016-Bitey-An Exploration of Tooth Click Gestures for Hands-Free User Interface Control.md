@@ -6,7 +6,7 @@ Image: 2016-Bitey.png
 	<div class="publication">
 		<span class="year">2016</span>
 		<span class="authors">Daniel Ashbrook, Carlos Tejada, Dhwanit
-			Mehta, Anthony Jiminez, Goudam Muralitharam, Sangeeta Gajendra,
+			Mehta, Anthony Jiménez, Goudam Muralitharam, Sangeeta Gajendra,
 			Ross Tallents</span>.
 		<span class="title">Bitey: An Exploration of Tooth Click Gestures
 			for Hands-Free User Interface Control</span>.

@@ -5,6 +5,7 @@ h1 { font-size: 32px }
 h2, .toctitle { font-size: 24px }
 h3 { font-size: 18px }
 h4 { font-size: 16px; font-style: italic }
+h5 { font-size: 15px; font-style: italic }
 
 a.noformat { color: black }
 
@@ -100,3 +101,8 @@ ul { list-style-type: circle }
 
 .private .fc-content::after { content: "Busy"; }
 
+blockquote
+{
+	font-size: inherit;
+	border-left: 2px solid #eee;
+}

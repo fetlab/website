@@ -9,9 +9,10 @@ please [read this first](prospective_students.html).
 I travel frequently. When I'm traveling, I may be more difficult than
 usual to reach via email.
 
+- **Feb 15--17:** Washington, DC
+<div markdown="1" class="gray">
 - **Jan 3-14:** Vacation, Madeira, Portugal
 
-<div markdown="1" class="gray">
 ####2016
 - **Dec 8--10:** CHI PC meeting, Denver, CO
 - **Sep 4--10:** [MobileHCI](http://mobilehci.acm.org), Florence, Italy

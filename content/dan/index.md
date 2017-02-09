@@ -62,7 +62,7 @@ Foundation](http://nsf.gov).
 I teach two classes, which are constantly being updated: HCIN-720 in
 Fall semesters, and HCIN-722 in Spring semesters:
 
-###HCIN-720
+###HCIN-720: Prototyping Wearable and Internet of Things Devices
 _Software is no longer the only domain that practitioners of
 Human-Computer Interaction (HCI) find themselves involved in. There is
 a “hardware renaissance” underway in Silicon Valley, and as a result
@@ -72,14 +72,11 @@ with people and hardware as well as with software. The goal of this
 course is to teach students how to rapidly prototype and evaluate
 systems that combine hardware and software._
 
-HCIN-720 is focused on prototyping interactive internet-connected and
-wearable devices. It's currently called "Designing User Experiences
-for Internet-Enabled Devices" but will have its title changed to
-"Prototyping Wearable and Internet of Things Devices."
 
+- [Fall 2016 course page](/720)
 - [Fall 2015 course page](/720-fall15)
 
-###HCIN-722
+###HCIN-722: HCI with Mobile, Wearable, and Ubiquitous Devices
 _Modern computing devices include more than just mobile phones, with
 wearable and ubiquitous (for example, Internet of Things) devices
 rapidly emerging as additional platforms. These new devices offer
@@ -94,13 +91,12 @@ research papers and discuss them in class; teach a class themselves
 on a technical or theoretical topic; and engage in a semester-long
 group project around a new wearable or mobile device.
 
-- [Spring 2016 course page](/722)
+- [Spring 2017 course page](/722)
+- [Spring 2016 course page](/722-fall16)
 - Spring 2015
 
 ##Publications
-You can download my publications on my personal site under
-[Research](http://danielashbrook.com/research), and see statistics on
-my [Google Scholar profile
+You can see statistics on my [Google Scholar profile
 page](http://scholar.google.com/citations?user=VzkoqhIAAAAJ).
 
 <div style="display:none">[bib](ashbrook_pubs.bib)</div>

@@ -2,12 +2,14 @@
 
 Date       | Event
 -----------| ------
-Jan 24     | Class starts
-Feb 16     | Guest lecture
-Mar 13--17 | Spring break
-Apr 6      | Guest lecture
-May 8--13  | CHI, no class\*
-May 16     | Class 12:30--2:30 pm
+Jan&nbsp;24     | Class starts
+Feb&nbsp;16     | Guest lecture
+Mar&nbsp;13--17 | Spring break
+Apr&nbsp;6      | Guest lecture
+May&nbsp;2      | Deadline for MobileHCI review
+May&nbsp;11     | [MobileHCI poster deadline](http://mobilehci.acm.org/2017/late-breaking.html)
+May&nbsp;8--13  | CHI, no class\*
+May&nbsp;16     | Class 12:30--2:30 pm
 
 _\*Work on your projects during this week_
 

@@ -21,7 +21,7 @@ read [this page](prospective_students) before attempting to contact me._
 
 ###Office
 
-- GOL 70-2615
+- GOL 70-2329
 - Golisano College of Computing and Information Science
 - 20 Lomb Memorial Drive
 - Rochester, NY  14623

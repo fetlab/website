@@ -1,0 +1,28 @@
+{% extends 'fetlab_base.jinja' %}
+
+{% block content %}
+	<header>
+		<div class="container">
+			<div class="row"><div class="col-md-offset-2 col-md-8">
+			{{ page.content }}
+		</div></div></div>
+	</header>
+	<section id="paper_club">
+		<div class="container">
+		{% for article in page.paper_club | sort(reverse=True, attribute='date') %}
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8 text-center">
+						<h3>{{ article.date | nicedate }}</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8">
+						{{ article.content }}
+					</div>
+				</div>
+		{% endfor %}
+		</div>
+	</section>
+
+
+{% endblock %}

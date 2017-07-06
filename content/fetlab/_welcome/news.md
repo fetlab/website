@@ -1,12 +1,32 @@
 Title: News
 Date: 2015-11-06
 
+####Textile Work Featured in IEEE Spectrum
+Our work on combining 3D printing and textiles was featured in IEEE
+Spectrum: [Mechanical Metamaterials and Other 3D Printing Tech from
+CHI
+2017](http://spectrum.ieee.org/tech-talk/computing/hardware/mechanical-metamaterials-and-other-3d-printing-tech-from-chi-2017).
+
+####FETLab Featured in RIT University News
+The FETLab was featured in a story in the RIT University News magazine
+and online, including lab members Amanda Yung and Zhiyuan Li:
+[Creating Tomorrow's Technology
+Today](http://www.rit.edu/news/story.php?id=60971).
+
+####Dr. Ashbrook quoted in New Scientist
+FETLab director Dr. Daniel Ashbrook was quoted in a New Scientist
+article about hands-free interfaces: 
+[Earbud lets you control your phone with a wink or smile](https://www.newscientist.com/article/2126967-earbud-lets-you-control-your-phone-with-a-wink-or-smile/)
+
 ####Two upcoming publications
 The FETLab has two new full papers accepted to [CHI
-2017](http://chi2017.acm.org): _Bridging Between Volunteers and
-Clinicians: Challenges and Opportunities of Distributed DIY-AT_, and
-_Stretching the Bounds of 3D Printing with Embedded Textiles_.
+2017](http://chi2017.acm.org): [_Bridging Between Volunteers and
+Clinicians: Challenges and Opportunities of Distributed DIY-AT_](
+/publications/2017-Understanding%20Volunteer%20AT%20Fabricators-Opportunities%20and%20Challenges%20in%20DIY-AT%20for%20Others%20in%20e-NABLE.pdf),
+and [_Stretching the Bounds of 3D Printing with Embedded
+Textiles_](http://fetlab.rit.edu/publications/2017-Stretching%20the%20Bounds%20of%203D%20Printing%20with%20Embedded%20Textiles.pdf).
 
+<!---
 ####Dr. James Fogarty to visit Nov 30
 University of Washington Professor Dr. James Fogarty will visit RIT on
 November 30. Details of his visit and talk can be found
@@ -37,7 +57,6 @@ about RIT's SIGCHI
 group](http://dl.acm.org/citation.cfm?id=2912126.2893525)
 ([PDF](/files/p12-byrd.pdf)).
 
-<!---
 ####New publication: Towards Augmented Fabrication
 Our paper, [Towards Augmented Fabrication: Combining Fabricated
 and Existing Objects](#paper-9), has been accepted as a Late-Breaking

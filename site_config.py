@@ -4,7 +4,7 @@ import mkdcomments
 comments = mkdcomments.CommentsExtension()
 from fontawesome_markdown import FontAwesomeExtension
 from markdown.extensions.toc import TocExtension
-import re, os, sys, operator, pprint
+import re, os, sys, operator, pprint, dateutil
 
 #Custom Markdown Jinja2 filters
 markdown = Markdown(extensions=[
@@ -67,6 +67,10 @@ def split(string, splitter):
 	return [s.strip() for s in string.split(splitter)]
 
 
+def nicedate(d, fmt='%B %-d, %Y'):
+	return d.strftime(fmt)
+
+
 JINJA_EXTENSIONS = ['jinja2.ext.do']
 
 JINJA_FILTERS = {
@@ -78,6 +82,7 @@ JINJA_FILTERS = {
 	'ago':         ago,
 	'type':        type,
 	'split':       split,
+	'nicedate':    nicedate,
 }
 
 

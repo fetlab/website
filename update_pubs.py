@@ -52,7 +52,7 @@ def bibentry2html(e):
 global _debug
 _debug = False
 
-def get_papers():
+def get_papers(proxy_strip=''):
 	script = """
 	set z to ""
 	tell application "Papers"
@@ -60,13 +60,22 @@ def get_papers():
 			if p's primary file item is not missing value then
 				set b to bibtex string of p as text
 				set b2 to characters 1 thru -5 of b
-				set b2 to (b2 & ",\nfilename = {" & the full path of the primary file item of p as text) & "}\n}"
+				set u to my remove_text(the publication url of p, "{proxy_strip}")
+				set b2 to (b2 & ",\nurl = {" & u & "},\nfilename = {" & the full path of the primary file item of p as text) & "}\n}"
 				set z to z & "\n\n" & b2
 			end if
 		end repeat
 	end tell
 	return z
-"""
+
+	on remove_text(this_text, text_to_rm)
+		set AppleScript's text item delimiters to text_to_rm
+		set the item_list to every text item of this_text
+		set AppleScript's text item delimiters to ""
+		set this_text to the item_list as string
+		return this_text
+	end remove_text
+""".format(proxy_strip=proxy_strip)
 
 	osa = subprocess.Popen(['osascript', '-'],
 												 stdin=subprocess.PIPE,

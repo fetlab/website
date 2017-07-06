@@ -1,0 +1,15 @@
+{% extends 'fetlab_base.jinja' %}
+
+{% block extrahead %}
+	<style>
+		h3
+		{
+			border-top: 1px solid #eee;
+			padding-top: .5em;
+		}
+	</style>
+{% endblock %}
+
+{% block content %}
+	<header>{{ category.category('Projects', page.projects) }}</header>
+{% endblock %}

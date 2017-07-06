@@ -20,6 +20,16 @@ drawings or images to help the class understand what you observed.
 You will turn in both your report and your slides via Slack on the due
 date.
 
+###Presentation guidelines
+- Your presentation must take no more than five minutes---this time
+	limit will be strictly enforced.
+- You should rehearse your presentation several times before class.
+- Your slides should balance text to help the audience understand your
+	observations with interesting imagery.
+- Do not read your slides to the class! This is one of the most common
+	mistakes that novice presenters make.
+
+
 ##Grading
 This assignment is worth 7% of your final grade. Both your written
 report **(4%)** and your in-class presentation **(3%)** should adhere

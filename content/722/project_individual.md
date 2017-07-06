@@ -143,7 +143,7 @@ your final grade; the criteria for this part are:
 - Your writing is clear and comprehensible without significant
 	spelling or grammar errors (1%).
 
-[Part 2](#part-2-paper-choice-and-summarization) is worth 8% of your
+[Part 2](#part-2-paper-choice-and-summarization) is worth 7% of your
 final grade; the criteria for this part are:
 
 - You send me the correct number of papers from the correct

@@ -263,7 +263,7 @@ clearly show:
 - and what you did accomplish.
 
 ####Final video grading criteria
-The final video is wroth **3%** of your final grade, graded according to
+The final video is worth **3%** of your final grade, graded according to
 the requirements above.
 
 ###Final presentation

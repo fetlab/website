@@ -33,17 +33,22 @@ outline for how to conduct the study:
 7. Once the tasks are completed, thank the participant.
 
 ##Deliverables
-Once you have collected your data, you will write a two page
-report on what you observed. You will also give a five minute
-presentation in class on the due date. For both, you should include
+Once you have collected your data, you will give a five minute
+presentation in class on the due date. You should include
 drawings or images to help the class understand what you observed.
-You will turn in both your report and your slides via Slack on the due
-date.
+
+###Presentation guidelines
+- Your presentation must take no more than five minutes---this time
+	limit will be strictly enforced.
+- You should rehearse your presentation several times before class.
+- Your slides should balance text to help the audience understand your
+	observations with interesting imagery.
+- Do not read your slides to the class! This is one of the most common
+	mistakes that novice presenters make.
 
 ##Grading
-This assignment is worth 7% of your final grade. Both your written
-report **(4%)** and your in-class presentation **(3%)** should adhere
-to the following criteria:
+This assignment is worth 7% of your final grade.  Your in-class
+presentation should adhere to the following criteria:
 
 - Clear, easy to read, without grammar or spelling errors
 - Clearly describes how the observation was conducted: when and
@@ -59,7 +64,7 @@ to the following criteria:
 	your study tasks or your chosen app. Include pictures to
 	illustrate your points.
 - Includes interesting concrete examples, sketches/images where
-	appropriate
+	appropriate.
 - Describe three possible improvements that could be made to the
 	user interface to avoid the problems the users had.
 

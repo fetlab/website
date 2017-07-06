@@ -6,7 +6,7 @@ Image: 2017-Understanding Volunteer AT Fabricators-Opportunities and Challenges 
 	<div class="publication">
 		<span class="year">2017</span>
 		<span class="authors">Jeremiah Parry-Hill, Patrick Shih,
-		Jennifer Mankoff, Daniel Ashbrook, Scott E. Hudson</span>.
+		Jennifer Mankoff, Daniel Ashbrook</span>.
 		<span class="title">Understanding Volunteer AT Fabricators:
 			Opportunities and Challenges in DIY-AT for Others in e-NABLE</span>.
 		In <span class="pubvenue">

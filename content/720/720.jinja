@@ -22,38 +22,65 @@
 <meta name="msapplication-TileImage" content="/720/icons/mstile-144x144.png">
 <meta name="msapplication-config" content="/720/icons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
-{{ extrahead }}
+{{ page.extrahead }}
 {% endblock head %}
-{% block title %}HCIN 720: Prototyping Wearable and Internet of Things Devices{% endblock %}
+{% block title %}HCIN 720: {{ page.title }}{% endblock %}
 {% block toprow %}
 <div class="row">
 	<div class="col-xs-12">
 		<h1 class="sitetitle"><span class="fa fa-cloud"></span>
-			<a class="noformat" href="index.html">HCIN 720: Prototyping Wearable and
-				Internet of Things Devices</a></h1> </div>
+			<a class="noformat" href="/{{page.roots[0]}}/index.html">HCIN 720: Prototyping
+			Wearable and Internet of Things Devices</a></h1> </div>
 </div>
 {% endblock %}
 
 {% block sidebar_left %}
-	{% if not page.noleftsidebar %}
-		<div class="col-xs-3 col-left sidebar">
-			{{ 'left_sidebar.md' | includemd }}
-		</div>
-	{% endif %}
-{% endblock %}
-
-{% block content %}
-	{% set center_cols = 6 + (3 if page.noleftsidebar else 0) + (3 if
-		page.norightsidebar else 0) %}
-	<div style='height:100%' class='center-content col-xs-{{center_cols}}'>
-		{{ page.content }}
+	<div class="col-xs-3 col-left sidebar">
+		{{ 'left_sidebar.md' | includemd }}
 	</div>
 {% endblock %}
 
-{% block sidebar_right %}
-	{% if not page.norightsidebar %}
-		<div class='col-xs-3 col-right sidebar'>
-			{{ 'right_sidebar.md' | includemd }}
+{% block content %}
+<div class='col-xs-6 center-content' style='height:100%'>
+	<h1>{{ page.title }}</h1>
+	<div class="main-content">
+		{{ page.content }}
+	</div>
+
+	{% if page.showassignments %}
+		<div class="assignments">
+			<div class="current">
+				{% for art in page.assignments | sort(attribute='date')
+					if (art.date | ago) < (24*3600) and not art.hide %}
+					<div class="assignment">
+						<h4>Due {{ art.date | nicedate }}: {{ art.title }}</h4>
+						{{ art.content }}
+					</div>
+				{% else %}
+					<div class="assignment" style="background:red">
+						<h4>Due {{ art.date | nicedate }}: {{ art.title }}</h4>
+						{{ art.content }}
+					</div>
+				{% endfor %}
+			</div>
+
+			<h2>Previously-due assignments and tasks</h2>
+			<div class="expired">
+			{% for art in page.assignments | sort(attribute='date')
+				if (art.date | ago) >= (24*3600) and not art.hide %}
+					<div class="assignment">
+						<h4>Due {{ art.title }}</h4>
+						{{ art.content }}
+					</div>
+				{% endfor %}
+			</div>
 		</div>
 	{% endif %}
+</div>
+{% endblock %}
+
+{% block sidebar_right %}
+<div class='col-xs-3 col-right sidebar'>
+	{{ 'right_sidebar.md' | includemd }}
+</div>
 {% endblock %}

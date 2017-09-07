@@ -15,9 +15,9 @@ like, you are welcome to use it instead.
    32 and height to 18
 5. Close the Document Properties window
 6. In the toolbar, find the set of icons that look like
-	 <img src="/files/720/inkscape-scale1.png" width="100px">.
+	 <img src="files/inkscape-scale1.png" width="100px">.
 	 Click the leftmost icon to turn it off, so it looks like
-	 <img src="/files/720/inkscape-scale1.png" width="100px">.
+	 <img src="files/inkscape-scale2.png" width="100px">.
 	 This operation disables the defaul behavior of scaling the width of
 	 an object's line when you change the size of the object.
 

@@ -2,16 +2,17 @@
 
 Date        | Event
 ------------|------
-Tue, Aug 23 | Class starts
-Tue, Sep 6  | Guest lecture
-Thu, Sep 8  | Guest lecture (no office hours)
-Mon, Sep 12 | Special jetlag edition office hours (by appointment)
-Tue, Oct 11 | Classes on Monday schedule (no class)
-Thu, Dec 8  | No class, no office hours: work day
-Tue, Dec 13 | Final presentations, 12:30--2:00
+Tue, Aug 29 | Class starts
+Tue, Oct 10 | Fall break, no class
+Tue, Oct 24 | Dr. Ashbrook at [UIST](http://uist.acm.org/), guest lecture?
+Tue, Oct 31 | Dr. Ashbrook at [ASSETS](https://assets17.sigaccess.org/), guest lecture?
+Sun, Nov 18 | Extra credit: attend [Maker Faire](http://rochester.makerfaire.com/)
+Thu, Dec 7  | No class, no office hours: work day
+Fri, Dec 15 | Final presentations, 12:30--2:00
 
 <hr>
 
+<!---
 ###Assignments
 _All assignments are due at 1:59 pm on the due date._
 
@@ -28,7 +29,6 @@ Tue, Oct  4 | Thu, Oct 27 | [IA 1 Redo](assignment1redo.html)
 Tue, Nov  1 | Tue, Nov 15 | [IA 3](assignment3.html)
 Tue, Nov 15 | Tue, Dec 13 | [GP](group_project.html)
 
-<!---
 Tue, Sep 13 | Thu, Sep 15 | [IA 2 Set up](a2setup.html)
 Tue, Sep 13 | Thu, Sep 29 | [IA 2](assignment2.html)
 Note career fair is 9/28 - move IA3!
@@ -39,6 +39,6 @@ Thu, Oct 13 | Thu, Nov 10 | [EC 2](group_project1.html#extracredit2)
 Thu, Nov 10 | Tue, Nov 15 | [FP prop.](final_project.html)
 Tue, Nov 13 | Exam period | [FP demo](final_project.html)
 Tue, Nov 13 | Exam period | [FP writeup](final_project.html)
---->
 
 _(IA: Individual Assignment; GP: Group Project; EC: Extra Credit)_
+--->

@@ -10,9 +10,9 @@
 <hr>
 
 ###Links
-- <span class="fa fa-fw fa-file-pdf-o"></span>[Syllabus](syllabus.pdf)
-- <span class="fa fa-fw fa-file-o"></span>[Intro to Javascript](intro_to_js.html)
-- <span class="fa fa-fw fa-file-o"></span>[Available Parts](parts.html)
 
-###Slides
-- [Tue, Aug 23](slides/HCIN720-01.pdf)
+- <span class="fa fa-fw fa-file-text-o"></span>[Syllabus](/720/syllabus.html)
+- <span class="fa fa-fw fa-calendar-o"></span>[Equipment
+	calendar](https://teamup.com/ks5a9b07c799f58bd6/)
+- <span class="fa fa-fw fa-file-o"></span>[Available Parts](/720/parts.html)
+- <span class="fa fa-fw fa-file-o"></span>[Learning Resources](/720/resources.html)

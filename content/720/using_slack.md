@@ -6,16 +6,26 @@ email, and forums. We'll use Slack in the class for annoucements,
 discussions, and getting help.
 
 The URL for Slack for our class is
-[http://hcin720-fall16.slack.com](http://hcin720-fall16.slack.com).
+[http://hcin720-fall17.slack.com](http://hcin720-fall17.slack.com).
 
 To get connected to Slack, visit the above url and sign up using your
-`rit.edu` email address.
+`rit.edu` email address. Then do the following:
+
+- Set your username to be something you like
+- Set your name to be your actual name
+- Set your profile photo to a picture of your face; doing so will help
+	me remember who you are more quickly
+- Check that your time zone is correct
+- Post in `#introductions` the following:
+	- Who you are
+	- What program you are in (e.g., MS HCI)
+	- Why you're taking this class
 
 ##Notifications
 Download one of the many [Slack apps](https://slack.com/apps) so that
 you can stay caught up on what's happening in class. Remember that
 this is the main way I will use to communicate with you, so installing
-one of the phone apps is a very good idea. More information about
+one of the phone apps is a _very_ good idea. More information about
 getting Slack to notify you can be found on this [Slack support
 page](https://slack.zendesk.com/hc/en-us/articles/201895138-Understanding-Slack-notifications),
 including setting up email notification.
@@ -29,16 +39,18 @@ the start of class, we have:
 - **#general**: For general questions and discussions that don't fit
 	into any of the other channels. I'll also post announcements,
 	including new assignments, readings, and so on here.
-- **#ia1**: I'll create a channel for each assignment. This channel is
-	for Individual Assignment 1. You can use this to ask questions
-	specifically about IA1, post tips and inspirations, or anything else
-	related to the assignment.
 - **#inspirations**: Post general inspirations and examples of
-	Internet-enabled and wearable devices here.
+	cool fabrication examples and Internet-enabled and wearable devices here.
 - **#random**: For stuff unrelated or only somewhat related to class.
 	Jokes, funny videos, etc. Be nice.
-- **#setup**: If you have issues or tips around getting set up for the
-	assignments, post here.
+- Topic channels: I'll create a channel for each topic in the classs. 
+	You can use them to ask questions about that topic, post tips and
+	inspirations, or anything else related.
+	- **#laser**
+	- **#3dprinting**
+	- **#sewing**
+	- **#electronics**
+	- **#javascript**
 
 ##Mentions
 If you want to ensure that someone (such as me) sees your message, use

@@ -73,6 +73,16 @@ def nicedate(d, fmt='%B %-d, %Y'):
 	return d.strftime(fmt)
 
 
+def rmext(s):
+	"""Remove the extension from a string"""
+	return os.path.splitext(s)[0]
+
+
+def debug(s):
+	print s
+	return ''
+
+
 JINJA_EXTENSIONS = ['jinja2.ext.do']
 
 JINJA_FILTERS = {
@@ -85,6 +95,8 @@ JINJA_FILTERS = {
 	'type':        type,
 	'split':       split,
 	'nicedate':    nicedate,
+	'rmext':       rmext,
+	'debug':       debug,
 }
 
 

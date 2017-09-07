@@ -5,6 +5,7 @@ comments = mkdcomments.CommentsExtension()
 from fontawesome_markdown import FontAwesomeExtension
 from markdown.extensions.toc import TocExtension
 import re, os, sys, operator, pprint, dateutil
+from statipy import search_parents
 
 #Custom Markdown Jinja2 filters
 markdown = Markdown(extensions=[
@@ -20,8 +21,8 @@ def includefile(filename, *args):
 
 def includemd(filename, *args):
 	"""Use with {{ myfile.md | includemd }}"""
-	m = markdown.convert(open(filename).read())
-	open('/tmp/mdout', 'w').write(m)
+	f = search_parents('.', filename)
+	m = markdown.convert(open(f).read())
 	return m
 
 

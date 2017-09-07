@@ -64,7 +64,8 @@ def ago(dto, *args):
 	return (datetime.now() - dto).total_seconds()
 
 
-def split(string, splitter):
+def split(string, splitter, flags=re.M):
+	return [s.strip() for s in re.split(splitter, string, flags=flags)]
 	return [s.strip() for s in string.split(splitter)]
 
 

@@ -6,4 +6,4 @@ Homepage: https://www.chandanmahapatra.com/
 Twitter: chandan_1992
 Github: ChandanMahapatra
 
-Chandan Mahapatra is a graduate research assistant in the FETLab.
+Chandan Mahapatra is a UX Researcher at the FETLab. 

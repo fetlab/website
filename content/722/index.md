@@ -8,6 +8,12 @@ focus on emerging ideas and new modes of interaction, especially
 around helping people to break out of the paradigm of staring at their
 mobile phones.
 
+Previous iterations of this class:
+
+- [Spring 2015](/722-spring15)
+- [Spring 2016](/722-spring16)
+- [Spring 2017](/722-spring17)
+
 ##Assignments and tasks
 _Unless otherwise noted, all assignments are due at 1:59 pm on the due
 date. Please note the [late policy](syllabus.html#late-assignments) in

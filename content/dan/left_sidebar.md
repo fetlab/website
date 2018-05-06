@@ -1,6 +1,6 @@
 ![Daniel Ashbrook photo](images/ashbrook-headshot.jpg)
 
-- Assistant Professor and Director of the [Future Everyday Technology Research Lab](/)
+- Assistant Professor and Director of the [Future Everyday Technology Research Lab](http://fetlab.rit.edu/)
 - [Department of Information Sciences &amp;
 	Technologies](http://ist.rit.edu) and [Department of Computer
 	Science](http://cs.rit.edu)

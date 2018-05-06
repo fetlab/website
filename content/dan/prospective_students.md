@@ -15,7 +15,7 @@ several parts:
 - Advice for [potential capstone students](#capstone)
 - Information specifically for [potential PhD students](#phd)
 
-Also please have a look at the [webpage for my lab](/), which will
+Also please have a look at the [webpage for my lab](http://fetlab.rit.edu/), which will
 give you an idea of the kinds of research projects we work on.
 
 ###Contacting me

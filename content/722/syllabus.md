@@ -30,7 +30,7 @@ Students will…
 ##Course Materials
 The books for the course are _There's Not an App For That_ by Simon
 Robinson, Matt Jones, and Gary Marsden; and _Smart Things: Ubiquitous
-Computing User Experience Design_ by Mike Kuniavsky. They is available
+Computing User Experience Design_ by Mike Kuniavsky. They are available
 via the campus bookstore as well as in digital form from online
 retailers such as Amazon.
 
@@ -126,7 +126,8 @@ guidelines](http://stephen.voida.com/uploads/Teaching/Teaching/H566%20Syllabus.p
 	thoughtful, relevant comments or questions.
 - 75%: Moderate participation in the class discussion; contributing
 	with relevant comments or questions.
-- 50%: Physically present but not engaged in the in-class discussion;
+- 50%: Little participation in the class discussion; perhaps talked once.
+- 25%: Physically present but not engaged in the in-class discussion;
 	not paying attention, buried in a laptop, etc.
 - 0%: Not physically present in class.
 
@@ -143,3 +144,42 @@ There are multiple parts to the project grade:
 
 ####Extra credit ({{g_extra}}%)
  There may be extra credit, worth up to 5%.
+
+###Grading
+Note that while I will do my best to get your grades back in a timely
+manner (usually within two weeks) but may not be able to.
+
+##RIT Gender-based Discrimination Policy
+The following is RIT's official gender-based discrimination policy.
+Please read it, but the summary is: don't be a jerk. Treat everyone
+like they're reasonable, intelligent, hardworking human beings just
+like you. **I take this super-seriously.**
+
+---
+
+RIT is committed to providing a safe learning environment, free of
+harassment and discrimination as articulated in our university
+policies located on our governance website.  RIT’s policies require
+faculty to share information about incidents of gender based
+discrimination and harassment with RIT’s Title IX coordinator or
+deputy coordinators, regardless whether the incidents are stated to
+them in person or shared by students as part of their coursework. 
+
+If you have a concern related to gender-based discrimination and/or
+harassment and prefer to have a confidential discussion, assistance is
+available from one of RIT’s confidential resources on campus (listed
+below). 
+
+- The Center for Women & Gender: Campus Center Room 1760;
+	585-475-7464; CARES (available 24 hours/7 days a week) Call or text
+	585-295-3533.
+- RIT Student Health Center – August Health Center/1st floor;
+	585-475-2255.   
+- RIT Counseling Center - August Health Center /2nd floor - 2100;
+	585-475-2261.       
+- The Ombuds Office – Student Auxiliary Union/Room 1114; 585-475-7200
+	or 585-475-2876.
+- The Center for Religious Life – Schmitt Interfaith Center/Rm1400;
+	585-475-2137.
+- NTID Counseling & Academic Advising Services – 2nd Floor Lynden B.
+	Johnson; 585-475-6468 (v), 585-286-4070 (vp).

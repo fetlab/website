@@ -50,17 +50,19 @@
 	{% if page.showassignments %}
 		<div class="assignments">
 			<div class="current">
-				{% for art in page.assignments | sort(attribute='date')
-					if (art.date | ago) < (24*3600) and not art.hide %}
+				{% for art in page.assignments | sort(attribute='date') %}
+					{% if (art.date | ago) < (24*3600) and not art.hide %}
+					{{ "art: " ~ art | debug }}
 					<div class="assignment">
 						<h4>Due {{ art.date | nicedate }}: {{ art.title }}</h4>
 						{{ art.content }}
 					</div>
 				{% else %}
-					<div class="assignment" style="background:red">
+					<div class="assignment">
 						<h4>Due {{ art.date | nicedate }}: {{ art.title }}</h4>
 						{{ art.content }}
 					</div>
+					{% endif %}
 				{% endfor %}
 			</div>
 
@@ -69,7 +71,7 @@
 			{% for art in page.assignments | sort(attribute='date')
 				if (art.date | ago) >= (24*3600) and not art.hide %}
 					<div class="assignment">
-						<h4>Due {{ art.title }}</h4>
+						<h4>Due {{ art.date | nicedate }}: {{ art.title }}</h4>
 						{{ art.content }}
 					</div>
 				{% endfor %}

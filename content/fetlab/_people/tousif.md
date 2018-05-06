@@ -2,6 +2,7 @@ Title: Syed Tousif Ahmed
 date: 2015-11-11
 image: tousif.jpg
 role: undergrad
+status: alum
 homepage: http://syed-ahmed.github.io
 twitter: tousifsays
 scholar:

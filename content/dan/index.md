@@ -10,6 +10,11 @@ Science](http://www.cs.rit.edu) of the [Golisano College of Computing
 and Information Sciences](http://www.rit.edu/gccis/) at the [Rochester
 Institute of Technology](http://rit.edu) in Rochester, New York.
 
+**News:** Starting in June 2018, I will be joining the Computer
+Science Department of the University of Copenhagen
+([DIKU](http://www.diku.dk/english/)) as an Associate Professor in the
+[HCC Section](http://www.diku.dk/english/research/hcc/)!
+
 I graduated in 2009 with my Ph.D. in Computer Science from the [School
 of Interactive Computing](http://www.ic.gatech.edu/) at [Georgia
 Tech](http://www.gatech.edu).  Subsequently, I worked for [Nokia
@@ -73,8 +78,8 @@ course is to teach students how to rapidly prototype and evaluate
 systems that combine hardware and software._
 
 
-- [Fall 2016 course page](/720)
-- [Fall 2015 course page](/720-fall15)
+- [Fall 2016 course page](http://fetlab.rit.edu/720)
+- [Fall 2015 course page](http://fetlab.rit.edu/720-fall15)
 
 ###HCIN-722: HCI with Mobile, Wearable, and Ubiquitous Devices
 _Modern computing devices include more than just mobile phones, with
@@ -91,8 +96,8 @@ research papers and discuss them in class; teach a class themselves
 on a technical or theoretical topic; and engage in a semester-long
 group project around a new wearable or mobile device.
 
-- [Spring 2017 course page](/722)
-- [Spring 2016 course page](/722-fall16)
+- [Spring 2017 course page](http://fetlab.rit.edu/722)
+- [Spring 2016 course page](http://fetlab.rit.edu/722-fall16)
 - Spring 2015
 
 ##Publications

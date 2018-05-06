@@ -3,8 +3,9 @@
 Date        | Event
 ------------|------
 Tue, Aug 29 | Class starts
+Tue, Sep 26 | Dr. Ashbrook in Copenhagen, no class
+Thu, Sep 28 | Dr. Ashbrook in Copenhagen, guest lecture
 Tue, Oct 10 | Fall break, no class
-Tue, Oct 24 | Dr. Ashbrook at [UIST](http://uist.acm.org/), guest lecture?
 Tue, Oct 31 | Dr. Ashbrook at [ASSETS](https://assets17.sigaccess.org/), guest lecture?
 Sun, Nov 18 | Extra credit: attend [Maker Faire](http://rochester.makerfaire.com/)
 Thu, Dec 7  | No class, no office hours: work day

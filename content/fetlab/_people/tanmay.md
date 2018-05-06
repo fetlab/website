@@ -7,6 +7,7 @@ twitter: tweetknowme
 github: songtanmay
 flickr: picsknowme
 cv: TanmaySongade.pdf
+status: alum
 
 **Tanmay Songade** is a graduate student in Human-Computer Interaction
 at RIT. He is working as a Research Assistant in the Future Everyday

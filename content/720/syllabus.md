@@ -116,6 +116,10 @@ Assignment materials are always due at 1:59 pm on the due date (this
 is one minute before class starts). You should turn in files (unless
 otherwise instructed) in a direct message to me in Slack.
 
+###Grading
+Note that while I will do my best to get your grades back in a timely
+manner (usually within two weeks) but may not be able to.
+
 ##RIT Gender-based Discrimination Policy
 The following is RIT's official gender-based discrimination policy.
 Please read it, but the summary is: don't be a jerk. Treat everyone
@@ -174,3 +178,7 @@ number of classes taught at other universities:
 - [CSCI6609: Ubiquitous
 	Computing](https://web.cs.dal.ca/~reilly/CSCI6609/) taught by [Derek
 	Reilly](https://web.cs.dal.ca/~reilly) at Dalhousie University.
+
+##Note
+Note that the information in this syllabus is subject to change at any
+time. You will be notified if this is the case.

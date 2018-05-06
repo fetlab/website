@@ -1,10 +1,10 @@
 from markdown import Markdown
-from datetime import datetime
+from datetime import datetime, timedelta
 import mkdcomments
 comments = mkdcomments.CommentsExtension()
 from fontawesome_markdown import FontAwesomeExtension
 from markdown.extensions.toc import TocExtension
-import re, os, sys, operator, pprint, dateutil
+import re, os, sys, operator, pprint, dateutil.parser
 from statipy import search_parents
 
 #Custom Markdown Jinja2 filters
@@ -22,6 +22,7 @@ def includefile(filename, *args):
 def includemd(filename, *args):
 	"""Use with {{ myfile.md | includemd }}"""
 	f = search_parents('.', filename)
+	markdown.reset()
 	m = markdown.convert(open(f).read())
 	return m
 
@@ -36,6 +37,7 @@ def md(content, *args):
 	"""
 	ws = re.match(r'\s*', content.splitlines()[0]).group(0)
 	c = re.compile('^%s' % ws, re.MULTILINE).sub('', content)
+	markdown.reset()
 	return markdown.convert(c)
 
 
@@ -79,8 +81,31 @@ def rmext(s):
 
 
 def debug(s):
+	"""Debug to the console. Use like {{'message' | debug}}"""
 	print s
 	return ''
+
+
+def date_table_from_file(filename, fmt='%b %d'):
+	"""Read a csv file and create a date table from it. The first column
+	of the first row should contain the start date and the second column
+	of the first row the word "days" or "weeks". Add "rel" to the end of
+	this to have each row be relative to the previous. Each subsequent row
+	should contain the number of days or weeks as specified in the first
+	column, and the actual text for the table in the second column
+	(renderable as Markdown)."""
+	r = ['<table class="table">']
+	import csv
+	f = csv.reader(open(filename))
+	start, step = f.next()
+	start = dateutil.parser.parse(start)
+	for rv, val in f:
+		markdown.reset()
+		rv = float(rv) * (7 if step == 'weeks' else 1)
+		r.append('<tr><td>{}</td><td>{}</td>'.format(
+			start + timedelta(days=rv), markdown.convert(val)
+		))
+	return '\n'.join(r)
 
 
 JINJA_EXTENSIONS = ['jinja2.ext.do']

@@ -13,8 +13,8 @@ for fn in os.listdir('assignments'):
 		continue
 	with open(fp) as f:
 		l = f.read()
-		l = re.sub('^Template:.*$', '', l, flags=re.M)
-		h = re.split('^(----*|\*\*\*\**)\s*$', l, maxsplit=1, flags=re.M)
+		l = re.sub(r'^Template:.*\n', '', l, flags=re.M)
+		h = re.split(r'^(----*|\*\*\*\**)\s*$', l, maxsplit=1, flags=re.M)
 		with open(os.path.join('_assignments', fn), 'w') as f2:
 			f2.write(h[0])
 			if len(h) > 1 and h[1] == '---':

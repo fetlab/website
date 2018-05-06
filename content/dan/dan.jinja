@@ -1,7 +1,7 @@
 {% extends "base.jinja" %}
 {% block head %}
 {{ super() }}
-<link href="/css/dan.css" rel="stylesheet" type="text/css">
+<link href="dan.css" rel="stylesheet" type="text/css">
 {% if page.onload %}
 <script>
 	$(document).ready(function() { {{ page.onload }} });

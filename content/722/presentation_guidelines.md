@@ -4,7 +4,7 @@ Template: 722
 [TOC]
 
 ##Introduction
-Each student is required to teach part of one classe during the
+Each student is required to teach part of one class during the
 course of the semester. You will either present a set of papers and
 lead discussion, or present a technology tutorial on a subject
 relevant to the class.  You must sign up for your presentation date on
@@ -12,16 +12,21 @@ the spreadsheet linked from the main class page. This spreadsheet will
 give you the latest date by which you must notify me of what you will
 present; in general, it will be two weeks before the presentation
 date. Note that this date is the **final** deadline; if you have
-questions about what you will present, or want to check with me to see
-if it's okay, you should do so _in advance_ of this deadline.
+questions about what you will present---including clearing
+shorter/longer papers with me---or want to check to see
+if your selected papers are okay, you should do so _in advance_ of
+this deadline. Failure to have an acceptable final set of papers will
+incur a penalty towards your grade.
 
 ##Paper presentation
-If you choose this option, you will select at least three full-length
-papers to present to the class. The papers should be relevant to the
-class topic and related to each other. You might choose, for example,
-papers that build on each other, or are on a related interaction
-technique, or other topic. You will synthesize the knowledge in the
-papers, present a coherent talk, and lead discussion about the work.
+If you choose this option, you will select at least three
+*full-length* or six short papers to present to the class (or roughly
+30 pages of text, not counting references). The papers should be
+relevant to the class topic and related to each other. You might
+choose, for example, papers that build on each other, or are on a
+related interaction technique, or other topic. You will synthesize the
+knowledge in the papers, present a coherent talk, and lead discussion
+about the work.
 
 If you wish, you may draw your papers from the nine you chose for
 [part 1 of the group project's individual effort
@@ -35,7 +40,9 @@ with a clear argument why.
 
 - The papers should be **research papers** published in a scholarly
 	journal or conference proceedings.
-- The papers should be **full papers** of 8--10 pages.
+- The papers should preferentially be **full papers** of 8--10 pages;
+	if you incorporate shorter papers, the paper content should be about
+	30 pages, not including references.
 	- If you want to use a longer paper (e.g. long journal article),
 		clear it with me first.
 	- If you want to use a shorter paper (e.g. CHI Extended Abstracts),
@@ -116,7 +123,7 @@ You should select a technology to present that you know well enough to
 teach a single class about. I define "technology" fairly loosely
 here---you could teach, for example:
 
-- a programming language (e.g. Swift);
+- a programming language (e.g. Python);
 - a technique for interacting with devices (e.g. Cordova);
 - a useful skill for MobileHCI work (e.g. an overview of computer vision);
 - a handy library (e.g. OpenCV);
@@ -163,7 +170,6 @@ follows:
 	- Presentation clearly teaches useful details
 	- Presentation uses images, videos (not just text)
 	- Presentation is of appropriate length
-
 
 <div style="font-size:66%; font-style:italic; margin:5em 0">
 	(Note: thanks to Shaun Kane for permission to use some of his material for

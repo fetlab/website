@@ -3,13 +3,15 @@ Template: 722
 
 Each week, a number of readings will be assigned. You must read
 _all_ of the papers, as well as the book chapters, and submit reading
-summaries each week. Summaries are due every Tuesday at 1:59 pm, and
-should summarize all of the papers you read since the last time you
-turned in summaries; that is, paper readings due the preceding
-Thursday and the Tuesday that summaries are due.
+summaries each class day. Summaries are due every Tuesday and Thursday
+at 1:59 pm, and should summarize all of the papers you read since the
+last time you turned in summaries; that is, the papers or book
+chapters that we will be discussing in class on any given day.
 
-Reading summaries should be submitted as a Post via Slack.
-The summary for each paper should consist of answers
+Reading summaries should be submitted in Google Forms at [this
+link](https://goo.gl/forms/G53UxpLNK98XUQKi1).
+
+The summary for each paper will consist of answers
 to the following questions:
 
 1. What research problems were the authors investigating?
@@ -24,34 +26,6 @@ following questions:
 1. What were the main points being made in the chapter?
 2. How were those points made?
 3. Do you agree with the points? How can you expand on or apply them?
-
-The Slack Post is a single text box, but we will usually
-have multiple readings. Therefore, you should format your readings as
-follows:
-
-```
-Title of the first reading
-
-1. Answer to question 1
-2. Answer to question 2
-3. Answer to question 3
-
-----
-
-Title of the second reading
-
-1. Answer to question 1
-2. Answer to question 2
-3. Answer to question 3
-
-----
-
-Title of the third reading
-
-1. Answer to question 1
-2. Answer to question 2
-3. Answer to question 3
-```
 
 ##Example reading summary
 

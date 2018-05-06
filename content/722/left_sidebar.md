@@ -1,7 +1,7 @@
 ###Course Info
 <div class="nolist" markdown="1">
 
-- Tu/Th 2:00-3:15 pm
+- Tu/Th 2:00-3:20 pm
 - Locations: GOL-2330
 - Office hours: Thursdays 3:30--5:00 pm, GOL-2330
 - [Slack](using_slack.html) for discussion, questions, help, and
@@ -15,6 +15,7 @@
 - [Course overview](index.html)
 - [Syllabus](syllabus.html)
 - [Using Slack](using_slack.html)
+- [Group participation survey](https://goo.gl/forms/EvTKbe6gL0VIN1ll2)
 
 ####Guidelines
 - [Reading summaries](summaries.html)

@@ -1,3 +1,0 @@
-Title: Air haptics
-
-Fluidics

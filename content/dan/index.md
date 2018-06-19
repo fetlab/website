@@ -4,16 +4,10 @@ Onload: bibtexify("ashbrook_pubs.bib", "pubTable", {'visualization': false});
 
 
 ##About me
-I am an Assistant Professor in the [Department of Information Sciences
-and Technologies](http://ist.rit.edu/) and the [Department of Computer
-Science](http://www.cs.rit.edu) of the [Golisano College of Computing
-and Information Sciences](http://www.rit.edu/gccis/) at the [Rochester
-Institute of Technology](http://rit.edu) in Rochester, New York.
-
-**News:** Starting in June 2018, I will be joining the Computer
-Science Department of the University of Copenhagen
-([DIKU](http://www.diku.dk/english/)) as an Associate Professor in the
-[HCC Section](http://www.diku.dk/english/research/hcc/)!
+I am an Associate Professor in the [Human-Centered
+Computing](http://www.diku.dk/english/research/hcc/) section of the
+[Department of Computer Science](https://di.ku.dk/english) at the
+[University of Copenhagen](https://ku.dk) in Copenhagen, Denmark.
 
 I graduated in 2009 with my Ph.D. in Computer Science from the [School
 of Interactive Computing](http://www.ic.gatech.edu/) at [Georgia
@@ -22,30 +16,14 @@ Research](http://research.nokia.com) and [Samsung
 Research](http://sisa.samsung.com) before returning to academia in
 2014.
 
+From 2014--2018 I was an Assistant Professor in the [Department of
+Information Sciences and Technologies](http://ist.rit.edu/) and the
+[Department of Computer Science](http://www.cs.rit.edu) of the
+[Golisano College of Computing and Information
+Sciences](http://www.rit.edu/gccis/) at the [Rochester Institute of
+Technology](http://rit.edu) (RIT) in Rochester, New York, USA.
+
 You can download my [CV here](Ashbrook-CV.pdf).
-
-##FETLab
-
-<table class="table-condensed">
-	<tr>
-		<td width="25%">
-			<a href="/"><img src="/images/fetlab_circle.svg"></a>
-		</td>
-		<td style="vertical-align:middle">
-			I founded and direct the <a href="/">Future Everyday Technology
-			Research Lab (FETLab)</a>; together with my students I design,
-			prototype, and study interactive technology that may one day
-			become woven into the fabric of our everyday lives.
-		</td>
-	</tr>
-</table>
-
-Here is a photo of the FETLab members at the end of the 2016 academic
-year:
-
-<img src="images/fetlab-2016.jpg" alt="FETLab Membership"
-class="img-responsive center-block">
-
 
 <a name="research"></a>
 ##Research
@@ -59,15 +37,41 @@ research continues this thread while adding a second focus on helping
 non-experts more easily understand and use **personal fabrication
 technology** such as 3D printers, laser cutters, and CNC routers.
 
-My research is supported by [HP](http://hp.com),
-[Nokia](http://company.nokia.com), and the [National Science
-Foundation](http://nsf.gov).
+My research has been supported by [HP](http://hp.com),
+[Nokia](http://company.nokia.com), and the United States [National
+Science Foundation](http://nsf.gov).
 
-##Teaching
-I teach two classes, which are constantly being updated: HCIN-720 in
-Fall semesters, and HCIN-722 in Spring semesters:
+##RIT
+Here is some information about what I did while I was at the Rochester
+Institute of Technology from 2014--2018.
 
-###HCIN-720: Prototyping Wearable and Internet of Things Devices
+###FETLab
+
+<table class="table-condensed">
+	<tr>
+		<td width="25%">
+			<a href="/"><img src="/images/fetlab_circle.svg"></a>
+		</td>
+		<td style="vertical-align:middle">
+			At RIT, I founded and directed the <a href="/">Future Everyday Technology
+			Research Lab (FETLab)</a>; more about the work my students and I
+			did together can be found at [fetlab.io](http://fetlab.io).
+		</td>
+	</tr>
+</table>
+
+Here is a photo of the FETLab members at the end of the 2016 academic
+year:
+
+<img src="images/fetlab-2016.jpg" alt="FETLab Membership"
+class="img-responsive center-block">
+
+
+###Teaching
+I taught two classes at RIT: HCIN-720 in Fall semesters, and HCIN-722
+in Spring semesters.
+
+####HCIN-720: Prototyping Wearable and Internet of Things Devices
 _Software is no longer the only domain that practitioners of
 Human-Computer Interaction (HCI) find themselves involved in. There is
 a “hardware renaissance” underway in Silicon Valley, and as a result
@@ -77,9 +81,9 @@ with people and hardware as well as with software. The goal of this
 course is to teach students how to rapidly prototype and evaluate
 systems that combine hardware and software._
 
-
-- [Fall 2016 course page](http://fetlab.rit.edu/720)
-- [Fall 2015 course page](http://fetlab.rit.edu/720-fall15)
+- [Fall 2017 course page](http://fetlab.io/720-fall17)
+- [Fall 2016 course page](http://fetlab.io/720-fall16)
+- [Fall 2015 course page](http://fetlab.io/720-fall15)
 
 ###HCIN-722: HCI with Mobile, Wearable, and Ubiquitous Devices
 _Modern computing devices include more than just mobile phones, with
@@ -96,9 +100,10 @@ research papers and discuss them in class; teach a class themselves
 on a technical or theoretical topic; and engage in a semester-long
 group project around a new wearable or mobile device.
 
-- [Spring 2017 course page](http://fetlab.rit.edu/722)
-- [Spring 2016 course page](http://fetlab.rit.edu/722-fall16)
-- Spring 2015
+- [Spring 2018 course page](http://fetlab.io/722-spring18)
+- [Spring 2017 course page](http://fetlab.io/722-spring17)
+- [Spring 2016 course page](http://fetlab.io/722-spring16)
+- Spring 2015 (no public site)
 
 ##Publications
 You can see statistics on my [Google Scholar profile

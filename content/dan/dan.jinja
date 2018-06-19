@@ -20,6 +20,8 @@
 </div>
 {% endblock %}
 
+{# Used on old FETLab version of page to list students in sidebar.
+
 {% macro name_link(p) %}
 	{% if p.homepage %}
 		<a href="{{p.homepage}}">{{p.title}}</a>
@@ -37,14 +39,18 @@
 	</ul>
 {% endmacro %}
 
+#}
+
 {% block sidebar_left %}
 	{% if not page.noleftsidebar %}
 		<div class="col-xs-3 col-left sidebar">
 			{{ 'left_sidebar.md' | includemd }}
+			{#
 			<h3>Current Students</h3>
 			{{ students('phd', 'Ph.D.') }}
 			{{ students('masters', 'Masters') }}
 			{{ students('undergrad', 'Undergraduate') }}
+			#}
 		</div>
 	{% endif %}
 {% endblock %}

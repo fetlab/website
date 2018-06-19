@@ -12,11 +12,12 @@ several parts:
 
 - [Contacting me](#contacting_me)
 - [What I look for in general](#all_students)
-- Advice for [potential capstone students](#capstone)
+<!--- - Advice for [potential capstone students](#capstone) --->
 - Information specifically for [potential PhD students](#phd)
 
-Also please have a look at the [webpage for my lab](http://fetlab.rit.edu/), which will
-give you an idea of the kinds of research projects we work on.
+Also please have a look at the [webpage for my former
+lab](http://fetlab.io), which will give you an idea of the kinds of
+research projects I work on.
 
 ###Contacting me
 Like most professors, I have many more demands on my time than I have
@@ -42,8 +43,8 @@ I'm looking for students who are interested in being part of ongoing
 and new **research projects** related to the goals of the lab. That
 means if you're looking to flesh out your CV/résumé or to get some
 additional software development experience, this is probably not for
-you. Also, research efforts take time, so if you only have one
-semester to devote to a project, it might be difficult to benefit from
+you. Also, research efforts take time, so if you only have a couple of
+months to devote to a project, it might be difficult to benefit from
 the experience. Software and hardware we build is meant to test out
 new ideas/techniques and to answer open research questions (i.e., it
 might be buggy, incomplete, etc)---we are not focusing on building
@@ -60,9 +61,7 @@ One of the best ways for me to judge whether you'd be a good fit for
 the lab is for you to take a class with me first. That will give you a
 sense for how I work with students and, depending on the course, the
 kinds of research I do. It also gives me an opportunity to see you and
-your skills in action. If possible, enroll in a class with me before
-seeking a position in the lab---this is especially important if you are
-new to RIT and in your first year of study here. 
+your skills in action.
 
 ####Motivation and Independence Required
 Two key characteristics necessary to succeed in my lab are motivation
@@ -84,7 +83,7 @@ one or more and have a willingness to learn quickly about others.
 	the intersection between software and hardware. Do you have
 	experience with Arduino or other electronics? Have you built robots,
 	furniture, go-karts, a 3D printer, or made art?
-- **Machine learning and pattern recognition:** much of of work
+- **Machine learning and pattern recognition:** much of my work
 	involves teaching the computer about the user's activities or
 	physical properties of objects and then acting on that information.
 	I use techniques like dynamic time warping and support vector
@@ -105,30 +104,19 @@ one or more and have a willingness to learn quickly about others.
 	software development. Currently, our work involves some or all of
 	Android, Arduino, iOS, Javascript, OpenGL, and Windows programming.
 
-####The First Semester
-I don't offer paid positions during the first semester of work with my
-lab (the exception is PhD students, who receive a stipend
-immediately). Instead, we will do an independent study, which will
-provide you with three hours of elective credit. If both of us are
-satisfied with the outcome of the first semester, then we will talk
-about whether a paid position will become available in the following
-term.
-
-
 ####Contacting Me
 When you get ready to contact me, it will be very helpful for you
 to do several things:
 
-First, I'll want to know why you want to
-work with me in particular rather than any of the other fine faculty
-at RIT. You can help by including this information in your email to
-me. The more details the better! Rather than simply, "I like that
-you do HCI," look through my [research and
-publications](index.html#research) and see what work that I've done is
-particular appealing to you.
+First, I'll want to know why you want to work with me in particular
+rather than any of the other fine faculty at KU. You can help by
+including this information in your email to me. The more details the
+better! Rather than simply, "I like that you do HCI," look through my
+[research and publications](index.html#research) and see what work
+that I've done is particularly appealing to you.
 
 Another useful piece of information you can include when you contact
-me is what kind of work you'd like to do&mdash;if you know; if you
+me is what kind of work you'd like to do---if you know; if you
 don't, that's okay. For example, telling me that you are passionate
 about programming, that you love interacting with people, or that
 you enjoy nothing more than soldering can really help me to think
@@ -136,8 +124,9 @@ about how you might fit into the projects I have going.
 
 Finally, if you have a resume, portfolio, or other examples of work
 or experience, please go ahead and send them along. I
-**strongly** prefer PDF format.
+**strongly** prefer PDF format over Word.
 
+<!---
 <a name="capstone"></a>
 ###Potential Capstone Students
 Are you finishing up your Masters degree and you might like to do a
@@ -187,6 +176,7 @@ Weeks | Task
 13    | Final draft of capstone document
 15    | Final approval of capstone document
 16    | Capstone defense
+--->
 
 <a name="phd"></a>
 ###Potential PhD Students
@@ -198,20 +188,10 @@ If you're a current PhD student and you are thinking about switching
 advisors, send me an email. Include the things above, but please
 also give me some context about why you're interested in switching.
 
-If you're thinking about applying to the PhD program at RIT, great!
-Please go ahead and contact me; it's incredibly important to include
-as much context as you can, as outlined above: why you want to work
-with me, what kind of work you'd like to do, your previous experience
-and portfolio, and so on. Also I'd like to know why you want to get a
-PhD, what you hope to get out of the process itself, and any other
-information specific to the process.
-
-Do note that I can't admit PhD students directly; however, you can
-find more information and apply online at
-[http://tinyurl.com/rit-phd](http://tinyurl.com/rit-phd) In your
-application, be sure to note that you are interested in working with
-me, and your application will be brought to my attention. Note that,
-unlike some other programs, our PhD program admits students directly
-to a professor; this is good in that it means you come in knowing who
-you will work with, but the downside is that you don't have as much of
-a chance to explore who you might be a good match with.
+If you're thinking about applying to a PhD position posted at KU,
+great! Please go ahead and contact me; it's incredibly important to
+include as much context as you can, as outlined above: why you want to
+work with me, what kind of work you'd like to do, your previous
+experience and portfolio, and so on. Also I'd like to know why you
+want to get a PhD, what you hope to get out of the process itself, and
+any other information specific to the process.

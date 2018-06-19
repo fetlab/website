@@ -2,5 +2,6 @@
 *.pid
 output
 *.DS_Store
+publish.sh
 *.mov
 *.mp4

@@ -128,5 +128,4 @@ JINJA_FILTERS = {
 options = {
 	'jinja2_filters':    JINJA_FILTERS,
 	'jinja2_extensions': JINJA_EXTENSIONS,
-	'root_subdir':       'dan',
 }

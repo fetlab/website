@@ -55,7 +55,7 @@ Institute of Technology from 2014--2018.
 		<td style="vertical-align:middle">
 			At RIT, I founded and directed the <a href="/">Future Everyday Technology
 			Research Lab (FETLab)</a>; more about the work my students and I
-			did together can be found at [fetlab.io](http://fetlab.io).
+			did together can be found at <a href="http://fetlab.io">fetlab.io</a>.
 		</td>
 	</tr>
 </table>

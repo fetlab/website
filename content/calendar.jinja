@@ -1,10 +1,10 @@
 {% extends "dan.jinja" %}
 {% block head %}
 {{ super() }}
-	<link  href='/css/fullcalendar.css' rel='stylesheet' type='text/css'>
+	<link  href='/css/fullcalendar.min.css' rel='stylesheet' type='text/css'>
 	<script src='/js/moment.min.js'></script>
 	<script src='/js/fullcalendar.min.js'></script>
-	<script src='/js/fullcalendar-gcal.js'></script>
+	<script src='/js/gcal.min.js'></script>
 	<script>
 		$(function()
 		{
@@ -31,7 +31,27 @@
 				defaultView: 'agendaWeek',
 				eventColor: '#2a6496',
 				scrollTime: '08:30:00',
+				//timezone: 'Europe/Copenhagen',
+				timezone: 'local',
 			});
+
+/*
+			// load the list of available timezones, build the <select> options
+			$.getJSON('/timezones.json', function(timezones) {
+				$.each(timezones, function(i, timezone) {
+					if (timezone != 'UTC') { // UTC is already in the list
+						$('#timezone-selector').append(
+							$("<option/>").text(timezone).attr('value', timezone)
+						);
+					}
+				});
+			});
+
+			// when the timezone selector changes, dynamically change the calendar option
+			$('#timezone-selector').on('change', function() {
+				$('#calendar').fullCalendar('option', 'timezone', this.value || false);
+			});
+			*/
 		});
 	</script>
 {% endblock %}

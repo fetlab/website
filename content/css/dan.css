@@ -17,3 +17,7 @@ ul
 
 .gray { color: #bbb; }
 .gray a { color: #819db7 }
+
+#calendar td.fc-sun,
+#calendar td.fc-sat
+{ background: #f5f5f5 }

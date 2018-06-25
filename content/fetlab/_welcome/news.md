@@ -1,6 +1,14 @@
 Title: News
 Date: 2015-11-06
 
+####Dr. Ashbrook Moved to University of Copenhagen
+As ofJune 1, 2018, Dr. Ashbrook has moved to the University of
+Copenhagen. The FETLab at RIT has been closed; however, Dr. Ashbrook
+continues the FETLab's research in Denmark. Please see [his personal
+web page](http://danielashbrook.com) for current activities.
+
+
+<!---
 ####Textile Work Featured in IEEE Spectrum
 Our work on combining 3D printing and textiles was featured in IEEE
 Spectrum: [Mechanical Metamaterials and Other 3D Printing Tech from
@@ -26,7 +34,6 @@ Clinicians: Challenges and Opportunities of Distributed DIY-AT_](
 and [_Stretching the Bounds of 3D Printing with Embedded
 Textiles_](http://fetlab.rit.edu/publications/2017-Stretching%20the%20Bounds%20of%203D%20Printing%20with%20Embedded%20Textiles.pdf).
 
-<!---
 ####Dr. James Fogarty to visit Nov 30
 University of Washington Professor Dr. James Fogarty will visit RIT on
 November 30. Details of his visit and talk can be found

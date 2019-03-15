@@ -21,7 +21,6 @@ table td { padding: 3px 8px }
 #pubTable td:first-child + td {display: none}
 #pubTable_info {display:none}
 #pubTable th {display: none}
-#pubTable .biblink {display: none}
 
 .sidebar ul
 {

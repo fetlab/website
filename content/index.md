@@ -109,5 +109,5 @@ group project around a new wearable or mobile device.
 You can see statistics on my [Google Scholar profile
 page](http://scholar.google.com/citations?user=VzkoqhIAAAAJ).
 
-<div style="display:none">[bib](ashbrook_pubs.bib)</div>
+<!--- [bib](ashbrook_pubs.bib) --->
 <table class='table' id="pubTable"></table>

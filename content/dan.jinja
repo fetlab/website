@@ -60,8 +60,10 @@
 		page.norightsidebar else 0) %}
 	<div style='height:100%' class='center-content col-xs-{{center_cols}}'>
 		{{ page.content }}
+		{% block morecontent %} {% endblock %}
 	</div>
 {% endblock %}
+
 
 {% block sidebar_right %}
 	{% if not page.norightsidebar %}

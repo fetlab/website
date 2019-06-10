@@ -46,10 +46,10 @@ def sortby(items, attribute, sortlist):
 	where attribute is the attribute of each item in the list to sort by
 	and sortlist is a list of possible values of that attribute sort, in
 	the order for them to be sorted by."""
-	ag = lambda a: a.__getattribute__(attribute).lower()
+	ag = lambda a: a.get(attribute).lower()
 	sl = [s.lower() for s in sortlist]
-	return sorted(items, key=lambda x:(sl.index(ag(x)) if ag(x) in sl
-			else len(sl)+1, x.title))
+	return sorted(items, key=lambda x:(
+		sl.index(ag(x)) if ag(x) in sl else len(sl)+1, x.get('title', '')))
 
 
 def dictsortby(items, attribute, sortlist):
